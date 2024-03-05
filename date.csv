@@ -1,5333 +1,1454 @@
-month,day,year
-September,24,2021
-September,24,2021
-September,24,2021
-September,23,2021
-September,21,2021
-September,20,2021
-September,19,2021
-September,19,2021
-September,16,2021
-September,16,2021
-September,16,2021
-September,16,2021
-September,16,2021
-September,16,2021
-September,16,2021
-September,15,2021
-September,15,2021
-September,15,2021
-September,15,2021
-September,15,2021
-September,15,2021
-September,15,2021
-September,15,2021
-September,15,2021
-September,15,2021
-September,15,2021
-September,15,2021
-September,14,2021
-September,10,2021
-September,10,2021
-September,9,2021
-September,8,2021
-September,7,2021
-September,5,2021
-September,4,2021
-September,2,2021
-September,2,2021
-September,2,2021
-September,2,2021
-September,2,2021
-September,2,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-September,1,2021
-August,31,2021
-August,28,2021
-August,28,2021
-August,28,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,27,2021
-August,25,2021
-August,25,2021
-August,25,2021
-August,25,2021
-August,20,2021
-August,19,2021
-August,18,2021
-August,18,2021
-August,16,2021
-August,15,2021
-August,13,2021
-August,13,2021
-August,13,2021
-August,12,2021
-August,12,2021
-August,11,2021
-August,11,2021
-August,11,2021
-August,11,2021
-August,8,2021
-August,8,2021
-August,7,2021
-August,6,2021
-August,6,2021
-August,6,2021
-August,6,2021
-August,5,2021
-August,5,2021
-August,5,2021
-August,5,2021
-August,4,2021
-August,4,2021
-August,4,2021
-August,3,2021
-August,3,2021
-August,3,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-August,1,2021
-July,30,2021
-July,29,2021
-July,28,2021
-July,28,2021
-July,27,2021
-July,27,2021
-July,24,2021
-July,23,2021
-July,23,2021
-July,22,2021
-July,22,2021
-July,22,2021
-July,21,2021
-July,20,2021
-July,19,2021
-July,17,2021
-July,16,2021
-July,16,2021
-July,16,2021
-July,16,2021
-July,16,2021
-July,16,2021
-July,16,2021
-July,16,2021
-July,15,2021
-July,15,2021
-July,14,2021
-July,13,2021
-July,10,2021
-July,9,2021
-July,8,2021
-July,8,2021
-July,8,2021
-July,8,2021
-July,7,2021
-July,7,2021
-July,7,2021
-July,7,2021
-July,6,2021
-July,6,2021
-July,6,2021
-July,6,2021
-July,6,2021
-July,6,2021
-July,6,2021
-July,6,2021
-July,2,2021
-July,2,2021
-July,2,2021
-July,2,2021
-July,2,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-July,1,2021
-June,30,2021
-June,30,2021
-June,28,2021
-June,26,2021
-June,25,2021
-June,25,2021
-June,24,2021
-June,22,2021
-June,22,2021
-June,21,2021
-June,21,2021
-June,21,2021
-June,19,2021
-June,19,2021
-June,18,2021
-June,18,2021
-June,17,2021
-June,17,2021
-June,17,2021
-June,17,2021
-June,16,2021
-June,16,2021
-June,16,2021
-June,15,2021
-June,15,2021
-June,15,2021
-June,15,2021
-June,15,2021
-June,13,2021
-June,13,2021
-June,11,2021
-June,11,2021
-June,11,2021
-June,11,2021
-June,10,2021
-June,10,2021
-June,10,2021
-June,10,2021
-June,10,2021
-June,9,2021
-June,9,2021
-June,9,2021
-June,7,2021
-June,5,2021
-June,5,2021
-June,4,2021
-June,4,2021
-June,4,2021
-June,4,2021
-June,4,2021
-June,3,2021
-June,3,2021
-June,3,2021
-June,3,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-June,2,2021
-May,30,2021
-May,28,2021
-May,27,2021
-May,27,2021
-May,27,2021
-May,27,2021
-May,26,2021
-May,25,2021
-May,21,2021
-May,21,2021
-May,20,2021
-May,20,2021
-May,19,2021
-May,19,2021
-May,18,2021
-May,18,2021
-May,16,2021
-May,15,2021
-May,14,2021
-May,14,2021
-May,14,2021
-May,14,2021
-May,14,2021
-May,14,2021
-May,14,2021
-May,14,2021
-May,13,2021
-May,13,2021
-May,12,2021
-May,12,2021
-May,11,2021
-May,10,2021
-May,9,2021
-May,8,2021
-May,8,2021
-May,7,2021
-May,7,2021
-May,7,2021
-May,7,2021
-May,7,2021
-May,6,2021
-May,6,2021
-May,5,2021
-May,4,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-May,1,2021
-April,30,2021
-April,30,2021
-April,28,2021
-April,27,2021
-April,27,2021
-April,27,2021
-April,27,2021
-April,24,2021
-April,23,2021
-April,23,2021
-April,23,2021
-April,23,2021
-April,23,2021
-April,23,2021
-April,23,2021
-April,23,2021
-April,23,2021
-April,23,2021
-April,23,2021
-April,23,2021
-April,23,2021
-April,23,2021
-April,23,2021
-April,23,2021
-April,23,2021
-April,22,2021
-April,22,2021
-April,21,2021
-April,21,2021
-April,19,2021
-April,17,2021
-April,17,2021
-April,17,2021
-April,17,2021
-April,17,2021
-April,17,2021
-April,17,2021
-April,17,2021
-April,16,2021
-April,16,2021
-April,16,2021
-April,16,2021
-April,16,2021
-April,16,2021
-April,16,2021
-April,16,2021
-April,16,2021
-April,16,2021
-April,16,2021
-April,16,2021
-April,15,2021
-April,15,2021
-April,15,2021
-April,15,2021
-April,15,2021
-April,15,2021
-April,15,2021
-April,15,2021
-April,14,2021
-April,14,2021
-April,14,2021
-April,12,2021
-April,10,2021
-April,9,2021
-April,9,2021
-April,9,2021
-April,9,2021
-April,9,2021
-April,8,2021
-April,5,2021
-April,4,2021
-April,4,2021
-April,3,2021
-April,2,2021
-April,2,2021
-April,2,2021
-April,2,2021
-April,2,2021
-April,2,2021
-April,2,2021
-April,2,2021
-April,2,2021
-April,2,2021
-April,2,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-April,1,2021
-March,31,2021
-March,31,2021
-March,30,2021
-March,30,2021
-March,29,2021
-March,28,2021
-March,26,2021
-March,26,2021
-March,26,2021
-March,26,2021
-March,26,2021
-March,25,2021
-March,25,2021
-March,23,2021
-March,23,2021
-March,22,2021
-March,20,2021
-March,20,2021
-March,20,2021
-March,19,2021
-March,19,2021
-March,18,2021
-March,18,2021
-March,18,2021
-March,18,2021
-March,18,2021
-March,18,2021
-March,17,2021
-March,17,2021
-March,16,2021
-March,16,2021
-March,16,2021
-March,15,2021
-March,15,2021
-March,12,2021
-March,12,2021
-March,12,2021
-March,12,2021
-March,12,2021
-March,12,2021
-March,12,2021
-March,12,2021
-March,11,2021
-March,11,2021
-March,11,2021
-March,10,2021
-March,8,2021
-March,5,2021
-March,5,2021
-March,5,2021
-March,5,2021
-March,4,2021
-March,4,2021
-March,4,2021
-March,3,2021
-March,2,2021
-March,2,2021
-March,1,2021
-March,1,2021
-March,1,2021
-March,1,2021
-March,1,2021
-March,1,2021
-February,26,2021
-February,26,2021
-February,26,2021
-February,26,2021
-February,26,2021
-February,26,2021
-February,26,2021
-February,26,2021
-February,26,2021
-February,25,2021
-February,24,2021
-February,23,2021
-February,23,2021
-February,21,2021
-February,21,2021
-February,20,2021
-February,20,2021
-February,19,2021
-February,19,2021
-February,19,2021
-February,18,2021
-February,18,2021
-February,16,2021
-February,16,2021
-February,16,2021
-February,15,2021
-February,14,2021
-February,13,2021
-February,12,2021
-February,12,2021
-February,12,2021
-February,12,2021
-February,11,2021
-February,11,2021
-February,11,2021
-February,11,2021
-February,11,2021
-February,11,2021
-February,10,2021
-February,10,2021
-February,8,2021
-February,7,2021
-February,5,2021
-February,5,2021
-February,5,2021
-February,5,2021
-February,5,2021
-February,5,2021
-February,5,2021
-February,3,2021
-February,3,2021
-February,2,2021
-February,1,2021
-February,1,2021
-February,1,2021
-February,1,2021
-February,1,2021
-February,1,2021
-January,31,2021
-January,31,2021
-January,29,2021
-January,29,2021
-January,29,2021
-January,28,2021
-January,27,2021
-January,27,2021
-January,27,2021
-January,26,2021
-January,22,2021
-January,22,2021
-January,22,2021
-January,21,2021
-January,21,2021
-January,20,2021
-January,20,2021
-January,18,2021
-January,16,2021
-January,16,2021
-January,16,2021
-January,15,2021
-January,15,2021
-January,15,2021
-January,15,2021
-January,15,2021
-January,15,2021
-January,15,2021
-January,15,2021
-January,14,2021
-January,14,2021
-January,13,2021
-January,12,2021
-January,12,2021
-January,11,2021
-January,8,2021
-January,8,2021
-January,8,2021
-January,8,2021
-January,8,2021
-January,8,2021
-January,7,2021
-January,7,2021
-January,7,2021
-January,6,2021
-January,4,2021
-January,3,2021
-January,2,2021
-January,1,2021
-January,1,2021
-January,1,2021
-January,1,2021
-January,1,2021
-January,1,2021
-January,1,2021
-January,1,2021
-January,1,2021
-January,1,2021
-January,1,2021
-January,1,2021
-January,1,2021
-January,1,2021
-January,1,2021
-January,1,2021
-December,31,2020
-December,31,2020
-December,31,2020
-December,31,2020
-December,30,2020
-December,28,2020
-December,28,2020
-December,27,2020
-December,26,2020
-December,26,2020
-December,25,2020
-December,25,2020
-December,25,2020
-December,24,2020
-December,24,2020
-December,24,2020
-December,23,2020
-December,23,2020
-December,23,2020
-December,22,2020
-December,22,2020
-December,22,2020
-December,22,2020
-December,21,2020
-December,21,2020
-December,20,2020
-December,20,2020
-December,19,2020
-December,18,2020
-December,18,2020
-December,18,2020
-December,18,2020
-December,18,2020
-December,18,2020
-December,17,2020
-December,17,2020
-December,17,2020
-December,17,2020
-December,17,2020
-December,17,2020
-December,16,2020
-December,16,2020
-December,16,2020
-December,16,2020
-December,16,2020
-December,16,2020
-December,15,2020
-December,15,2020
-December,14,2020
-December,11,2020
-December,11,2020
-December,11,2020
-December,10,2020
-December,10,2020
-December,10,2020
-December,10,2020
-December,9,2020
-December,9,2020
-December,8,2020
-December,8,2020
-December,8,2020
-December,8,2020
-December,7,2020
-December,5,2020
-December,5,2020
-December,4,2020
-December,4,2020
-December,4,2020
-December,4,2020
-December,3,2020
-December,3,2020
-December,3,2020
-December,3,2020
-December,2,2020
-December,2,2020
-December,1,2020
-December,1,2020
-December,1,2020
-December,1,2020
-December,1,2020
-December,1,2020
-December,1,2020
-December,1,2020
-December,1,2020
-December,1,2020
-December,1,2020
-December,1,2020
-November,30,2020
-November,30,2020
-November,30,2020
-November,30,2020
-November,27,2020
-November,27,2020
-November,27,2020
-November,27,2020
-November,27,2020
-November,26,2020
-November,26,2020
-November,26,2020
-November,26,2020
-November,25,2020
-November,25,2020
-November,25,2020
-November,24,2020
-November,24,2020
-November,24,2020
-November,24,2020
-November,24,2020
-November,23,2020
-November,23,2020
-November,23,2020
-November,22,2020
-November,22,2020
-November,20,2020
-November,20,2020
-November,20,2020
-November,19,2020
-November,19,2020
-November,19,2020
-November,19,2020
-November,19,2020
-November,19,2020
-November,19,2020
-November,19,2020
-November,19,2020
-November,19,2020
-November,19,2020
-November,17,2020
-November,17,2020
-November,16,2020
-November,15,2020
-November,15,2020
-November,15,2020
-November,15,2020
-November,14,2020
-November,13,2020
-November,13,2020
-November,13,2020
-November,13,2020
-November,12,2020
-November,12,2020
-November,12,2020
-November,12,2020
-November,12,2020
-November,12,2020
-November,11,2020
-November,11,2020
-November,6,2020
-November,6,2020
-November,6,2020
-November,6,2020
-November,5,2020
-November,5,2020
-November,5,2020
-November,5,2020
-November,5,2020
-November,4,2020
-November,4,2020
-November,3,2020
-November,3,2020
-November,2,2020
-November,1,2020
-November,1,2020
-November,1,2020
-November,1,2020
-November,1,2020
-November,1,2020
-November,1,2020
-November,1,2020
-November,1,2020
-November,1,2020
-November,1,2020
-October,31,2020
-October,31,2020
-October,30,2020
-October,30,2020
-October,30,2020
-October,30,2020
-October,30,2020
-October,30,2020
-October,29,2020
-October,28,2020
-October,28,2020
-October,28,2020
-October,27,2020
-October,26,2020
-October,25,2020
-October,24,2020
-October,24,2020
-October,23,2020
-October,23,2020
-October,23,2020
-October,22,2020
-October,22,2020
-October,22,2020
-October,22,2020
-October,22,2020
-October,22,2020
-October,21,2020
-October,21,2020
-October,20,2020
-October,20,2020
-October,19,2020
-October,19,2020
-October,19,2020
-October,19,2020
-October,19,2020
-October,19,2020
-October,19,2020
-October,19,2020
-October,19,2020
-October,19,2020
-October,19,2020
-October,19,2020
-October,19,2020
-October,19,2020
-October,19,2020
-October,18,2020
-October,17,2020
-October,16,2020
-October,16,2020
-October,16,2020
-October,16,2020
-October,16,2020
-October,15,2020
-October,15,2020
-October,15,2020
-October,15,2020
-October,15,2020
-October,14,2020
-October,14,2020
-October,13,2020
-October,13,2020
-October,12,2020
-October,12,2020
-October,12,2020
-October,12,2020
-October,12,2020
-October,11,2020
-October,9,2020
-October,9,2020
-October,9,2020
-October,8,2020
-October,8,2020
-October,7,2020
-October,7,2020
-October,6,2020
-October,6,2020
-October,6,2020
-October,6,2020
-October,4,2020
-October,3,2020
-October,3,2020
-October,2,2020
-October,2,2020
-October,2,2020
-October,2,2020
-October,2,2020
-October,2,2020
-October,2,2020
-October,1,2020
-October,1,2020
-October,1,2020
-October,1,2020
-October,1,2020
-October,1,2020
-October,1,2020
-October,1,2020
-October,1,2020
-October,1,2020
-September,30,2020
-September,30,2020
-September,30,2020
-September,29,2020
-September,29,2020
-September,28,2020
-September,28,2020
-September,28,2020
-September,28,2020
-September,28,2020
-September,28,2020
-September,28,2020
-September,28,2020
-September,28,2020
-September,28,2020
-September,26,2020
-September,24,2020
-September,23,2020
-September,22,2020
-September,20,2020
-September,20,2020
-September,20,2020
-September,20,2020
-September,20,2020
-September,20,2020
-September,20,2020
-September,19,2020
-September,19,2020
-September,19,2020
-September,19,2020
-September,19,2020
-September,18,2020
-September,18,2020
-September,17,2020
-September,17,2020
-September,17,2020
-September,17,2020
-September,16,2020
-September,16,2020
-September,16,2020
-September,15,2020
-September,15,2020
-September,15,2020
-September,15,2020
-September,14,2020
-September,11,2020
-September,11,2020
-September,11,2020
-September,10,2020
-September,10,2020
-September,10,2020
-September,10,2020
-September,10,2020
-September,10,2020
-September,10,2020
-September,10,2020
-September,10,2020
-September,10,2020
-September,10,2020
-September,10,2020
-September,10,2020
-September,10,2020
-September,9,2020
-September,9,2020
-September,9,2020
-September,9,2020
-September,8,2020
-September,7,2020
-September,5,2020
-September,4,2020
-September,4,2020
-September,4,2020
-September,4,2020
-September,3,2020
-September,3,2020
-September,3,2020
-September,2,2020
-September,2,2020
-September,2,2020
-September,1,2020
-September,1,2020
-September,1,2020
-September,1,2020
-September,1,2020
-September,1,2020
-September,1,2020
-September,1,2020
-September,1,2020
-September,1,2020
-September,1,2020
-September,1,2020
-September,1,2020
-September,1,2020
-August,31,2020
-August,31,2020
-August,29,2020
-August,28,2020
-August,28,2020
-August,27,2020
-August,27,2020
-August,27,2020
-August,26,2020
-August,26,2020
-August,24,2020
-August,21,2020
-August,21,2020
-August,21,2020
-August,20,2020
-August,20,2020
-August,20,2020
-August,18,2020
-August,18,2020
-August,17,2020
-August,16,2020
-August,16,2020
-August,15,2020
-August,14,2020
-August,14,2020
-August,14,2020
-August,14,2020
-August,13,2020
-August,13,2020
-August,13,2020
-August,12,2020
-August,11,2020
-August,11,2020
-August,10,2020
-August,8,2020
-August,7,2020
-August,7,2020
-August,7,2020
-August,7,2020
-August,6,2020
-August,5,2020
-August,4,2020
-August,4,2020
-August,2,2020
-August,1,2020
-August,1,2020
-August,1,2020
-August,1,2020
-August,1,2020
-July,31,2020
-July,31,2020
-July,31,2020
-July,31,2020
-July,30,2020
-July,30,2020
-July,29,2020
-July,29,2020
-July,29,2020
-July,29,2020
-July,26,2020
-July,25,2020
-July,25,2020
-July,25,2020
-July,24,2020
-July,24,2020
-July,24,2020
-July,24,2020
-July,24,2020
-July,24,2020
-July,23,2020
-July,23,2020
-July,21,2020
-July,21,2020
-July,18,2020
-July,17,2020
-July,16,2020
-July,16,2020
-July,15,2020
-July,15,2020
-July,15,2020
-July,14,2020
-July,11,2020
-July,10,2020
-July,10,2020
-July,10,2020
-July,8,2020
-July,8,2020
-July,8,2020
-July,7,2020
-July,6,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,5,2020
-July,3,2020
-July,3,2020
-July,3,2020
-July,3,2020
-July,2,2020
-July,1,2020
-July,1,2020
-July,1,2020
-July,1,2020
-July,1,2020
-July,1,2020
-July,1,2020
-July,1,2020
-July,1,2020
-July,1,2020
-July,1,2020
-June,30,2020
-June,30,2020
-June,28,2020
-June,28,2020
-June,27,2020
-June,26,2020
-June,26,2020
-June,26,2020
-June,26,2020
-June,25,2020
-June,25,2020
-June,25,2020
-June,24,2020
-June,24,2020
-June,23,2020
-June,22,2020
-June,22,2020
-June,21,2020
-June,20,2020
-June,19,2020
-June,19,2020
-June,19,2020
-June,19,2020
-June,19,2020
-June,19,2020
-June,19,2020
-June,18,2020
-June,18,2020
-June,18,2020
-June,18,2020
-June,18,2020
-June,18,2020
-June,18,2020
-June,18,2020
-June,18,2020
-June,18,2020
-June,18,2020
-June,18,2020
-June,18,2020
-June,17,2020
-June,17,2020
-June,16,2020
-June,16,2020
-June,15,2020
-June,15,2020
-June,13,2020
-June,13,2020
-June,13,2020
-June,12,2020
-June,12,2020
-June,12,2020
-June,12,2020
-June,11,2020
-June,11,2020
-June,10,2020
-June,10,2020
-June,10,2020
-June,8,2020
-June,7,2020
-June,7,2020
-June,7,2020
-June,6,2020
-June,5,2020
-June,5,2020
-June,5,2020
-June,5,2020
-June,5,2020
-June,5,2020
-June,4,2020
-June,4,2020
-June,3,2020
-June,3,2020
-June,2,2020
-June,2,2020
-June,2,2020
-June,2,2020
-June,2,2020
-June,2,2020
-June,2,2020
-June,2,2020
-June,1,2020
-June,1,2020
-June,1,2020
-June,1,2020
-June,1,2020
-June,1,2020
-June,1,2020
-May,31,2020
-May,29,2020
-May,29,2020
-May,29,2020
-May,28,2020
-May,28,2020
-May,28,2020
-May,27,2020
-May,26,2020
-May,25,2020
-May,25,2020
-May,25,2020
-May,23,2020
-May,23,2020
-May,22,2020
-May,22,2020
-May,22,2020
-May,22,2020
-May,21,2020
-May,21,2020
-May,21,2020
-May,21,2020
-May,21,2020
-May,21,2020
-May,21,2020
-May,20,2020
-May,20,2020
-May,20,2020
-May,20,2020
-May,20,2020
-May,20,2020
-May,19,2020
-May,19,2020
-May,19,2020
-May,19,2020
-May,19,2020
-May,19,2020
-May,19,2020
-May,19,2020
-May,19,2020
-May,19,2020
-May,19,2020
-May,18,2020
-May,17,2020
-May,15,2020
-May,15,2020
-May,15,2020
-May,15,2020
-May,14,2020
-May,14,2020
-May,14,2020
-May,14,2020
-May,14,2020
-May,14,2020
-May,14,2020
-May,13,2020
-May,13,2020
-May,12,2020
-May,12,2020
-May,11,2020
-May,11,2020
-May,11,2020
-May,9,2020
-May,8,2020
-May,8,2020
-May,7,2020
-May,7,2020
-May,7,2020
-May,7,2020
-May,6,2020
-May,5,2020
-May,4,2020
-May,4,2020
-May,3,2020
-May,2,2020
-May,2,2020
-May,2,2020
-May,2,2020
-May,2,2020
-May,2,2020
-May,2,2020
-May,1,2020
-May,1,2020
-May,1,2020
-May,1,2020
-May,1,2020
-May,1,2020
-May,1,2020
-May,1,2020
-May,1,2020
-May,1,2020
-May,1,2020
-April,30,2020
-April,30,2020
-April,30,2020
-April,30,2020
-April,29,2020
-April,29,2020
-April,29,2020
-April,28,2020
-April,28,2020
-April,28,2020
-April,28,2020
-April,28,2020
-April,28,2020
-April,28,2020
-April,28,2020
-April,28,2020
-April,28,2020
-April,28,2020
-April,27,2020
-April,27,2020
-April,27,2020
-April,25,2020
-April,25,2020
-April,25,2020
-April,25,2020
-April,25,2020
-April,25,2020
-April,25,2020
-April,25,2020
-April,25,2020
-April,24,2020
-April,24,2020
-April,23,2020
-April,23,2020
-April,23,2020
-April,23,2020
-April,22,2020
-April,22,2020
-April,22,2020
-April,22,2020
-April,21,2020
-April,20,2020
-April,17,2020
-April,17,2020
-April,17,2020
-April,17,2020
-April,17,2020
-April,16,2020
-April,16,2020
-April,16,2020
-April,16,2020
-April,16,2020
-April,16,2020
-April,16,2020
-April,15,2020
-April,15,2020
-April,15,2020
-April,14,2020
-April,14,2020
-April,13,2020
-April,11,2020
-April,10,2020
-April,10,2020
-April,10,2020
-April,10,2020
-April,10,2020
-April,8,2020
-April,8,2020
-April,7,2020
-April,6,2020
-April,6,2020
-April,5,2020
-April,5,2020
-April,4,2020
-April,3,2020
-April,3,2020
-April,2,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-April,1,2020
-March,31,2020
-March,31,2020
-March,31,2020
-March,31,2020
-March,31,2020
-March,31,2020
-March,29,2020
-March,28,2020
-March,27,2020
-March,27,2020
-March,27,2020
-March,27,2020
-March,27,2020
-March,27,2020
-March,27,2020
-March,26,2020
-March,25,2020
-March,25,2020
-March,25,2020
-March,24,2020
-March,20,2020
-March,20,2020
-March,19,2020
-March,19,2020
-March,19,2020
-March,18,2020
-March,18,2020
-March,17,2020
-March,16,2020
-March,15,2020
-March,14,2020
-March,13,2020
-March,13,2020
-March,13,2020
-March,13,2020
-March,13,2020
-March,13,2020
-March,10,2020
-March,10,2020
-March,6,2020
-March,6,2020
-March,6,2020
-March,6,2020
-March,6,2020
-March,6,2020
-March,5,2020
-March,5,2020
-March,4,2020
-March,4,2020
-March,4,2020
-March,4,2020
-March,3,2020
-March,3,2020
-March,3,2020
-March,3,2020
-March,3,2020
-March,3,2020
-March,2,2020
-March,1,2020
-March,1,2020
-March,1,2020
-March,1,2020
-March,1,2020
-March,1,2020
-March,1,2020
-February,28,2020
-February,27,2020
-February,27,2020
-February,27,2020
-February,26,2020
-February,26,2020
-February,26,2020
-February,26,2020
-February,26,2020
-February,25,2020
-February,23,2020
-February,22,2020
-February,22,2020
-February,21,2020
-February,21,2020
-February,21,2020
-February,21,2020
-February,20,2020
-February,16,2020
-February,16,2020
-February,16,2020
-February,16,2020
-February,16,2020
-February,16,2020
-February,14,2020
-February,14,2020
-February,14,2020
-February,14,2020
-February,14,2020
-February,14,2020
-February,14,2020
-February,13,2020
-February,13,2020
-February,12,2020
-February,12,2020
-February,11,2020
-February,10,2020
-February,9,2020
-February,9,2020
-February,8,2020
-February,8,2020
-February,7,2020
-February,7,2020
-February,7,2020
-February,7,2020
-February,6,2020
-February,5,2020
-February,5,2020
-February,4,2020
-February,4,2020
-February,4,2020
-February,3,2020
-February,3,2020
-February,1,2020
-February,1,2020
-February,1,2020
-February,1,2020
-February,1,2020
-February,1,2020
-February,1,2020
-February,1,2020
-January,31,2020
-January,31,2020
-January,31,2020
-January,31,2020
-January,30,2020
-January,29,2020
-January,27,2020
-January,26,2020
-January,26,2020
-January,25,2020
-January,24,2020
-January,24,2020
-January,23,2020
-January,23,2020
-January,23,2020
-January,22,2020
-January,21,2020
-January,21,2020
-January,20,2020
-January,20,2020
-January,18,2020
-January,17,2020
-January,16,2020
-January,16,2020
-January,16,2020
-January,16,2020
-January,16,2020
-January,16,2020
-January,15,2020
-January,15,2020
-January,15,2020
-January,15,2020
-January,14,2020
-January,14,2020
-January,12,2020
-January,12,2020
-January,10,2020
-January,10,2020
-January,9,2020
-January,7,2020
-January,7,2020
-January,3,2020
-January,2,2020
-January,1,2020
-January,1,2020
-January,1,2020
-January,1,2020
-January,1,2020
-January,1,2020
-January,1,2020
-January,1,2020
-January,1,2020
-January,1,2020
-January,1,2020
-January,1,2020
-December,31,2019
-December,31,2019
-December,31,2019
-December,31,2019
-December,28,2019
-December,27,2019
-December,27,2019
-December,26,2019
-December,26,2019
-December,25,2019
-December,25,2019
-December,25,2019
-December,25,2019
-December,25,2019
-December,25,2019
-December,24,2019
-December,24,2019
-December,22,2019
-December,21,2019
-December,21,2019
-December,20,2019
-December,20,2019
-December,20,2019
-December,17,2019
-December,16,2019
-December,16,2019
-December,15,2019
-December,15,2019
-December,15,2019
-December,15,2019
-December,15,2019
-December,15,2019
-December,15,2019
-December,15,2019
-December,15,2019
-December,15,2019
-December,15,2019
-December,15,2019
-December,15,2019
-December,15,2019
-December,15,2019
-December,15,2019
-December,15,2019
-December,15,2019
-December,13,2019
-December,13,2019
-December,13,2019
-December,13,2019
-December,12,2019
-December,11,2019
-December,10,2019
-December,10,2019
-December,9,2019
-December,9,2019
-December,8,2019
-December,7,2019
-December,6,2019
-December,6,2019
-December,6,2019
-December,6,2019
-December,6,2019
-December,6,2019
-December,6,2019
-December,5,2019
-December,3,2019
-December,1,2019
-December,1,2019
-December,1,2019
-December,1,2019
-December,1,2019
-December,1,2019
-December,1,2019
-December,1,2019
-December,1,2019
-December,1,2019
-December,1,2019
-December,1,2019
-November,30,2019
-November,30,2019
-November,29,2019
-November,29,2019
-November,29,2019
-November,29,2019
-November,29,2019
-November,29,2019
-November,29,2019
-November,28,2019
-November,27,2019
-November,27,2019
-November,27,2019
-November,27,2019
-November,26,2019
-November,26,2019
-November,25,2019
-November,24,2019
-November,22,2019
-November,22,2019
-November,22,2019
-November,21,2019
-November,20,2019
-November,20,2019
-November,20,2019
-November,20,2019
-November,19,2019
-November,16,2019
-November,16,2019
-November,16,2019
-November,15,2019
-November,15,2019
-November,15,2019
-November,15,2019
-November,15,2019
-November,15,2019
-November,15,2019
-November,15,2019
-November,15,2019
-November,14,2019
-November,12,2019
-November,11,2019
-November,8,2019
-November,8,2019
-November,7,2019
-November,6,2019
-November,6,2019
-November,5,2019
-November,5,2019
-November,5,2019
-November,5,2019
-November,5,2019
-November,4,2019
-November,4,2019
-November,2,2019
-November,2,2019
-November,2,2019
-November,2,2019
-November,2,2019
-November,2,2019
-November,2,2019
-November,2,2019
-November,2,2019
-November,1,2019
-November,1,2019
-November,1,2019
-November,1,2019
-November,1,2019
-November,1,2019
-November,1,2019
-November,1,2019
-November,1,2019
-November,1,2019
-November,1,2019
-October,31,2019
-October,31,2019
-October,30,2019
-October,30,2019
-October,29,2019
-October,28,2019
-October,25,2019
-October,25,2019
-October,25,2019
-October,25,2019
-October,24,2019
-October,24,2019
-October,23,2019
-October,23,2019
-October,22,2019
-October,21,2019
-October,19,2019
-October,18,2019
-October,18,2019
-October,18,2019
-October,18,2019
-October,18,2019
-October,18,2019
-October,18,2019
-October,18,2019
-October,18,2019
-October,16,2019
-October,16,2019
-October,16,2019
-October,15,2019
-October,14,2019
-October,13,2019
-October,11,2019
-October,11,2019
-October,11,2019
-October,11,2019
-October,11,2019
-October,11,2019
-October,9,2019
-October,9,2019
-October,8,2019
-October,6,2019
-October,5,2019
-October,4,2019
-October,4,2019
-October,4,2019
-October,4,2019
-October,2,2019
-October,1,2019
-October,1,2019
-October,1,2019
-October,1,2019
-October,1,2019
-October,1,2019
-September,30,2019
-September,30,2019
-September,28,2019
-September,27,2019
-September,27,2019
-September,26,2019
-September,26,2019
-September,24,2019
-September,24,2019
-September,23,2019
-September,23,2019
-September,22,2019
-September,20,2019
-September,20,2019
-September,20,2019
-September,20,2019
-September,19,2019
-September,17,2019
-September,17,2019
-September,15,2019
-September,15,2019
-September,14,2019
-September,14,2019
-September,13,2019
-September,13,2019
-September,13,2019
-September,13,2019
-September,10,2019
-September,6,2019
-September,6,2019
-September,6,2019
-September,6,2019
-September,4,2019
-September,4,2019
-September,1,2019
-September,1,2019
-September,1,2019
-September,1,2019
-August,30,2019
-August,30,2019
-August,30,2019
-August,29,2019
-August,29,2019
-August,28,2019
-August,26,2019
-August,24,2019
-August,23,2019
-August,23,2019
-August,23,2019
-August,23,2019
-August,21,2019
-August,21,2019
-August,20,2019
-August,16,2019
-August,16,2019
-August,16,2019
-August,15,2019
-August,15,2019
-August,15,2019
-August,14,2019
-August,13,2019
-August,13,2019
-August,9,2019
-August,9,2019
-August,9,2019
-August,8,2019
-August,8,2019
-August,7,2019
-August,7,2019
-August,6,2019
-August,6,2019
-August,6,2019
-August,6,2019
-August,5,2019
-August,5,2019
-August,3,2019
-August,2,2019
-August,1,2019
-July,31,2019
-July,26,2019
-July,26,2019
-July,26,2019
-July,26,2019
-July,21,2019
-July,21,2019
-July,21,2019
-July,21,2019
-July,21,2019
-July,21,2019
-July,19,2019
-July,19,2019
-July,18,2019
-July,17,2019
-July,16,2019
-July,16,2019
-July,12,2019
-July,12,2019
-July,12,2019
-July,12,2019
-July,9,2019
-July,1,2019
-June,30,2019
-June,30,2019
-June,29,2019
-June,28,2019
-June,28,2019
-June,27,2019
-June,27,2019
-June,26,2019
-June,25,2019
-June,22,2019
-June,21,2019
-June,21,2019
-June,21,2019
-June,21,2019
-June,20,2019
-June,20,2019
-June,19,2019
-June,18,2019
-June,16,2019
-June,16,2019
-June,15,2019
-June,15,2019
-June,14,2019
-June,14,2019
-June,13,2019
-June,13,2019
-June,12,2019
-June,12,2019
-June,7,2019
-June,7,2019
-June,7,2019
-June,7,2019
-June,7,2019
-June,7,2019
-June,7,2019
-June,7,2019
-June,6,2019
-June,5,2019
-June,4,2019
-June,4,2019
-June,2,2019
-June,1,2019
-June,1,2019
-June,1,2019
-May,31,2019
-May,31,2019
-May,31,2019
-May,30,2019
-May,24,2019
-May,24,2019
-May,24,2019
-May,22,2019
-May,21,2019
-May,17,2019
-May,17,2019
-May,17,2019
-May,16,2019
-May,16,2019
-May,16,2019
-May,15,2019
-May,14,2019
-May,13,2019
-May,12,2019
-May,11,2019
-May,11,2019
-May,11,2019
-May,10,2019
-May,10,2019
-May,9,2019
-May,6,2019
-May,3,2019
-May,3,2019
-May,3,2019
-May,3,2019
-May,3,2019
-May,2,2019
-May,2,2019
-May,1,2019
-May,1,2019
-May,1,2019
-May,1,2019
-April,30,2019
-April,30,2019
-April,29,2019
-April,26,2019
-April,26,2019
-April,26,2019
-April,20,2019
-April,19,2019
-April,19,2019
-April,19,2019
-April,17,2019
-April,17,2019
-April,16,2019
-April,15,2019
-April,15,2019
-April,15,2019
-April,15,2019
-April,15,2019
-April,15,2019
-April,15,2019
-April,15,2019
-April,14,2019
-April,13,2019
-April,12,2019
-April,12,2019
-April,12,2019
-April,11,2019
-April,10,2019
-April,10,2019
-April,8,2019
-April,5,2019
-April,5,2019
-April,5,2019
-April,3,2019
-April,2,2019
-April,2,2019
-April,2,2019
-April,1,2019
-April,1,2019
-April,1,2019
-March,31,2019
-March,31,2019
-March,29,2019
-March,29,2019
-March,29,2019
-March,27,2019
-March,27,2019
-March,26,2019
-March,25,2019
-March,24,2019
-March,23,2019
-March,22,2019
-March,22,2019
-March,21,2019
-March,21,2019
-March,21,2019
-March,21,2019
-March,21,2019
-March,20,2019
-March,20,2019
-March,19,2019
-March,17,2019
-March,15,2019
-March,15,2019
-March,15,2019
-March,15,2019
-March,15,2019
-March,15,2019
-March,15,2019
-March,15,2019
-March,15,2019
-March,15,2019
-March,14,2019
-March,14,2019
-March,14,2019
-March,14,2019
-March,14,2019
-March,13,2019
-March,8,2019
-March,8,2019
-March,8,2019
-March,8,2019
-March,7,2019
-March,7,2019
-March,7,2019
-March,7,2019
-March,7,2019
-March,5,2019
-March,4,2019
-March,4,2019
-March,2,2019
-March,1,2019
-March,1,2019
-March,1,2019
-March,1,2019
-March,1,2019
-March,1,2019
-March,1,2019
-March,1,2019
-March,1,2019
-February,28,2019
-February,27,2019
-February,27,2019
-February,27,2019
-February,27,2019
-February,27,2019
-February,27,2019
-February,27,2019
-February,27,2019
-February,27,2019
-February,27,2019
-February,27,2019
-February,26,2019
-February,25,2019
-February,23,2019
-February,22,2019
-February,22,2019
-February,22,2019
-February,22,2019
-February,22,2019
-February,21,2019
-February,20,2019
-February,20,2019
-February,17,2019
-February,16,2019
-February,15,2019
-February,15,2019
-February,15,2019
-February,15,2019
-February,15,2019
-February,15,2019
-February,15,2019
-February,15,2019
-February,15,2019
-February,15,2019
-February,15,2019
-February,15,2019
-February,15,2019
-February,14,2019
-February,8,2019
-February,8,2019
-February,8,2019
-February,8,2019
-February,5,2019
-February,2,2019
-February,2,2019
-February,1,2019
-February,1,2019
-February,1,2019
-February,1,2019
-January,31,2019
-January,31,2019
-January,30,2019
-January,29,2019
-January,29,2019
-January,29,2019
-January,28,2019
-January,28,2019
-January,28,2019
-January,28,2019
-January,28,2019
-January,26,2019
-January,25,2019
-January,25,2019
-January,24,2019
-January,23,2019
-January,18,2019
-January,18,2019
-January,18,2019
-January,18,2019
-January,15,2019
-January,15,2019
-January,15,2019
-January,15,2019
-January,15,2019
-January,15,2019
-January,15,2019
-January,15,2019
-January,13,2019
-January,11,2019
-January,11,2019
-January,11,2019
-January,9,2019
-January,9,2019
-January,7,2019
-January,5,2019
-January,4,2019
-January,4,2019
-January,2,2019
-January,1,2019
-January,1,2019
-January,1,2019
-January,1,2019
-January,1,2019
-January,1,2019
-January,1,2019
-December,31,2018
-December,31,2018
-December,31,2018
-December,31,2018
-December,31,2018
-December,31,2018
-December,31,2018
-December,31,2018
-December,31,2018
-December,31,2018
-December,31,2018
-December,31,2018
-December,31,2018
-December,28,2018
-December,28,2018
-December,28,2018
-December,23,2018
-December,21,2018
-December,21,2018
-December,20,2018
-December,20,2018
-December,20,2018
-December,20,2018
-December,20,2018
-December,19,2018
-December,18,2018
-December,17,2018
-December,17,2018
-December,16,2018
-December,16,2018
-December,16,2018
-December,16,2018
-December,16,2018
-December,16,2018
-December,15,2018
-December,15,2018
-December,15,2018
-December,15,2018
-December,15,2018
-December,14,2018
-December,11,2018
-December,7,2018
-December,7,2018
-December,7,2018
-December,7,2018
-December,7,2018
-December,2,2018
-December,1,2018
-December,1,2018
-December,1,2018
-December,1,2018
-December,1,2018
-December,1,2018
-December,1,2018
-December,1,2018
-December,1,2018
-December,1,2018
-December,1,2018
-December,1,2018
-December,1,2018
-December,1,2018
-December,1,2018
-December,1,2018
-December,1,2018
-November,30,2018
-November,30,2018
-November,30,2018
-November,30,2018
-November,30,2018
-November,30,2018
-November,30,2018
-November,30,2018
-November,25,2018
-November,22,2018
-November,21,2018
-November,20,2018
-November,20,2018
-November,20,2018
-November,20,2018
-November,18,2018
-November,16,2018
-November,16,2018
-November,16,2018
-November,15,2018
-November,15,2018
-November,15,2018
-November,15,2018
-November,15,2018
-November,15,2018
-November,15,2018
-November,13,2018
-November,9,2018
-November,9,2018
-November,9,2018
-November,5,2018
-November,2,2018
-November,2,2018
-November,2,2018
-November,2,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-November,1,2018
-October,31,2018
-October,31,2018
-October,27,2018
-October,26,2018
-October,26,2018
-October,26,2018
-October,25,2018
-October,23,2018
-October,23,2018
-October,20,2018
-October,19,2018
-October,19,2018
-October,19,2018
-October,19,2018
-October,19,2018
-October,19,2018
-October,18,2018
-October,16,2018
-October,15,2018
-October,15,2018
-October,13,2018
-October,12,2018
-October,12,2018
-October,12,2018
-October,12,2018
-October,10,2018
-October,10,2018
-October,9,2018
-October,8,2018
-October,6,2018
-October,5,2018
-October,5,2018
-October,3,2018
-October,3,2018
-October,2,2018
-October,2,2018
-October,2,2018
-October,2,2018
-October,2,2018
-October,2,2018
-October,2,2018
-October,2,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-October,1,2018
-September,30,2018
-September,29,2018
-September,28,2018
-September,28,2018
-September,28,2018
-September,22,2018
-September,21,2018
-September,14,2018
-September,14,2018
-September,12,2018
-September,11,2018
-September,7,2018
-September,7,2018
-September,7,2018
-September,6,2018
-September,3,2018
-September,1,2018
-September,1,2018
-September,1,2018
-September,1,2018
-September,1,2018
-September,1,2018
-September,1,2018
-August,31,2018
-August,28,2018
-August,28,2018
-August,28,2018
-August,25,2018
-August,24,2018
-August,24,2018
-August,24,2018
-August,24,2018
-August,21,2018
-August,21,2018
-August,21,2018
-August,21,2018
-August,21,2018
-August,17,2018
-August,17,2018
-August,17,2018
-August,16,2018
-August,15,2018
-August,10,2018
-August,10,2018
-August,10,2018
-August,9,2018
-August,4,2018
-August,4,2018
-August,4,2018
-August,4,2018
-August,3,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,2,2018
-August,1,2018
-August,1,2018
-July,28,2018
-July,28,2018
-July,28,2018
-July,27,2018
-July,27,2018
-July,25,2018
-July,24,2018
-July,24,2018
-July,20,2018
-July,20,2018
-July,18,2018
-July,18,2018
-July,15,2018
-July,13,2018
-July,13,2018
-July,13,2018
-July,8,2018
-July,6,2018
-July,6,2018
-July,6,2018
-July,6,2018
-July,4,2018
-July,3,2018
-July,3,2018
-July,3,2018
-July,2,2018
-July,1,2018
-July,1,2018
-July,1,2018
-July,1,2018
-July,1,2018
-July,1,2018
-July,1,2018
-July,1,2018
-July,1,2018
-July,1,2018
-July,1,2018
-June,30,2018
-June,30,2018
-June,29,2018
-June,29,2018
-June,29,2018
-June,29,2018
-June,26,2018
-June,25,2018
-June,24,2018
-June,22,2018
-June,22,2018
-June,19,2018
-June,15,2018
-June,15,2018
-June,15,2018
-June,15,2018
-June,15,2018
-June,8,2018
-June,8,2018
-June,8,2018
-June,1,2018
-June,1,2018
-June,1,2018
-June,1,2018
-May,26,2018
-May,25,2018
-May,25,2018
-May,25,2018
-May,22,2018
-May,18,2018
-May,17,2018
-May,15,2018
-May,15,2018
-May,13,2018
-May,12,2018
-May,11,2018
-May,11,2018
-May,8,2018
-May,7,2018
-May,5,2018
-May,5,2018
-May,4,2018
-May,4,2018
-May,4,2018
-May,4,2018
-May,4,2018
-May,4,2018
-May,3,2018
-May,2,2018
-May,1,2018
-May,1,2018
-May,1,2018
-May,1,2018
-May,1,2018
-May,1,2018
-May,1,2018
-May,1,2018
-May,1,2018
-May,1,2018
-April,30,2018
-April,30,2018
-April,27,2018
-April,27,2018
-April,27,2018
-April,26,2018
-April,25,2018
-April,25,2018
-April,25,2018
-April,24,2018
-April,20,2018
-April,20,2018
-April,19,2018
-April,15,2018
-April,13,2018
-April,13,2018
-April,12,2018
-April,10,2018
-April,6,2018
-April,6,2018
-April,6,2018
-April,6,2018
-April,6,2018
-April,6,2018
-April,6,2018
-April,5,2018
-April,3,2018
-April,3,2018
-April,1,2018
-April,1,2018
-April,1,2018
-April,1,2018
-April,1,2018
-April,1,2018
-April,1,2018
-April,1,2018
-March,31,2018
-March,30,2018
-March,30,2018
-March,30,2018
-March,30,2018
-March,30,2018
-March,30,2018
-March,27,2018
-March,26,2018
-March,23,2018
-March,23,2018
-March,23,2018
-March,23,2018
-March,23,2018
-March,16,2018
-March,15,2018
-March,15,2018
-March,15,2018
-March,14,2018
-March,13,2018
-March,13,2018
-March,9,2018
-March,9,2018
-March,7,2018
-March,6,2018
-March,2,2018
-March,2,2018
-March,2,2018
-March,1,2018
-March,1,2018
-March,1,2018
-March,1,2018
-March,1,2018
-March,1,2018
-March,1,2018
-March,1,2018
-March,1,2018
-March,1,2018
-March,1,2018
-March,1,2018
-March,1,2018
-March,1,2018
-March,1,2018
-March,1,2018
-February,28,2018
-February,27,2018
-February,25,2018
-February,23,2018
-February,21,2018
-February,19,2018
-February,16,2018
-February,16,2018
-February,14,2018
-February,14,2018
-February,9,2018
-February,9,2018
-February,9,2018
-February,5,2018
-February,2,2018
-February,2,2018
-February,1,2018
-January,31,2018
-January,30,2018
-January,29,2018
-January,26,2018
-January,26,2018
-January,26,2018
-January,25,2018
-January,24,2018
-January,23,2018
-January,19,2018
-January,19,2018
-January,19,2018
-January,18,2018
-January,17,2018
-January,17,2018
-January,15,2018
-January,15,2018
-January,15,2018
-January,12,2018
-January,12,2018
-January,12,2018
-January,9,2018
-January,5,2018
-January,5,2018
-January,2,2018
-January,1,2018
-December,31,2017
-December,31,2017
-December,30,2017
-December,29,2017
-December,27,2017
-December,26,2017
-December,26,2017
-December,23,2017
-December,23,2017
-December,22,2017
-December,21,2017
-December,20,2017
-December,20,2017
-December,19,2017
-December,15,2017
-December,15,2017
-December,15,2017
-December,15,2017
-December,12,2017
-December,8,2017
-December,8,2017
-December,8,2017
-December,6,2017
-December,5,2017
-December,2,2017
-December,2,2017
-December,1,2017
-December,1,2017
-December,1,2017
-December,1,2017
-December,1,2017
-December,1,2017
-November,27,2017
-November,24,2017
-November,22,2017
-November,21,2017
-November,21,2017
-November,21,2017
-November,17,2017
-November,17,2017
-November,17,2017
-November,14,2017
-November,11,2017
-November,10,2017
-November,10,2017
-November,10,2017
-November,7,2017
-November,7,2017
-November,5,2017
-November,1,2017
-November,1,2017
-November,1,2017
-November,1,2017
-November,1,2017
-October,31,2017
-October,31,2017
-October,30,2017
-October,28,2017
-October,27,2017
-October,26,2017
-October,25,2017
-October,24,2017
-October,20,2017
-October,20,2017
-October,19,2017
-October,17,2017
-October,16,2017
-October,16,2017
-October,15,2017
-October,15,2017
-October,13,2017
-October,13,2017
-October,13,2017
-October,13,2017
-October,13,2017
-October,12,2017
-October,12,2017
-October,10,2017
-October,3,2017
-October,1,2017
-October,1,2017
-October,1,2017
-October,1,2017
-October,1,2017
-September,29,2017
-September,29,2017
-September,27,2017
-September,26,2017
-September,24,2017
-September,24,2017
-September,22,2017
-September,22,2017
-September,19,2017
-September,18,2017
-September,15,2017
-September,13,2017
-September,12,2017
-September,8,2017
-September,8,2017
-September,5,2017
-September,5,2017
-September,1,2017
-September,1,2017
-September,1,2017
-September,1,2017
-September,1,2017
-September,1,2017
-September,1,2017
-September,1,2017
-September,1,2017
-September,1,2017
-September,1,2017
-September,1,2017
-September,1,2017
-September,1,2017
-September,1,2017
-September,1,2017
-September,1,2017
-August,29,2017
-August,26,2017
-August,25,2017
-August,25,2017
-August,22,2017
-August,18,2017
-August,18,2017
-August,15,2017
-August,15,2017
-August,14,2017
-August,12,2017
-August,12,2017
-August,11,2017
-August,10,2017
-August,10,2017
-August,7,2017
-August,7,2017
-August,6,2017
-August,5,2017
-August,4,2017
-August,4,2017
-August,4,2017
-August,3,2017
-August,1,2017
-August,1,2017
-August,1,2017
-August,1,2017
-August,1,2017
-August,1,2017
-July,28,2017
-July,25,2017
-July,18,2017
-July,18,2017
-July,17,2017
-July,15,2017
-July,14,2017
-July,14,2017
-July,13,2017
-July,13,2017
-July,7,2017
-July,7,2017
-July,1,2017
-July,1,2017
-July,1,2017
-July,1,2017
-July,1,2017
-July,1,2017
-July,1,2017
-July,1,2017
-July,1,2017
-July,1,2017
-July,1,2017
-June,28,2017
-June,27,2017
-June,26,2017
-June,23,2017
-June,21,2017
-June,20,2017
-June,20,2017
-June,16,2017
-June,15,2017
-June,15,2017
-June,15,2017
-June,13,2017
-June,10,2017
-June,9,2017
-June,5,2017
-June,3,2017
-June,2,2017
-June,2,2017
-June,1,2017
-June,1,2017
-June,1,2017
-June,1,2017
-June,1,2017
-June,1,2017
-June,1,2017
-June,1,2017
-June,1,2017
-June,1,2017
-June,1,2017
-June,1,2017
-June,1,2017
-June,1,2017
-May,30,2017
-May,29,2017
-May,26,2017
-May,26,2017
-May,23,2017
-May,19,2017
-May,19,2017
-May,16,2017
-May,15,2017
-May,15,2017
-May,15,2017
-May,15,2017
-May,15,2017
-May,13,2017
-May,12,2017
-May,12,2017
-May,12,2017
-May,9,2017
-May,5,2017
-May,5,2017
-May,5,2017
-May,2,2017
-May,1,2017
-May,1,2017
-May,1,2017
-May,1,2017
-May,1,2017
-May,1,2017
-May,1,2017
-May,1,2017
-May,1,2017
-April,28,2017
-April,28,2017
-April,25,2017
-April,25,2017
-April,25,2017
-April,25,2017
-April,21,2017
-April,21,2017
-April,18,2017
-April,15,2017
-April,15,2017
-April,15,2017
-April,15,2017
-April,15,2017
-April,14,2017
-April,14,2017
-April,14,2017
-April,12,2017
-April,11,2017
-April,10,2017
-April,7,2017
-April,7,2017
-April,1,2017
-April,1,2017
-April,1,2017
-April,1,2017
-April,1,2017
-April,1,2017
-April,1,2017
-April,1,2017
-April,1,2017
-March,31,2017
-March,31,2017
-March,28,2017
-March,24,2017
-March,24,2017
-March,24,2017
-March,21,2017
-March,18,2017
-March,17,2017
-March,17,2017
-March,16,2017
-March,15,2017
-March,15,2017
-March,15,2017
-March,15,2017
-March,14,2017
-March,10,2017
-March,10,2017
-March,10,2017
-March,7,2017
-March,1,2017
-February,28,2017
-February,27,2017
-February,26,2017
-February,25,2017
-February,24,2017
-February,21,2017
-February,19,2017
-February,19,2017
-February,19,2017
-February,17,2017
-February,15,2017
-February,15,2017
-February,15,2017
-February,14,2017
-February,14,2017
-February,10,2017
-February,7,2017
-February,3,2017
-February,3,2017
-February,1,2017
-February,1,2017
-February,1,2017
-February,1,2017
-February,1,2017
-February,1,2017
-January,31,2017
-January,31,2017
-January,29,2017
-January,27,2017
-January,25,2017
-January,24,2017
-January,23,2017
-January,20,2017
-January,20,2017
-January,17,2017
-January,15,2017
-January,15,2017
-January,15,2017
-January,15,2017
-January,13,2017
-January,12,2017
-January,10,2017
-January,7,2017
-January,6,2017
-January,6,2017
-January,5,2017
-January,4,2017
-January,3,2017
-January,1,2017
-January,1,2017
-January,1,2017
-January,1,2017
-December,31,2016
-December,23,2016
-December,23,2016
-December,20,2016
-December,20,2016
-December,16,2016
-December,16,2016
-December,15,2016
-December,15,2016
-December,15,2016
-December,15,2016
-December,12,2016
-December,11,2016
-December,9,2016
-December,9,2016
-December,8,2016
-December,6,2016
-December,6,2016
-December,6,2016
-December,4,2016
-December,2,2016
-December,2,2016
-December,1,2016
-December,1,2016
-December,1,2016
-December,1,2016
-December,1,2016
-December,1,2016
-December,1,2016
-November,25,2016
-November,25,2016
-November,22,2016
-November,22,2016
-November,21,2016
-November,19,2016
-November,18,2016
-November,18,2016
-November,15,2016
-November,15,2016
-November,11,2016
-November,10,2016
-November,4,2016
-November,1,2016
-November,1,2016
-November,1,2016
-October,29,2016
-October,28,2016
-October,28,2016
-October,28,2016
-October,28,2016
-October,28,2016
-October,27,2016
-October,21,2016
-October,15,2016
-October,15,2016
-October,15,2016
-October,15,2016
-October,15,2016
-October,14,2016
-October,13,2016
-October,12,2016
-October,7,2016
-October,7,2016
-October,4,2016
-October,1,2016
-October,1,2016
-October,1,2016
-October,1,2016
-October,1,2016
-October,1,2016
-October,1,2016
-October,1,2016
-October,1,2016
-October,1,2016
-October,1,2016
-September,23,2016
-September,16,2016
-September,16,2016
-September,15,2016
-August,26,2016
-August,26,2016
-August,19,2016
-August,11,2016
-August,11,2016
-August,11,2016
-August,11,2016
-August,5,2016
-August,2,2016
-August,1,2016
-August,1,2016
-July,29,2016
-July,15,2016
-July,15,2016
-July,14,2016
-July,6,2016
-July,4,2016
-July,1,2016
-July,1,2016
-June,24,2016
-June,24,2016
-June,18,2016
-June,3,2016
-May,27,2016
-May,6,2016
-April,29,2016
-April,15,2016
-April,8,2016
-March,25,2016
-March,18,2016
-March,18,2016
-March,18,2016
-March,18,2016
-February,26,2016
-February,24,2016
-February,5,2016
-January,22,2016
-January,15,2016
-January,15,2016
-January,8,2016
-December,26,2015
-December,18,2015
-December,11,2015
-December,9,2015
-December,4,2015
-November,18,2015
-November,13,2015
-October,27,2015
-October,25,2015
-October,23,2015
-October,22,2015
-October,16,2015
-October,16,2015
-October,16,2015
-October,2,2015
-September,18,2015
-September,15,2015
-September,8,2015
-August,14,2015
-July,17,2015
-July,14,2015
-July,10,2015
-June,29,2015
-June,23,2015
-June,1,2015
-May,22,2015
-May,22,2015
-April,17,2015
-March,6,2015
-March,6,2015
-February,27,2015
-December,5,2014
-November,14,2014
-October,21,2014
-October,10,2014
-August,15,2014
-July,11,2014
-January,24,2014
-January,17,2014
-December,29,2013
-December,12,2013
-November,1,2013
-February,21,2012
-October,1,2011
-October,1,2011
-October,1,2011
-October,1,2011
-October,1,2011
-October,1,2011
-October,1,2011
-October,1,2011
-October,1,2011
-October,1,2011
-October,1,2011
-September,27,2011
-May,17,2011
-November,18,2009
-May,5,2009
-January,1,2008
-November,16,2017
-January,1,2020
-November,1,2019
-April,1,2019
-December,15,2017
-September,1,2019
-October,10,2018
-March,29,2019
-September,15,2018
-September,15,2018
-September,15,2018
-April,10,2019
-March,27,2018
-March,10,2017
-February,1,2018
-July,1,2017
-July,7,2017
-June,1,2019
-March,14,2019
-August,13,2016
-January,13,2019
-April,3,2019
-October,27,2018
-November,1,2019
-January,1,2021
-August,23,2020
-July,26,2019
-September,22,2018
-December,20,2018
-June,28,2019
-April,16,2019
-March,1,2018
-April,7,2018
-May,1,2018
-May,1,2018
-September,30,2020
-August,28,2017
-January,5,2019
-April,18,2019
-January,1,2021
-October,1,2019
-February,1,2018
-May,5,2016
-March,16,2017
-December,1,2020
-June,1,2019
-September,28,2018
-February,8,2018
-November,1,2017
-September,1,2019
-July,30,2019
-May,15,2019
-February,14,2020
-April,1,2018
-January,15,2018
-July,1,2020
-November,1,2020
-April,1,2018
-October,16,2016
-December,15,2019
-November,15,2017
-July,15,2018
-February,21,2020
-September,17,2019
-November,4,2019
-May,1,2017
-July,22,2018
-December,1,2019
-September,1,2016
-April,15,2017
-June,6,2019
-August,28,2020
-November,1,2013
-October,15,2017
-March,16,2019
-January,16,2018
-August,1,2017
-October,25,2019
-December,1,2020
-July,1,2020
-July,1,2020
-November,1,2018
-September,25,2018
-October,1,2020
-March,20,2019
-April,4,2018
-May,15,2018
-January,1,2018
-December,31,2019
-October,22,2017
-January,1,2018
-May,1,2017
-May,1,2018
-,Augus,2017
-February,18,2016
-February,1,2019
-August,25,2016
-June,3,2017
-April,1,2019
-January,1,2019
-June,1,2020
-September,29,2018
-August,1,2020
-June,12,2020
-November,20,2019
-December,31,2019
-August,15,2018
-August,13,2020
-March,7,2018
-January,31,2019
-December,31,2019
-March,1,2018
-October,15,2017
-March,1,2018
-July,1,2017
-August,18,2018
-July,1,2019
-January,9,2018
-March,6,2018
-March,18,2019
-June,1,2020
-July,30,2019
-August,1,2017
-February,2,2019
-July,3,2018
-May,15,2019
-February,15,2019
-October,1,2019
-October,1,2019
-January,1,2020
-March,3,2020
-June,20,2017
-December,31,2019
-April,26,2019
-June,23,2017
-January,31,2020
-January,1,2020
-April,19,2017
-May,1,2019
-July,30,2019
-October,23,2019
-November,1,2019
-April,27,2019
-April,1,2019
-September,1,2019
-September,13,2019
-July,26,2018
-April,1,2018
-April,1,2018
-April,1,2018
-April,1,2018
-April,26,2019
-March,1,2019
-June,20,2019
-August,1,2017
-February,15,2019
-December,30,2018
-September,5,2020
-November,1,2019
-March,14,2017
-October,15,2017
-August,1,2017
-March,21,2017
-January,29,2019
-May,9,2019
-April,14,2019
-December,31,2019
-August,1,2016
-March,9,2019
-October,1,2017
-February,15,2017
-August,1,2019
-September,15,2018
-April,1,2019
-January,1,2020
-September,16,2018
-January,1,2020
-October,25,2019
-February,15,2018
-December,14,2016
-December,27,2018
-September,5,2018
-May,15,2016
-August,19,2018
-January,19,2019
-September,8,2017
-December,25,2018
-December,28,2018
-April,12,2019
-June,7,2018
-April,30,2018
-January,1,2019
-January,5,2017
-March,30,2017
-April,5,2019
-December,25,2018
-October,1,2019
-October,1,2019
-March,11,2018
-August,21,2017
-January,1,2018
-March,26,2020
-April,1,2018
-April,1,2018
-April,1,2018
-March,1,2018
-March,10,2017
-April,12,2019
-April,15,2016
-July,25,2018
-September,14,2018
-September,5,2018
-September,1,2018
-December,31,2019
-October,1,2017
-October,1,2017
-October,1,2017
-October,1,2017
-October,1,2017
-October,1,2017
-October,1,2017
-October,1,2017
-October,1,2017
-October,1,2017
-July,26,2018
-August,19,2018
-April,1,2018
-November,1,2018
-October,1,2020
-May,9,2019
-December,31,2019
-December,31,2019
-February,28,2017
-November,20,2019
-August,1,2018
-November,20,2019
-November,20,2019
-December,8,2018
-April,18,2019
-January,12,2019
-March,5,2019
-February,1,2018
-April,5,2018
-November,1,2017
-August,15,2016
-August,1,2017
-June,8,2019
-March,6,2018
-October,3,2018
-March,10,2017
-June,1,2017
-July,21,2019
-June,20,2019
-April,1,2017
-August,10,2018
-December,31,2019
-October,22,2017
-December,31,2019
-December,1,2017
-February,28,2018
-October,1,2020
-January,15,2020
-June,18,2019
-April,1,2018
-April,18,2017
-January,26,2019
-November,10,2017
-February,1,2019
-February,28,2019
-March,15,2018
-August,15,2018
-June,28,2018
-March,11,2018
-September,2,2017
-March,29,2019
-July,5,2020
-July,12,2019
-January,1,2019
-September,4,2018
-August,9,2017
-November,20,2019
-July,1,2017
-December,15,2017
-August,30,2020
-April,11,2020
-February,8,2017
-January,24,2018
-March,26,2020
-October,1,2019
-August,26,2016
-March,8,2019
-March,1,2016
-February,25,2019
-January,1,2021
-July,5,2018
-June,18,2019
-December,17,2015
-June,1,2018
-December,31,2019
-December,1,2018
-June,22,2017
-July,22,2018
-May,31,2018
-September,1,2016
-January,1,2021
-March,1,2018
-December,31,2017
-April,1,2017
-May,28,2020
-October,1,2017
-April,2,2019
-April,19,2019
-June,29,2020
-February,17,2018
-December,15,2017
-December,15,2017
-December,5,2018
-September,1,2018
-August,29,2017
-October,1,2018
-November,28,2018
-June,24,2017
-July,1,2017
-June,24,2017
-April,12,2019
-June,1,2019
-December,16,2019
-April,29,2019
-November,24,2017
-November,1,2019
-September,7,2017
-June,6,2019
-October,5,2018
-January,20,2017
-May,15,2019
-October,15,2017
-February,1,2017
-August,20,2017
-January,1,2018
-January,14,2017
-January,1,2021
-October,1,2019
-July,1,2018
-September,15,2018
-March,5,2019
-October,20,2020
-June,1,2019
-November,20,2019
-November,14,2012
-August,31,2020
-August,1,2018
-August,16,2018
-November,1,2019
-February,1,2019
-June,15,2017
-April,1,2017
-January,1,2020
-November,1,2018
-March,15,2018
-December,31,2019
-May,15,2018
-March,1,2017
-March,1,2020
-January,5,2019
-October,1,2018
-January,1,2020
-October,1,2019
-November,23,2019
-May,1,2017
-January,1,2020
-April,19,2018
-November,13,2017
-February,1,2017
-August,1,2018
-August,15,2019
-July,1,2018
-March,16,2016
-March,15,2019
-December,31,2019
-September,24,2018
-January,1,2018
-January,1,2020
-January,1,2020
-October,7,2017
-June,6,2019
-November,4,2019
-March,1,2019
-January,1,2019
-March,5,2019
-June,15,2018
-January,15,2019
-December,31,2019
-April,16,2018
-January,1,2020
-July,21,2017
-November,14,2019
-August,1,2019
-April,1,2018
-September,18,2018
-November,1,2019
-January,1,2020
-September,17,2019
-October,16,2017
-August,1,2017
-February,12,2017
-January,1,2020
-January,1,2020
-November,1,2019
-November,1,2017
-March,30,2017
-July,14,2018
-May,25,2018
-September,18,2019
-March,1,2018
-October,4,2018
-August,2,2018
-August,28,2018
-March,21,2018
-October,25,2019
-March,2,2019
-January,1,2021
-August,17,2017
-March,16,2017
-July,1,2018
-March,31,2016
-October,1,2019
-April,29,2019
-March,1,2019
-October,3,2017
-June,14,2018
-February,15,2018
-April,17,2019
-April,1,2018
-January,1,2019
-September,20,2019
-December,20,2016
-July,1,2018
-April,1,2018
-January,16,2018
-July,2,2018
-April,1,2017
-March,2,2017
-September,1,2019
-December,15,2017
-October,15,2019
-July,26,2018
-August,1,2019
-October,15,2017
-June,10,2017
-January,11,2018
-April,17,2019
-November,21,2018
-March,1,2019
-December,31,2019
-February,15,2019
-March,15,2020
-March,2,2019
-February,18,2016
-November,4,2019
-August,1,2020
-May,5,2019
-March,1,2018
-January,3,2020
-May,1,2017
-September,1,2018
-May,1,2020
-August,8,2017
-May,8,2018
-August,5,2019
-May,25,2017
-September,13,2019
-June,1,2017
-July,16,2020
-January,1,2018
-December,31,2019
-February,6,2019
-July,28,2017
-December,3,2016
-December,31,2019
-April,1,2018
-January,1,2020
-August,16,2018
-December,15,2017
-February,19,2018
-November,4,2019
-November,1,2019
-December,31,2016
-June,5,2019
-February,25,2019
-September,28,2019
-January,5,2018
-March,1,2020
-November,2,2019
-June,12,2020
-June,12,2020
-June,12,2020
-February,8,2019
-April,1,2017
-May,1,2017
-January,1,2020
-November,1,2020
-August,1,2018
-March,7,2019
-May,1,2019
-June,5,2019
-January,1,2020
-January,1,2020
-January,1,2020
-June,13,2017
-July,1,2018
-January,1,2018
-September,1,2016
-March,1,2018
-October,1,2019
-February,1,2019
-October,1,2019
-September,15,2020
-November,1,2020
-September,10,2019
-April,15,2018
-September,15,2018
-December,1,2017
-March,15,2018
-August,1,2019
-February,4,2018
-October,15,2017
-August,23,2018
-August,1,2020
-December,31,2017
-September,6,2016
-August,2,2018
-October,5,2018
-February,1,2018
-October,1,2020
-December,31,2019
-November,23,2019
-July,15,2018
-January,18,2017
-December,9,2018
-January,1,2021
-October,28,2018
-June,8,2019
-October,1,2019
-July,15,2018
-January,14,2017
-November,1,2019
-April,16,2019
-January,1,2020
-February,25,2020
-June,6,2019
-November,20,2019
-July,26,2018
-November,1,2019
-March,3,2019
-October,1,2019
-August,29,2019
-March,10,2017
-March,10,2017
-March,10,2017
-March,5,2018
-January,15,2018
-February,15,2018
-January,1,2020
-November,1,2019
-May,1,2019
-August,24,2019
-January,1,2018
-June,6,2019
-,Marc,2018
-November,1,2019
-August,23,2017
-July,1,2020
-December,28,2015
-September,1,2016
-December,21,2016
-November,1,2018
-October,11,2018
-January,1,2020
-January,1,2020
-January,1,2020
-March,21,2017
-April,24,2019
-May,17,2019
-September,1,2019
-March,31,2017
-October,1,2018
-September,17,2019
-January,16,2017
-June,13,2019
-August,1,2018
-July,31,2018
-November,16,2018
-May,1,2020
-August,2,2019
-August,16,2019
-September,1,2019
-March,6,2018
-December,1,2017
-November,1,2019
-January,1,2021
-August,1,2019
-April,1,2019
-October,1,2017
-August,13,2020
-January,1,2021
-January,1,2020
-December,15,2017
-June,6,2019
-February,4,2016
-March,3,2020
-January,1,2020
-April,18,2018
-June,6,2019
-September,8,2020
-July,15,2018
-January,28,2016
-July,1,2019
-September,1,2016
-September,25,2019
-April,24,2019
-March,15,2019
-November,9,2018
-September,15,2017
-September,15,2018
-August,20,2019
-October,9,2018
-November,30,2018
-December,10,2018
-December,15,2017
-July,1,2018
-December,20,2016
-December,31,2017
-January,16,2020
-December,12,2014
-April,1,2019
-November,1,2019
-December,31,2019
-December,31,2017
-February,24,2019
-October,1,2020
-February,24,2019
-February,24,2019
-December,31,2019
-September,15,2018
-November,1,2019
-July,15,2018
-February,27,2019
-February,9,2019
-October,22,2018
-December,16,2017
-April,1,2020
-December,4,2018
-May,1,2018
-December,31,2019
-December,31,2019
-June,22,2020
-December,10,2018
-December,31,2019
-January,1,2019
-July,12,2017
-January,19,2017
-April,2,2017
-August,20,2020
-June,21,2019
-June,2,2019
-September,8,2017
-January,1,2021
-March,6,2018
-August,15,2017
-April,25,2019
-November,1,2019
-January,1,2021
-October,15,2017
-October,1,2020
-March,1,2018
-February,14,2019
-November,1,2019
-November,12,2018
-January,1,2018
-July,26,2019
-August,19,2018
-March,10,2017
-March,10,2017
-April,4,2018
-January,1,2020
-May,1,2017
-March,7,2016
-March,1,2018
-November,23,2019
-May,2,2019
-May,6,2020
-August,25,2018
-March,1,2018
-January,1,2018
-February,8,2017
-September,6,2017
-August,1,2020
-October,1,2019
-January,1,2020
-November,25,2018
-April,15,2018
-January,15,2017
-May,1,2017
-March,1,2018
-March,1,2019
-February,1,2019
-June,10,2017
-March,1,2020
-June,1,2018
-January,12,2019
-September,13,2019
-August,25,2018
-February,1,2019
-December,31,2019
-January,1,2018
-April,1,2019
-September,6,2018
-January,1,2019
-December,1,2018
-July,29,2018
-May,2,2019
-December,31,2019
-July,1,2017
-August,1,2018
-July,24,2020
-March,1,2018
-August,19,2017
-March,31,2017
-December,1,2017
-August,1,2018
-January,1,2020
-July,1,2017
-March,10,2017
-August,1,2016
-July,15,2016
-July,30,2018
-July,30,2018
-May,1,2018
-October,1,2019
-April,3,2018
-November,3,2018
-September,1,2018
-November,8,2018
-December,15,2019
-August,1,2019
-April,12,2019
-August,15,2018
-March,1,2016
-August,13,2017
-November,20,2019
-October,1,2019
-January,24,2019
-May,8,2020
-January,6,2018
-July,20,2017
-February,1,2018
-June,1,2017
-November,1,2019
-November,1,2019
-April,1,2018
-January,1,2018
-June,1,2020
-January,1,2018
-October,22,2017
-June,23,2018
-January,1,2020
-October,22,2019
-January,1,2017
-August,15,2018
-December,1,2019
-June,8,2017
-March,4,2019
-October,1,2017
-May,26,2017
-April,1,2019
-September,2,2017
-December,22,2018
-September,16,2019
-March,23,2019
-September,5,2018
-April,19,2019
-October,22,2019
-October,1,2017
-October,1,2017
-January,23,2018
-January,1,2018
-September,1,2019
-September,1,2013
-December,7,2019
-June,6,2019
-March,19,2018
-January,10,2018
-March,10,2017
-October,26,2018
-April,8,2017
-March,1,2018
-February,8,2019
-February,17,2017
-January,1,2019
-January,1,2019
-January,1,2019
-January,1,2019
-February,1,2017
-August,29,2018
-July,22,2019
-July,1,2019
-March,1,2018
-January,1,2020
-July,21,2016
-November,7,2018
-September,1,2017
-September,1,2017
-September,1,2017
-November,1,2019
-February,1,2018
-March,1,2018
-March,15,2018
-July,19,2019
-October,12,2014
-March,1,2018
-March,1,2018
-November,20,2019
-March,1,2016
-June,6,2019
-April,1,2016
-December,31,2019
-February,8,2017
-March,31,2013
-August,1,2019
-October,6,2018
-December,31,2019
-October,15,2017
-May,19,2018
-September,15,2017
-January,1,2019
-October,1,2019
-April,1,2016
-January,1,2019
-April,1,2019
-May,1,2018
-November,1,2019
-June,5,2019
-May,2,2019
-December,31,2019
-April,16,2019
-August,25,2016
-January,1,2018
-December,31,2019
-August,8,2019
-January,1,2021
-November,1,2020
-March,1,2019
-August,1,2019
-September,1,2019
-August,31,2018
-January,1,2018
-November,21,2019
-June,25,2017
-March,1,2018
-December,31,2019
-August,1,2018
-December,15,2017
-November,1,2017
-October,1,2017
-October,22,2017
-May,8,2018
-March,1,2018
-October,22,2017
-January,1,2020
-December,31,2019
-July,19,2018
-July,1,2018
-January,1,2018
-February,22,2017
-October,1,2018
-July,13,2018
-October,1,2018
-January,1,2019
-March,1,2018
-August,2,2018
-December,31,2019
-March,1,2018
-May,1,2019
-April,26,2018
-December,8,2016
-November,4,2019
-March,4,2019
-September,8,2017
-January,1,2020
-January,1,2020
-February,23,2017
-May,1,2019
-February,17,2017
-August,21,2020
-April,1,2020
-January,1,2021
-March,15,2018
-March,1,2019
-July,1,2016
-November,1,2019
-January,1,2020
-October,29,2018
-November,1,2017
-January,1,2020
-August,21,2017
-November,1,2020
-March,31,2017
-October,1,2019
-March,1,2017
-April,26,2019
-December,31,2019
-January,5,2017
-November,17,2017
-November,7,2018
-October,31,2015
-January,1,2019
-December,31,2019
-April,1,2020
-August,1,2018
-December,1,2012
-October,6,2017
-January,8,2019
-March,10,2017
-April,1,2018
-March,12,2018
-March,1,2018
-February,1,2017
-January,1,2020
-February,15,2017
-January,15,2019
-March,1,2018
-September,7,2018
-August,5,2017
-July,1,2019
-March,15,2018
-September,15,2017
-March,11,2020
-August,1,2019
-January,1,2019
-May,1,2018
-November,15,2019
-April,15,2020
-April,15,2020
-April,15,2020
-August,1,2018
-December,26,2018
-January,1,2020
-March,30,2018
-August,16,2018
-November,1,2019
-February,1,2019
-December,20,2015
-March,31,2017
-April,15,2017
-February,7,2019
-July,21,2018
-May,28,2019
-August,16,2018
-May,6,2019
-November,1,2019
-February,6,2016
-February,21,2018
-May,9,2019
-August,1,2018
-March,15,2018
-March,15,2018
-January,12,2017
-December,1,2020
-January,14,2017
-July,25,2016
-December,23,2016
-January,1,2019
-July,15,2018
-May,7,2020
-July,30,2017
-November,1,2019
-November,1,2019
-March,31,2017
-November,12,2017
-August,16,2018
-April,9,2016
-September,1,2017
-February,17,2020
-August,1,2018
-May,1,2018
-August,16,2018
-July,15,2019
-April,25,2019
-January,5,2019
-November,20,2019
-July,1,2018
-August,16,2018
-July,15,2018
-November,15,2017
-April,5,2019
-July,15,2016
-July,1,2018
-January,1,2018
-April,20,2016
-October,15,2017
-August,1,2020
-November,1,2019
-November,1,2010
-September,20,2018
-February,17,2017
-January,1,2018
-August,26,2017
-March,31,2019
-December,20,2015
-June,12,2020
-February,22,2017
-August,1,2018
-August,16,2018
-December,31,2019
-January,1,2018
-November,15,2018
-February,1,2019
-July,26,2018
-September,4,2018
-January,1,2020
-April,1,2018
-April,16,2017
-March,15,2018
-September,8,2017
-January,15,2018
-January,1,2020
-December,15,2017
-December,15,2017
-January,5,2019
-December,1,2020
-February,1,2017
-,Novembe,2019
-August,16,2018
-December,1,2019
-January,1,2018
-February,16,2014
-July,17,2018
-July,9,2019
-December,31,2019
-February,1,2018
-August,1,2018
-February,15,2018
-January,15,2017
-August,26,2018
-July,20,2019
-May,1,2017
-January,1,2018
-February,14,2017
-July,1,2019
-July,1,2019
-March,9,2018
-October,1,2019
-August,1,2018
-July,1,2018
-February,19,2018
-October,19,2019
-October,1,2019
-August,27,2017
-February,13,2019
-September,21,2019
-January,1,2018
-August,1,2019
-March,3,2019
-September,7,2020
-February,16,2017
-August,1,2018
-June,1,2018
-April,24,2020
-February,20,2017
-October,1,2017
-September,2,2015
-December,19,2017
-January,7,2017
-December,19,2016
-July,29,2019
-August,7,2017
-July,26,2018
-May,1,2017
-June,30,2018
-July,26,2018
-September,1,2019
-April,1,2020
-January,1,2019
-October,15,2017
-November,1,2019
-March,19,2016
-June,15,2019
-April,4,2018
-March,1,2018
-September,29,2015
-January,1,2018
-January,30,2018
-January,1,2018
-January,1,2018
-January,1,2018
-March,1,2018
-October,1,2017
-October,1,2017
-July,7,2015
-January,1,2018
-January,1,2020
-January,1,2020
-May,21,2019
-September,8,2017
-November,1,2017
-November,1,2018
-February,15,2018
-July,6,2017
-April,9,2019
-December,22,2018
-August,1,2020
-June,15,2017
-August,16,2018
-September,1,2019
-June,6,2019
-January,1,2021
-December,31,2019
-January,26,2018
-September,1,2020
-September,1,2018
-November,1,2019
-October,17,2018
-October,30,2018
-June,12,2018
-April,18,2019
-January,23,2018
-August,15,2017
-October,1,2017
-December,1,2015
-December,17,2014
-August,16,2018
-July,13,2017
-September,1,2019
-July,25,2018
-May,30,2019
-August,1,2018
-November,1,2019
-March,10,2018
-December,31,2019
-March,15,2017
-September,1,2017
-November,10,2017
-February,1,2018
-June,1,2018
-June,1,2018
-September,15,2016
-December,1,2016
-June,26,2017
-February,15,2019
-January,1,2020
-July,1,2019
-May,1,2018
-August,27,2020
-June,30,2019
-August,10,2020
-July,1,2019
-March,1,2018
-May,4,2018
-October,1,2019
-May,25,2020
-August,21,2020
-September,9,2019
-July,1,2019
-July,1,2019
-July,1,2019
-July,1,2019
-July,1,2019
-July,1,2019
-July,1,2019
-July,1,2019
-July,1,2019
-July,1,2019
-July,1,2019
-July,1,2019
-July,1,2019
-July,1,2019
-July,3,2020
-August,2,2019
-January,1,2018
-April,14,2018
-January,1,2018
-August,25,2018
-December,28,2018
-July,19,2018
-September,19,2019
-January,3,2019
-November,1,2019
-October,1,2019
-October,1,2019
-September,1,2016
-March,30,2017
-July,25,2018
-August,16,2018
-November,15,2016
-April,25,2019
-August,2,2018
-January,10,2018
-May,1,2018
-August,1,2018
-August,1,2018
-August,1,2018
-April,15,2020
-November,20,2019
-September,5,2018
-October,1,2019
-August,25,2019
-October,15,2017
-May,15,2018
-November,15,2018
-September,1,2019
-January,15,2018
-August,5,2017
-November,27,2018
-February,16,2017
-August,16,2018
-August,1,2018
-October,15,2017
-March,15,2017
-September,10,2019
-June,1,2020
-February,15,2019
-May,31,2019
-August,1,2018
-April,1,2019
-July,1,2018
-July,26,2018
-November,1,2019
-February,1,2018
-August,16,2018
-May,1,2016
-August,1,2019
-December,8,2017
-April,20,2019
-January,1,2020
-March,1,2018
-July,1,2018
-January,1,2021
-October,22,2017
-January,1,2020
-March,10,2017
-November,1,2020
-July,1,2018
-July,1,2018
-September,1,2018
-December,18,2014
-August,25,2017
-April,1,2019
-February,28,2017
-April,30,2019
-January,1,2019
-February,1,2019
-March,9,2017
-August,18,2018
-October,1,2017
-July,1,2019
-January,15,2018
-September,5,2018
-September,1,2019
-December,31,2019
-June,29,2019
-November,15,2018
-March,1,2018
-March,15,2018
-July,13,2019
-April,22,2015
-June,1,2020
-January,1,2018
-November,1,2020
-December,1,2017
-January,3,2019
-November,24,2019
-April,16,2018
-February,19,2019
-January,1,2016
-January,1,2016
-December,1,2017
-February,15,2018
-April,15,2016
-December,1,2019
-August,31,2018
-February,5,2018
-August,6,2019
-June,1,2019
-March,1,2018
-January,1,2019
-November,1,2017
-December,27,2017
-May,1,2017
-August,31,2020
-April,6,2019
-August,1,2018
-July,1,2019
-September,1,2019
-January,1,2017
-October,1,2019
-March,1,2018
-August,19,2017
-May,1,2017
-December,31,2019
-June,11,2019
-December,31,2019
-July,31,2019
-December,31,2019
-May,26,2019
-March,15,2018
-August,1,2018
-June,20,2019
-October,22,2017
-November,1,2019
-June,25,2019
-December,11,2017
-December,31,2019
-September,15,2018
-March,24,2018
-May,9,2019
-June,13,2016
-August,21,2017
-July,26,2018
-August,1,2020
-June,1,2020
-January,1,2020
-January,1,2018
-September,26,2017
-August,16,2018
-March,1,2017
-July,21,2018
-February,1,2018
-November,1,2019
-December,3,2016
-June,1,2019
-May,1,2018
-December,15,2017
-November,1,2017
-December,31,2019
-July,1,2016
-May,1,2018
-May,1,2019
-August,1,2019
-August,1,2019
-August,1,2019
-August,1,2019
-August,1,2019
-January,17,2017
-April,19,2019
-November,1,2017
-July,19,2018
-March,1,2019
-July,1,2019
-November,1,2019
-November,1,2019
-,Ma,2017
-April,1,2018
-September,15,2017
-November,1,2019
-August,1,2019
-March,1,2018
-December,1,2020
-June,19,2019
-August,1,2019
-May,10,2015
-October,14,2013
-January,6,2017
-January,1,2021
-December,31,2019
-March,10,2017
-August,22,2017
-December,31,2019
-December,15,2016
-May,1,2017
-August,13,2020
-January,1,2017
-April,1,2018
-February,15,2018
-June,22,2019
-September,15,2018
-March,1,2018
-June,6,2019
-December,14,2018
-January,1,2018
-December,31,2019
-November,17,2017
-December,20,2015
-September,21,2019
-December,1,2017
-October,15,2017
-February,15,2018
-July,1,2018
-January,30,2019
-June,1,2019
-March,15,2018
-December,31,2019
-October,6,2020
-November,1,2017
-June,13,2019
-March,2,2019
-January,15,2020
-July,19,2018
-January,23,2020
-November,13,2020
-January,1,2020
-August,12,2020
-April,1,2018
-November,1,2020
-December,15,2019
-September,16,2018
-October,1,2019
-July,1,2019
-January,1,2020
-December,7,2020
-December,1,2019
-April,26,2019
-July,1,2018
-April,1,2018
-April,22,2017
-February,22,2017
-February,22,2017
-February,22,2017
-February,22,2017
-April,22,2017
-April,22,2017
-February,22,2017
-April,22,2017
-April,22,2017
-March,10,2017
-October,1,2019
-March,10,2018
-January,10,2020
-January,1,2021
-January,1,2021
-July,10,2017
-December,15,2017
-May,19,2019
-January,1,2018
-March,1,2018
-March,1,2018
-March,1,2018
-August,16,2018
-November,2,2019
-March,1,2018
-December,29,2017
-January,1,2021
-December,31,2019
-November,15,2018
-November,15,2018
-November,15,2018
-October,30,2018
-July,18,2019
-July,1,2019
-August,10,2017
-March,1,2018
-September,5,2018
-July,6,2019
-October,30,2018
-December,3,2018
-December,13,2019
-July,15,2017
-September,28,2018
-June,1,2018
-October,1,2019
-January,1,2020
-February,14,2016
-December,17,2018
-July,4,2019
-August,5,2017
-January,16,2019
-October,2,2017
-March,1,2020
-November,1,2019
-January,1,2020
-July,26,2018
-June,1,2019
-July,12,2019
-September,22,2015
-January,10,2020
-July,1,2018
-January,5,2019
-September,1,2018
-January,9,2019
-January,9,2019
-February,15,2018
-December,18,2017
-August,1,2019
-July,19,2018
-May,17,2020
-July,1,2019
-November,1,2019
-July,6,2017
-November,1,2019
-June,26,2019
-November,1,2019
-July,22,2020
-January,10,2021
-April,15,2020
-April,1,2019
-March,8,2019
-April,1,2019
-June,1,2016
-August,8,2019
-June,28,2019
-December,11,2018
-June,26,2018
-August,29,2019
-July,1,2016
-November,1,2019
-June,6,2019
-September,1,2018
-March,15,2018
-September,14,2018
-November,1,2018
-September,8,2017
-October,15,2017
-June,26,2020
-August,30,2020
-October,1,2020
-January,1,2020
-September,1,2019
-January,1,2021
-February,11,2017
-January,1,2020
-November,11,2019
-October,14,2015
-September,5,2018
-August,1,2018
-July,1,2016
-June,5,2017
-March,19,2020
-July,10,2016
-March,15,2017
-June,18,2019
-January,1,2018
-March,1,2018
-January,1,2021
-November,1,2019
-October,1,2019
-November,20,2019
-October,9,2018
-May,24,2018
-December,10,2018
-December,31,2019
-January,1,2020
-December,1,2019
-January,30,2019
-June,10,2017
-August,16,2018
-March,1,2018
-July,15,2018
-May,16,2019
-October,15,2017
-March,1,2018
-June,23,2018
-June,23,2017
-May,9,2019
-July,1,2019
-March,1,2018
-January,15,2017
-May,1,2019
-January,1,2020
-August,2,2018
-July,15,2018
-February,12,2019
-January,1,2020
-January,1,2020
-May,1,2016
-September,1,2018
-October,15,2017
-December,1,2017
-March,31,2018
-April,6,2018
-July,15,2018
-May,10,2017
-December,2,2020
-November,20,2019
-April,1,2018
-January,1,2018
-January,1,2021
-January,1,2020
-February,27,2020
-June,13,2019
-May,10,2017
-December,8,2018
-July,1,2020
-March,15,2020
-December,30,2018
-February,21,2018
-December,15,2018
-August,16,2018
-April,9,2019
-March,31,2017
-December,31,2018
-August,7,2017
-May,18,2019
-March,29,2019
-October,10,2015
-July,1,2019
-March,10,2017
-October,1,2019
-June,1,2019
-June,1,2020
-January,1,2019
-November,1,2019
-May,18,2019
-February,20,2018
-July,16,2019
-September,1,2019
-July,1,2019
-October,1,2019
-April,1,2019
-March,23,2020
-December,4,2018
-July,20,2018
-June,1,2020
-May,1,2018
-November,21,2017
-June,13,2019
-September,1,2019
-February,4,2017
-June,20,2019
-April,14,2017
-May,8,2016
-November,1,2019
-March,1,2019
-November,1,2019
-July,28,2018
-July,23,2019
-February,6,2019
-August,23,2019
-April,25,2019
-January,1,2020
-July,29,2019
-January,1,2019
-October,1,2019
-January,1,2020
-April,2,2017
-January,1,2018
-December,8,2018
-May,1,2019
-December,31,2019
-April,26,2017
-March,4,2019
-January,1,2021
-November,8,2018
-February,15,2019
-November,20,2019
-August,1,2018
-October,4,2018
-September,1,2017
-June,2,2019
-January,1,2020
-January,1,2020
-August,31,2017
-July,26,2018
-September,19,2018
-January,10,2020
-July,26,2019
-April,6,2017
-March,31,2017
-July,1,2018
-January,13,2019
-October,1,2019
-January,1,2020
-September,20,2016
-December,3,2019
-November,20,2019
-September,15,2017
-July,31,2018
-October,1,2019
-October,1,2019
-July,28,2018
-July,1,2019
-February,14,2020
-September,11,2017
-August,21,2020
-October,1,2017
-August,27,2020
-December,8,2018
-April,7,2020
-January,5,2021
-June,26,2019
-January,24,2018
-December,5,2016
-November,20,2019
-October,20,2018
-October,19,2018
-December,31,2019
-November,1,2019
-April,18,2020
-December,11,2017
-October,4,2018
-June,1,2020
-June,1,2020
-September,4,2019
-June,1,2016
-February,26,2018
-March,16,2017
-July,25,2018
-December,18,2018
-January,31,2019
-September,26,2018
-February,1,2017
-March,8,2019
-June,19,2017
-March,1,2019
-January,30,2019
-November,1,2020
-August,1,2018
-May,15,2017
-February,21,2019
-January,1,2020
-July,8,2016
-July,7,2019
-March,8,2019
-October,30,2018
-September,1,2018
-June,2,2018
-September,1,2019
-June,4,2018
-January,1,2017
-November,1,2016
-September,1,2019
-January,13,2020
-December,21,2018
-May,26,2016
-October,26,2019
-April,1,2019
-December,23,2018
-December,1,2018
-November,6,2020
-March,15,2019
-December,2,2018
-August,23,2018
-November,20,2019
-January,30,2019
-January,1,2020
-January,1,2020
-November,20,2019
-October,1,2019
-August,16,2018
-April,24,2018
-January,12,2018
-January,1,2020
-November,1,2019
-November,1,2019
-November,1,2019
-April,19,2019
-September,30,2017
-June,4,2019
-December,6,2016
-January,9,2019
-December,15,2015
-September,1,2020
-July,1,2018
-January,1,2021
-January,1,2020
-April,15,2019
-May,28,2019
-May,30,2019
-February,27,2019
-February,1,2020
-August,1,2018
-January,1,2019
-January,1,2020
-November,1,2019
-April,1,2020
-June,1,2019
-July,15,2015
-July,1,2019
-June,15,2014
-March,1,2018
-October,1,2020
-May,16,2017
-March,1,2018
-June,20,2019
-January,1,2021
-October,1,2017
-February,22,2019
-October,1,2020
-July,16,2019
-November,18,2017
-August,7,2019
-October,1,2019
-June,7,2019
-October,21,2018
-November,20,2019
-June,16,2017
-February,28,2019
-January,1,2018
-January,16,2017
-February,26,2018
-June,13,2019
-January,1,2020
-March,16,2017
-January,14,2017
-September,1,2018
-March,22,2019
-April,1,2020
-July,19,2018
-December,6,2019
-September,8,2017
-March,2,2017
-April,26,2019
-November,28,2019
-November,8,2018
-December,27,2019
-March,1,2018
-June,1,2020
-November,13,2020
-July,13,2018
-January,15,2017
-September,28,2018
-April,1,2020
-June,1,2019
-July,15,2018
-October,1,2019
-November,1,2020
-June,17,2017
-March,15,2019
-February,16,2019
-September,1,2019
-January,1,2020
-October,22,2019
-June,6,2019
-April,9,2018
-November,1,2018
-November,23,2019
-October,1,2019
-December,1,2019
-January,1,2018
-December,12,2017
-April,1,2019
-August,1,2017
-November,1,2019
-April,25,2019
-July,30,2018
-December,12,2017
-February,22,2019
-April,20,2020
-April,18,2019
-October,7,2019
-November,1,2018
-March,8,2017
-March,21,2019
-September,21,2019
-September,17,2018
-February,1,2019
-December,19,2017
-November,10,2018
-December,31,2019
-April,1,2019
-June,18,2019
-March,9,2017
-August,16,2018
-July,18,2017
-July,1,2018
-November,1,2019
-October,14,2017
-March,9,2017
-January,15,2018
-June,5,2018
-April,15,2020
-November,2,2016
-November,2,2016
-June,3,2017
-February,5,2018
-March,31,2017
-July,1,2017
-August,1,2018
-January,1,2018
-May,17,2015
-March,19,2019
-August,1,2019
-September,1,2017
-December,31,2019
-March,1,2018
-September,15,2020
-December,19,2016
-October,22,2019
-December,31,2019
-July,25,2018
-March,18,2017
-October,1,2019
-July,1,2018
-November,1,2018
-January,1,2019
-February,2,2017
-January,1,2020
-January,1,2020
-January,1,2020
-January,1,2020
-May,1,2018
-February,22,2019
-December,31,2019
-March,1,2018
-November,1,2017
-March,27,2020
-March,12,2018
-January,1,2020
-March,1,2018
-May,19,2020
-March,29,2019
-February,15,2018
-March,31,2017
-September,12,2019
-July,24,2018
-December,31,2017
-March,15,2019
-May,1,2019
-May,2,2017
-March,1,2019
-March,1,2017
-April,1,2018
-October,1,2019
-December,15,2017
-July,15,2018
-November,1,2017
-July,22,2019
-December,31,2019
-June,20,2019
-January,1,2020
-January,15,2018
-September,1,2019
-September,25,2019
-October,1,2018
-November,1,2019
-October,15,2017
-December,31,2019
-December,12,2017
-July,24,2017
-February,2,2019
-March,1,2017
-September,2,2017
-July,1,2018
-July,15,2017
-March,10,2017
-December,31,2019
-June,19,2019
-July,1,2017
-November,1,2017
-May,1,2018
-September,23,2020
-March,2,2019
-December,26,2017
-October,1,2019
-April,1,2019
-March,2,2019
-May,6,2019
-December,3,2019
-April,18,2019
-November,1,2017
-January,27,2020
-July,16,2019
-September,1,2016
-February,11,2019
-August,15,2017
-October,1,2019
-September,27,2018
-March,1,2018
-October,1,2017
-March,23,2017
-February,6,2018
-October,1,2019
-July,1,2018
-January,1,2020
-December,21,2018
-December,8,2018
-January,15,2020
-January,22,2018
-October,23,2017
-August,1,2019
-September,25,2017
-September,1,2017
-July,1,2019
-February,1,2019
-January,1,2020
-September,1,2020
-January,1,2020
-November,1,2016
-March,1,2019
-August,16,2018
-December,3,2019
-May,1,2018
-March,29,2019
-November,20,2019
-June,5,2019
-July,1,2017
-October,1,2017
-January,1,2020
-June,22,2017
-January,1,2019
-January,1,2019
-June,1,2017
-March,1,2018
-March,1,2018
-November,1,2017
-May,1,2017
-January,1,2018
-October,22,2019
-August,5,2015
-December,6,2018
-November,8,2018
-November,8,2018
-December,1,2016
-December,2,2016
-December,31,2017
-December,19,2017
-July,1,2016
-February,27,2019
-September,1,2019
-November,20,2019
-November,1,2016
-November,20,2019
-October,11,2018
-December,31,2019
-February,15,2018
-March,9,2016
-November,20,2019
-November,1,2019
-January,11,2020
-March,2,2019
+date_added,no_date
+"September 24, 2021",0
+"September 23, 2021",1
+"September 21, 2021",2
+"September 20, 2021",3
+"September 19, 2021",4
+"September 16, 2021",5
+"September 15, 2021",6
+"September 14, 2021",7
+"September 10, 2021",8
+"September 9, 2021",9
+"September 8, 2021",10
+"September 7, 2021",11
+"September 5, 2021",12
+"September 4, 2021",13
+"September 2, 2021",14
+"September 1, 2021",15
+"August 31, 2021",16
+"August 28, 2021",17
+"August 27, 2021",18
+"August 25, 2021",19
+"August 20, 2021",20
+"August 19, 2021",21
+"August 18, 2021",22
+"August 16, 2021",23
+"August 15, 2021",24
+"August 13, 2021",25
+"August 12, 2021",26
+"August 11, 2021",27
+"August 8, 2021",28
+"August 7, 2021",29
+"August 6, 2021",30
+"August 5, 2021",31
+"August 4, 2021",32
+"August 3, 2021",33
+"August 1, 2021",34
+"July 30, 2021",35
+"July 29, 2021",36
+"July 28, 2021",37
+"July 27, 2021",38
+"July 24, 2021",39
+"July 23, 2021",40
+"July 22, 2021",41
+"July 21, 2021",42
+"July 20, 2021",43
+"July 19, 2021",44
+"July 17, 2021",45
+"July 16, 2021",46
+"July 15, 2021",47
+"July 14, 2021",48
+"July 13, 2021",49
+"July 10, 2021",50
+"July 9, 2021",51
+"July 8, 2021",52
+"July 7, 2021",53
+"July 6, 2021",54
+"July 2, 2021",55
+"July 1, 2021",56
+"June 30, 2021",57
+"June 28, 2021",58
+"June 26, 2021",59
+"June 25, 2021",60
+"June 24, 2021",61
+"June 22, 2021",62
+"June 21, 2021",63
+"June 19, 2021",64
+"June 18, 2021",65
+"June 17, 2021",66
+"June 16, 2021",67
+"June 15, 2021",68
+"June 13, 2021",69
+"June 11, 2021",70
+"June 10, 2021",71
+"June 9, 2021",72
+"June 7, 2021",73
+"June 5, 2021",74
+"June 4, 2021",75
+"June 3, 2021",76
+"June 2, 2021",77
+"May 30, 2021",78
+"May 28, 2021",79
+"May 27, 2021",80
+"May 26, 2021",81
+"May 25, 2021",82
+"May 21, 2021",83
+"May 20, 2021",84
+"May 19, 2021",85
+"May 18, 2021",86
+"May 16, 2021",87
+"May 15, 2021",88
+"May 14, 2021",89
+"May 13, 2021",90
+"May 12, 2021",91
+"May 11, 2021",92
+"May 10, 2021",93
+"May 9, 2021",94
+"May 8, 2021",95
+"May 7, 2021",96
+"May 6, 2021",97
+"May 5, 2021",98
+"May 4, 2021",99
+"May 1, 2021",100
+"April 30, 2021",101
+"April 28, 2021",102
+"April 27, 2021",103
+"April 24, 2021",104
+"April 23, 2021",105
+"April 22, 2021",106
+"April 21, 2021",107
+"April 19, 2021",108
+"April 17, 2021",109
+"April 16, 2021",110
+"April 15, 2021",111
+"April 14, 2021",112
+"April 12, 2021",113
+"April 10, 2021",114
+"April 9, 2021",115
+"April 8, 2021",116
+"April 5, 2021",117
+"April 4, 2021",118
+"April 3, 2021",119
+"April 2, 2021",120
+"April 1, 2021",121
+"March 31, 2021",122
+"March 30, 2021",123
+"March 29, 2021",124
+"March 28, 2021",125
+"March 26, 2021",126
+"March 25, 2021",127
+"March 23, 2021",128
+"March 22, 2021",129
+"March 20, 2021",130
+"March 19, 2021",131
+"March 18, 2021",132
+"March 17, 2021",133
+"March 16, 2021",134
+"March 15, 2021",135
+"March 12, 2021",136
+"March 11, 2021",137
+"March 10, 2021",138
+"March 8, 2021",139
+"March 5, 2021",140
+"March 4, 2021",141
+"March 3, 2021",142
+"March 2, 2021",143
+"March 1, 2021",144
+"February 26, 2021",145
+"February 25, 2021",146
+"February 24, 2021",147
+"February 23, 2021",148
+"February 21, 2021",149
+"February 20, 2021",150
+"February 19, 2021",151
+"February 18, 2021",152
+"February 16, 2021",153
+"February 15, 2021",154
+"February 14, 2021",155
+"February 13, 2021",156
+"February 12, 2021",157
+"February 11, 2021",158
+"February 10, 2021",159
+"February 8, 2021",160
+"February 7, 2021",161
+"February 5, 2021",162
+"February 3, 2021",163
+"February 2, 2021",164
+"February 1, 2021",165
+"January 31, 2021",166
+"January 29, 2021",167
+"January 28, 2021",168
+"January 27, 2021",169
+"January 26, 2021",170
+"January 22, 2021",171
+"January 21, 2021",172
+"January 20, 2021",173
+"January 18, 2021",174
+"January 16, 2021",175
+"January 15, 2021",176
+"January 14, 2021",177
+"January 13, 2021",178
+"January 12, 2021",179
+"January 11, 2021",180
+"January 8, 2021",181
+"January 7, 2021",182
+"January 6, 2021",183
+"January 4, 2021",184
+"January 3, 2021",185
+"January 2, 2021",186
+"January 1, 2021",187
+"December 31, 2020",188
+"December 30, 2020",189
+"December 28, 2020",190
+"December 27, 2020",191
+"December 26, 2020",192
+"December 25, 2020",193
+"December 24, 2020",194
+"December 23, 2020",195
+"December 22, 2020",196
+"December 21, 2020",197
+"December 20, 2020",198
+"December 19, 2020",199
+"December 18, 2020",200
+"December 17, 2020",201
+"December 16, 2020",202
+"December 15, 2020",203
+"December 14, 2020",204
+"December 11, 2020",205
+"December 10, 2020",206
+"December 9, 2020",207
+"December 8, 2020",208
+"December 7, 2020",209
+"December 5, 2020",210
+"December 4, 2020",211
+"December 3, 2020",212
+"December 2, 2020",213
+"December 1, 2020",214
+"November 30, 2020",215
+"November 27, 2020",216
+"November 26, 2020",217
+"November 25, 2020",218
+"November 24, 2020",219
+"November 23, 2020",220
+"November 22, 2020",221
+"November 20, 2020",222
+"November 19, 2020",223
+"November 17, 2020",224
+"November 16, 2020",225
+"November 15, 2020",226
+"November 14, 2020",227
+"November 13, 2020",228
+"November 12, 2020",229
+"November 11, 2020",230
+"November 6, 2020",231
+"November 5, 2020",232
+"November 4, 2020",233
+"November 3, 2020",234
+"November 2, 2020",235
+"November 1, 2020",236
+"October 31, 2020",237
+"October 30, 2020",238
+"October 29, 2020",239
+"October 28, 2020",240
+"October 27, 2020",241
+"October 26, 2020",242
+"October 25, 2020",243
+"October 24, 2020",244
+"October 23, 2020",245
+"October 22, 2020",246
+"October 21, 2020",247
+"October 20, 2020",248
+"October 19, 2020",249
+"October 18, 2020",250
+"October 17, 2020",251
+"October 16, 2020",252
+"October 15, 2020",253
+"October 14, 2020",254
+"October 13, 2020",255
+"October 12, 2020",256
+"October 11, 2020",257
+"October 9, 2020",258
+"October 8, 2020",259
+"October 7, 2020",260
+"October 6, 2020",261
+"October 4, 2020",262
+"October 3, 2020",263
+"October 2, 2020",264
+"October 1, 2020",265
+"September 30, 2020",266
+"September 29, 2020",267
+"September 28, 2020",268
+"September 26, 2020",269
+"September 24, 2020",270
+"September 23, 2020",271
+"September 22, 2020",272
+"September 20, 2020",273
+"September 19, 2020",274
+"September 18, 2020",275
+"September 17, 2020",276
+"September 16, 2020",277
+"September 15, 2020",278
+"September 14, 2020",279
+"September 11, 2020",280
+"September 10, 2020",281
+"September 9, 2020",282
+"September 8, 2020",283
+"September 7, 2020",284
+"September 5, 2020",285
+"September 4, 2020",286
+"September 3, 2020",287
+"September 2, 2020",288
+"September 1, 2020",289
+"August 31, 2020",290
+"August 29, 2020",291
+"August 28, 2020",292
+"August 27, 2020",293
+"August 26, 2020",294
+"August 24, 2020",295
+"August 21, 2020",296
+"August 20, 2020",297
+"August 18, 2020",298
+"August 17, 2020",299
+"August 16, 2020",300
+"August 15, 2020",301
+"August 14, 2020",302
+"August 13, 2020",303
+"August 12, 2020",304
+"August 11, 2020",305
+"August 10, 2020",306
+"August 8, 2020",307
+"August 7, 2020",308
+"August 6, 2020",309
+"August 5, 2020",310
+"August 4, 2020",311
+"August 2, 2020",312
+"August 1, 2020",313
+"July 31, 2020",314
+"July 30, 2020",315
+"July 29, 2020",316
+"July 26, 2020",317
+"July 25, 2020",318
+"July 24, 2020",319
+"July 23, 2020",320
+"July 21, 2020",321
+"July 18, 2020",322
+"July 17, 2020",323
+"July 16, 2020",324
+"July 15, 2020",325
+"July 14, 2020",326
+"July 11, 2020",327
+"July 10, 2020",328
+"July 8, 2020",329
+"July 7, 2020",330
+"July 6, 2020",331
+"July 5, 2020",332
+"July 3, 2020",333
+"July 2, 2020",334
+"July 1, 2020",335
+"June 30, 2020",336
+"June 28, 2020",337
+"June 27, 2020",338
+"June 26, 2020",339
+"June 25, 2020",340
+"June 24, 2020",341
+"June 23, 2020",342
+"June 22, 2020",343
+"June 21, 2020",344
+"June 20, 2020",345
+"June 19, 2020",346
+"June 18, 2020",347
+"June 17, 2020",348
+"June 16, 2020",349
+"June 15, 2020",350
+"June 13, 2020",351
+"June 12, 2020",352
+"June 11, 2020",353
+"June 10, 2020",354
+"June 8, 2020",355
+"June 7, 2020",356
+"June 6, 2020",357
+"June 5, 2020",358
+"June 4, 2020",359
+"June 3, 2020",360
+"June 2, 2020",361
+"June 1, 2020",362
+"May 31, 2020",363
+"May 29, 2020",364
+"May 28, 2020",365
+"May 27, 2020",366
+"May 26, 2020",367
+"May 25, 2020",368
+"May 23, 2020",369
+"May 22, 2020",370
+"May 21, 2020",371
+"May 20, 2020",372
+"May 19, 2020",373
+"May 18, 2020",374
+"May 17, 2020",375
+"May 15, 2020",376
+"May 14, 2020",377
+"May 13, 2020",378
+"May 12, 2020",379
+"May 11, 2020",380
+"May 9, 2020",381
+"May 8, 2020",382
+"May 7, 2020",383
+"May 6, 2020",384
+"May 5, 2020",385
+"May 4, 2020",386
+"May 3, 2020",387
+"May 2, 2020",388
+"May 1, 2020",389
+"April 30, 2020",390
+"April 29, 2020",391
+"April 28, 2020",392
+"April 27, 2020",393
+"April 25, 2020",394
+"April 24, 2020",395
+"April 23, 2020",396
+"April 22, 2020",397
+"April 21, 2020",398
+"April 20, 2020",399
+"April 17, 2020",400
+"April 16, 2020",401
+"April 15, 2020",402
+"April 14, 2020",403
+"April 13, 2020",404
+"April 11, 2020",405
+"April 10, 2020",406
+"April 8, 2020",407
+"April 7, 2020",408
+"April 6, 2020",409
+"April 5, 2020",410
+"April 4, 2020",411
+"April 3, 2020",412
+"April 2, 2020",413
+"April 1, 2020",414
+"March 31, 2020",415
+"March 29, 2020",416
+"March 28, 2020",417
+"March 27, 2020",418
+"March 26, 2020",419
+"March 25, 2020",420
+"March 24, 2020",421
+"March 20, 2020",422
+"March 19, 2020",423
+"March 18, 2020",424
+"March 17, 2020",425
+"March 16, 2020",426
+"March 15, 2020",427
+"March 14, 2020",428
+"March 13, 2020",429
+"March 10, 2020",430
+"March 6, 2020",431
+"March 5, 2020",432
+"March 4, 2020",433
+"March 3, 2020",434
+"March 2, 2020",435
+"March 1, 2020",436
+"February 28, 2020",437
+"February 27, 2020",438
+"February 26, 2020",439
+"February 25, 2020",440
+"February 23, 2020",441
+"February 22, 2020",442
+"February 21, 2020",443
+"February 20, 2020",444
+"February 16, 2020",445
+"February 14, 2020",446
+"February 13, 2020",447
+"February 12, 2020",448
+"February 11, 2020",449
+"February 10, 2020",450
+"February 9, 2020",451
+"February 8, 2020",452
+"February 7, 2020",453
+"February 6, 2020",454
+"February 5, 2020",455
+"February 4, 2020",456
+"February 3, 2020",457
+"February 1, 2020",458
+"January 31, 2020",459
+"January 30, 2020",460
+"January 29, 2020",461
+"January 27, 2020",462
+"January 26, 2020",463
+"January 25, 2020",464
+"January 24, 2020",465
+"January 23, 2020",466
+"January 22, 2020",467
+"January 21, 2020",468
+"January 20, 2020",469
+"January 18, 2020",470
+"January 17, 2020",471
+"January 16, 2020",472
+"January 15, 2020",473
+"January 14, 2020",474
+"January 12, 2020",475
+"January 10, 2020",476
+"January 9, 2020",477
+"January 7, 2020",478
+"January 3, 2020",479
+"January 2, 2020",480
+"January 1, 2020",481
+"December 31, 2019",482
+"December 28, 2019",483
+"December 27, 2019",484
+"December 26, 2019",485
+"December 25, 2019",486
+"December 24, 2019",487
+"December 22, 2019",488
+"December 21, 2019",489
+"December 20, 2019",490
+"December 17, 2019",491
+"December 16, 2019",492
+"December 15, 2019",493
+"December 13, 2019",494
+"December 12, 2019",495
+"December 11, 2019",496
+"December 10, 2019",497
+"December 9, 2019",498
+"December 8, 2019",499
+"December 7, 2019",500
+"December 6, 2019",501
+"December 5, 2019",502
+"December 3, 2019",503
+"December 1, 2019",504
+"November 30, 2019",505
+"November 29, 2019",506
+"November 28, 2019",507
+"November 27, 2019",508
+"November 26, 2019",509
+"November 25, 2019",510
+"November 24, 2019",511
+"November 22, 2019",512
+"November 21, 2019",513
+"November 20, 2019",514
+"November 19, 2019",515
+"November 16, 2019",516
+"November 15, 2019",517
+"November 14, 2019",518
+"November 12, 2019",519
+"November 11, 2019",520
+"November 8, 2019",521
+"November 7, 2019",522
+"November 6, 2019",523
+"November 5, 2019",524
+"November 4, 2019",525
+"November 2, 2019",526
+"November 1, 2019",527
+"October 31, 2019",528
+"October 30, 2019",529
+"October 29, 2019",530
+"October 28, 2019",531
+"October 25, 2019",532
+"October 24, 2019",533
+"October 23, 2019",534
+"October 22, 2019",535
+"October 21, 2019",536
+"October 19, 2019",537
+"October 18, 2019",538
+"October 16, 2019",539
+"October 15, 2019",540
+"October 14, 2019",541
+"October 13, 2019",542
+"October 11, 2019",543
+"October 9, 2019",544
+"October 8, 2019",545
+"October 6, 2019",546
+"October 5, 2019",547
+"October 4, 2019",548
+"October 2, 2019",549
+"October 1, 2019",550
+"September 30, 2019",551
+"September 28, 2019",552
+"September 27, 2019",553
+"September 26, 2019",554
+"September 24, 2019",555
+"September 23, 2019",556
+"September 22, 2019",557
+"September 20, 2019",558
+"September 19, 2019",559
+"September 17, 2019",560
+"September 15, 2019",561
+"September 14, 2019",562
+"September 13, 2019",563
+"September 10, 2019",564
+"September 6, 2019",565
+"September 4, 2019",566
+"September 1, 2019",567
+"August 30, 2019",568
+"August 29, 2019",569
+"August 28, 2019",570
+"August 26, 2019",571
+"August 24, 2019",572
+"August 23, 2019",573
+"August 21, 2019",574
+"August 20, 2019",575
+"August 16, 2019",576
+"August 15, 2019",577
+"August 14, 2019",578
+"August 13, 2019",579
+"August 9, 2019",580
+"August 8, 2019",581
+"August 7, 2019",582
+"August 6, 2019",583
+"August 5, 2019",584
+"August 3, 2019",585
+"August 2, 2019",586
+"August 1, 2019",587
+"July 31, 2019",588
+"July 26, 2019",589
+"July 21, 2019",590
+"July 19, 2019",591
+"July 18, 2019",592
+"July 17, 2019",593
+"July 16, 2019",594
+"July 12, 2019",595
+"July 9, 2019",596
+"July 1, 2019",597
+"June 30, 2019",598
+"June 29, 2019",599
+"June 28, 2019",600
+"June 27, 2019",601
+"June 26, 2019",602
+"June 25, 2019",603
+"June 22, 2019",604
+"June 21, 2019",605
+"June 20, 2019",606
+"June 19, 2019",607
+"June 18, 2019",608
+"June 16, 2019",609
+"June 15, 2019",610
+"June 14, 2019",611
+"June 13, 2019",612
+"June 12, 2019",613
+"June 7, 2019",614
+"June 6, 2019",615
+"June 5, 2019",616
+"June 4, 2019",617
+"June 2, 2019",618
+"June 1, 2019",619
+"May 31, 2019",620
+"May 30, 2019",621
+"May 24, 2019",622
+"May 22, 2019",623
+"May 21, 2019",624
+"May 17, 2019",625
+"May 16, 2019",626
+"May 15, 2019",627
+"May 14, 2019",628
+"May 13, 2019",629
+"May 12, 2019",630
+"May 11, 2019",631
+"May 10, 2019",632
+"May 9, 2019",633
+"May 6, 2019",634
+"May 3, 2019",635
+"May 2, 2019",636
+"May 1, 2019",637
+"April 30, 2019",638
+"April 29, 2019",639
+"April 26, 2019",640
+"April 20, 2019",641
+"April 19, 2019",642
+"April 17, 2019",643
+"April 16, 2019",644
+"April 15, 2019",645
+"April 14, 2019",646
+"April 13, 2019",647
+"April 12, 2019",648
+"April 11, 2019",649
+"April 10, 2019",650
+"April 8, 2019",651
+"April 5, 2019",652
+"April 3, 2019",653
+"April 2, 2019",654
+"April 1, 2019",655
+"March 31, 2019",656
+"March 29, 2019",657
+"March 27, 2019",658
+"March 26, 2019",659
+"March 25, 2019",660
+"March 24, 2019",661
+"March 23, 2019",662
+"March 22, 2019",663
+"March 21, 2019",664
+"March 20, 2019",665
+"March 19, 2019",666
+"March 17, 2019",667
+"March 15, 2019",668
+"March 14, 2019",669
+"March 13, 2019",670
+"March 8, 2019",671
+"March 7, 2019",672
+"March 5, 2019",673
+"March 4, 2019",674
+"March 2, 2019",675
+"March 1, 2019",676
+"February 28, 2019",677
+"February 27, 2019",678
+"February 26, 2019",679
+"February 25, 2019",680
+"February 23, 2019",681
+"February 22, 2019",682
+"February 21, 2019",683
+"February 20, 2019",684
+"February 17, 2019",685
+"February 16, 2019",686
+"February 15, 2019",687
+"February 14, 2019",688
+"February 8, 2019",689
+"February 5, 2019",690
+"February 2, 2019",691
+"February 1, 2019",692
+"January 31, 2019",693
+"January 30, 2019",694
+"January 29, 2019",695
+"January 28, 2019",696
+"January 26, 2019",697
+"January 25, 2019",698
+"January 24, 2019",699
+"January 23, 2019",700
+"January 18, 2019",701
+"January 15, 2019",702
+"January 13, 2019",703
+"January 11, 2019",704
+"January 9, 2019",705
+"January 7, 2019",706
+"January 5, 2019",707
+"January 4, 2019",708
+"January 2, 2019",709
+"January 1, 2019",710
+"December 31, 2018",711
+"December 28, 2018",712
+"December 23, 2018",713
+"December 21, 2018",714
+"December 20, 2018",715
+"December 19, 2018",716
+"December 18, 2018",717
+"December 17, 2018",718
+"December 16, 2018",719
+"December 15, 2018",720
+"December 14, 2018",721
+"December 11, 2018",722
+"December 7, 2018",723
+"December 2, 2018",724
+"December 1, 2018",725
+"November 30, 2018",726
+"November 25, 2018",727
+"November 22, 2018",728
+"November 21, 2018",729
+"November 20, 2018",730
+"November 18, 2018",731
+"November 16, 2018",732
+"November 15, 2018",733
+"November 13, 2018",734
+"November 9, 2018",735
+"November 5, 2018",736
+"November 2, 2018",737
+"November 1, 2018",738
+"October 31, 2018",739
+"October 27, 2018",740
+"October 26, 2018",741
+"October 25, 2018",742
+"October 23, 2018",743
+"October 20, 2018",744
+"October 19, 2018",745
+"October 18, 2018",746
+"October 16, 2018",747
+"October 15, 2018",748
+"October 13, 2018",749
+"October 12, 2018",750
+"October 10, 2018",751
+"October 9, 2018",752
+"October 8, 2018",753
+"October 6, 2018",754
+"October 5, 2018",755
+"October 3, 2018",756
+"October 2, 2018",757
+"October 1, 2018",758
+"September 30, 2018",759
+"September 29, 2018",760
+"September 28, 2018",761
+"September 22, 2018",762
+"September 21, 2018",763
+"September 14, 2018",764
+"September 12, 2018",765
+"September 11, 2018",766
+"September 7, 2018",767
+"September 6, 2018",768
+"September 3, 2018",769
+"September 1, 2018",770
+"August 31, 2018",771
+"August 28, 2018",772
+"August 25, 2018",773
+"August 24, 2018",774
+"August 21, 2018",775
+"August 17, 2018",776
+"August 16, 2018",777
+"August 15, 2018",778
+"August 10, 2018",779
+"August 9, 2018",780
+"August 4, 2018",781
+"August 3, 2018",782
+"August 2, 2018",783
+"August 1, 2018",784
+"July 28, 2018",785
+"July 27, 2018",786
+"July 25, 2018",787
+"July 24, 2018",788
+"July 20, 2018",789
+"July 18, 2018",790
+"July 15, 2018",791
+"July 13, 2018",792
+"July 8, 2018",793
+"July 6, 2018",794
+"July 4, 2018",795
+"July 3, 2018",796
+"July 2, 2018",797
+"July 1, 2018",798
+"June 30, 2018",799
+"June 29, 2018",800
+"June 26, 2018",801
+"June 25, 2018",802
+"June 24, 2018",803
+"June 22, 2018",804
+"June 19, 2018",805
+"June 15, 2018",806
+"June 8, 2018",807
+"June 1, 2018",808
+"May 26, 2018",809
+"May 25, 2018",810
+"May 22, 2018",811
+"May 18, 2018",812
+"May 17, 2018",813
+"May 15, 2018",814
+"May 13, 2018",815
+"May 12, 2018",816
+"May 11, 2018",817
+"May 8, 2018",818
+"May 7, 2018",819
+"May 5, 2018",820
+"May 4, 2018",821
+"May 3, 2018",822
+"May 2, 2018",823
+"May 1, 2018",824
+"April 30, 2018",825
+"April 27, 2018",826
+"April 26, 2018",827
+"April 25, 2018",828
+"April 24, 2018",829
+"April 20, 2018",830
+"April 19, 2018",831
+"April 15, 2018",832
+"April 13, 2018",833
+"April 12, 2018",834
+"April 10, 2018",835
+"April 6, 2018",836
+"April 5, 2018",837
+"April 3, 2018",838
+"April 1, 2018",839
+"March 31, 2018",840
+"March 30, 2018",841
+"March 27, 2018",842
+"March 26, 2018",843
+"March 23, 2018",844
+"March 16, 2018",845
+"March 15, 2018",846
+"March 14, 2018",847
+"March 13, 2018",848
+"March 9, 2018",849
+"March 7, 2018",850
+"March 6, 2018",851
+"March 2, 2018",852
+"March 1, 2018",853
+"February 28, 2018",854
+"February 27, 2018",855
+"February 25, 2018",856
+"February 23, 2018",857
+"February 21, 2018",858
+"February 19, 2018",859
+"February 16, 2018",860
+"February 14, 2018",861
+"February 9, 2018",862
+"February 5, 2018",863
+"February 2, 2018",864
+"February 1, 2018",865
+"January 31, 2018",866
+"January 30, 2018",867
+"January 29, 2018",868
+"January 26, 2018",869
+"January 25, 2018",870
+"January 24, 2018",871
+"January 23, 2018",872
+"January 19, 2018",873
+"January 18, 2018",874
+"January 17, 2018",875
+"January 15, 2018",876
+"January 12, 2018",877
+"January 9, 2018",878
+"January 5, 2018",879
+"January 2, 2018",880
+"January 1, 2018",881
+"December 31, 2017",882
+"December 30, 2017",883
+"December 29, 2017",884
+"December 27, 2017",885
+"December 26, 2017",886
+"December 23, 2017",887
+"December 22, 2017",888
+"December 21, 2017",889
+"December 20, 2017",890
+"December 19, 2017",891
+"December 15, 2017",892
+"December 12, 2017",893
+"December 8, 2017",894
+"December 6, 2017",895
+"December 5, 2017",896
+"December 2, 2017",897
+"December 1, 2017",898
+"November 27, 2017",899
+"November 24, 2017",900
+"November 22, 2017",901
+"November 21, 2017",902
+"November 17, 2017",903
+"November 14, 2017",904
+"November 11, 2017",905
+"November 10, 2017",906
+"November 7, 2017",907
+"November 5, 2017",908
+"November 1, 2017",909
+"October 31, 2017",910
+"October 30, 2017",911
+"October 28, 2017",912
+"October 27, 2017",913
+"October 26, 2017",914
+"October 25, 2017",915
+"October 24, 2017",916
+"October 20, 2017",917
+"October 19, 2017",918
+"October 17, 2017",919
+"October 16, 2017",920
+"October 15, 2017",921
+"October 13, 2017",922
+"October 12, 2017",923
+"October 10, 2017",924
+"October 3, 2017",925
+"October 1, 2017",926
+"September 29, 2017",927
+"September 27, 2017",928
+"September 26, 2017",929
+"September 24, 2017",930
+"September 22, 2017",931
+"September 19, 2017",932
+"September 18, 2017",933
+"September 15, 2017",934
+"September 13, 2017",935
+"September 12, 2017",936
+"September 8, 2017",937
+"September 5, 2017",938
+"September 1, 2017",939
+"August 29, 2017",940
+"August 26, 2017",941
+"August 25, 2017",942
+"August 22, 2017",943
+"August 18, 2017",944
+"August 15, 2017",945
+"August 14, 2017",946
+"August 12, 2017",947
+"August 11, 2017",948
+"August 10, 2017",949
+"August 7, 2017",950
+"August 6, 2017",951
+"August 5, 2017",952
+"August 4, 2017",953
+"August 3, 2017",954
+"August 1, 2017",955
+"July 28, 2017",956
+"July 25, 2017",957
+"July 18, 2017",958
+"July 17, 2017",959
+"July 15, 2017",960
+"July 14, 2017",961
+"July 13, 2017",962
+"July 7, 2017",963
+"July 1, 2017",964
+"June 28, 2017",965
+"June 27, 2017",966
+"June 26, 2017",967
+"June 23, 2017",968
+"June 21, 2017",969
+"June 20, 2017",970
+"June 16, 2017",971
+"June 15, 2017",972
+"June 13, 2017",973
+"June 10, 2017",974
+"June 9, 2017",975
+"June 5, 2017",976
+"June 3, 2017",977
+"June 2, 2017",978
+"June 1, 2017",979
+"May 30, 2017",980
+"May 29, 2017",981
+"May 26, 2017",982
+"May 23, 2017",983
+"May 19, 2017",984
+"May 16, 2017",985
+"May 15, 2017",986
+"May 13, 2017",987
+"May 12, 2017",988
+"May 9, 2017",989
+"May 5, 2017",990
+"May 2, 2017",991
+"May 1, 2017",992
+"April 28, 2017",993
+"April 25, 2017",994
+"April 21, 2017",995
+"April 18, 2017",996
+"April 15, 2017",997
+"April 14, 2017",998
+"April 12, 2017",999
+"April 11, 2017",1000
+"April 10, 2017",1001
+"April 7, 2017",1002
+"April 1, 2017",1003
+"March 31, 2017",1004
+"March 28, 2017",1005
+"March 24, 2017",1006
+"March 21, 2017",1007
+"March 18, 2017",1008
+"March 17, 2017",1009
+"March 16, 2017",1010
+"March 15, 2017",1011
+"March 14, 2017",1012
+"March 10, 2017",1013
+"March 7, 2017",1014
+"March 1, 2017",1015
+"February 28, 2017",1016
+"February 27, 2017",1017
+"February 26, 2017",1018
+"February 25, 2017",1019
+"February 24, 2017",1020
+"February 21, 2017",1021
+"February 19, 2017",1022
+"February 17, 2017",1023
+"February 15, 2017",1024
+"February 14, 2017",1025
+"February 10, 2017",1026
+"February 7, 2017",1027
+"February 3, 2017",1028
+"February 1, 2017",1029
+"January 31, 2017",1030
+"January 29, 2017",1031
+"January 27, 2017",1032
+"January 25, 2017",1033
+"January 24, 2017",1034
+"January 23, 2017",1035
+"January 20, 2017",1036
+"January 17, 2017",1037
+"January 15, 2017",1038
+"January 13, 2017",1039
+"January 12, 2017",1040
+"January 10, 2017",1041
+"January 7, 2017",1042
+"January 6, 2017",1043
+"January 5, 2017",1044
+"January 4, 2017",1045
+"January 3, 2017",1046
+"January 1, 2017",1047
+"December 31, 2016",1048
+"December 23, 2016",1049
+"December 20, 2016",1050
+"December 16, 2016",1051
+"December 15, 2016",1052
+"December 12, 2016",1053
+"December 11, 2016",1054
+"December 9, 2016",1055
+"December 8, 2016",1056
+"December 6, 2016",1057
+"December 4, 2016",1058
+"December 2, 2016",1059
+"December 1, 2016",1060
+"November 25, 2016",1061
+"November 22, 2016",1062
+"November 21, 2016",1063
+"November 19, 2016",1064
+"November 18, 2016",1065
+"November 15, 2016",1066
+"November 11, 2016",1067
+"November 10, 2016",1068
+"November 4, 2016",1069
+"November 1, 2016",1070
+"October 29, 2016",1071
+"October 28, 2016",1072
+"October 27, 2016",1073
+"October 21, 2016",1074
+"October 15, 2016",1075
+"October 14, 2016",1076
+"October 13, 2016",1077
+"October 12, 2016",1078
+"October 7, 2016",1079
+"October 4, 2016",1080
+"October 1, 2016",1081
+"September 23, 2016",1082
+"September 16, 2016",1083
+"September 15, 2016",1084
+"August 26, 2016",1085
+"August 19, 2016",1086
+"August 11, 2016",1087
+"August 5, 2016",1088
+"August 2, 2016",1089
+"August 1, 2016",1090
+"July 29, 2016",1091
+"July 15, 2016",1092
+"July 14, 2016",1093
+"July 6, 2016",1094
+"July 4, 2016",1095
+"July 1, 2016",1096
+"June 24, 2016",1097
+"June 18, 2016",1098
+"June 3, 2016",1099
+"May 27, 2016",1100
+"May 6, 2016",1101
+"April 29, 2016",1102
+"April 15, 2016",1103
+"April 8, 2016",1104
+"March 25, 2016",1105
+"March 18, 2016",1106
+"February 26, 2016",1107
+"February 24, 2016",1108
+"February 5, 2016",1109
+"January 22, 2016",1110
+"January 15, 2016",1111
+"January 8, 2016",1112
+"December 26, 2015",1113
+"December 18, 2015",1114
+"December 11, 2015",1115
+"December 9, 2015",1116
+"December 4, 2015",1117
+"November 18, 2015",1118
+"November 13, 2015",1119
+"October 27, 2015",1120
+"October 25, 2015",1121
+"October 23, 2015",1122
+"October 22, 2015",1123
+"October 16, 2015",1124
+"October 2, 2015",1125
+"September 18, 2015",1126
+"September 15, 2015",1127
+"September 8, 2015",1128
+"August 14, 2015",1129
+"July 17, 2015",1130
+"July 14, 2015",1131
+"July 10, 2015",1132
+"June 29, 2015",1133
+"June 23, 2015",1134
+"June 1, 2015",1135
+"May 22, 2015",1136
+"April 17, 2015",1137
+"March 6, 2015",1138
+"February 27, 2015",1139
+"December 5, 2014",1140
+"November 14, 2014",1141
+"October 21, 2014",1142
+"October 10, 2014",1143
+"August 15, 2014",1144
+"July 11, 2014",1145
+"January 24, 2014",1146
+"January 17, 2014",1147
+"December 29, 2013",1148
+"December 12, 2013",1149
+"November 1, 2013",1150
+"February 21, 2012",1151
+"October 1, 2011",1152
+"September 27, 2011",1153
+"May 17, 2011",1154
+"November 18, 2009",1155
+"May 5, 2009",1156
+"January 1, 2008",1157
+"November 16, 2017",1158
+"September 15, 2018",1159
+"August 13, 2016",1160
+"August 23, 2020",1161
+"April 7, 2018",1162
+"August 28, 2017",1163
+"April 18, 2019",1164
+"May 5, 2016",1165
+"February 8, 2018",1166
+"July 30, 2019",1167
+"October 16, 2016",1168
+"November 15, 2017",1169
+"July 22, 2018",1170
+"September 1, 2016",1171
+"March 16, 2019",1172
+"January 16, 2018",1173
+"September 25, 2018",1174
+"April 4, 2018",1175
+"October 22, 2017",1176
+" August 4, 2017",1177
+"February 18, 2016",1178
+"August 25, 2016",1179
+"August 18, 2018",1180
+"March 18, 2019",1181
+"April 19, 2017",1182
+"April 27, 2019",1183
+"July 26, 2018",1184
+"December 30, 2018",1185
+"March 9, 2019",1186
+"September 16, 2018",1187
+"February 15, 2018",1188
+"December 14, 2016",1189
+"December 27, 2018",1190
+"September 5, 2018",1191
+"May 15, 2016",1192
+"August 19, 2018",1193
+"January 19, 2019",1194
+"December 25, 2018",1195
+"June 7, 2018",1196
+"March 30, 2017",1197
+"March 11, 2018",1198
+"August 21, 2017",1199
+"December 8, 2018",1200
+"January 12, 2019",1201
+"August 15, 2016",1202
+"June 8, 2019",1203
+"June 28, 2018",1204
+"September 2, 2017",1205
+"September 4, 2018",1206
+"August 9, 2017",1207
+"August 30, 2020",1208
+"February 8, 2017",1209
+"March 1, 2016",1210
+"July 5, 2018",1211
+"December 17, 2015",1212
+"June 22, 2017",1213
+"May 31, 2018",1214
+"June 29, 2020",1215
+"February 17, 2018",1216
+"December 5, 2018",1217
+"November 28, 2018",1218
+"June 24, 2017",1219
+"September 7, 2017",1220
+"August 20, 2017",1221
+"January 14, 2017",1222
+"November 14, 2012",1223
+"November 23, 2019",1224
+"November 13, 2017",1225
+"March 16, 2016",1226
+"September 24, 2018",1227
+"October 7, 2017",1228
+"April 16, 2018",1229
+"July 21, 2017",1230
+"September 18, 2018",1231
+"February 12, 2017",1232
+"July 14, 2018",1233
+"September 18, 2019",1234
+"October 4, 2018",1235
+"March 21, 2018",1236
+"August 17, 2017",1237
+"March 31, 2016",1238
+"June 14, 2018",1239
+"March 2, 2017",1240
+"January 11, 2018",1241
+"May 5, 2019",1242
+"August 8, 2017",1243
+"May 25, 2017",1244
+"February 6, 2019",1245
+"December 3, 2016",1246
+"February 4, 2018",1247
+"August 23, 2018",1248
+"September 6, 2016",1249
+"January 18, 2017",1250
+"December 9, 2018",1251
+"October 28, 2018",1252
+"March 3, 2019",1253
+"March 5, 2018",1254
+" March 31, 2018",1255
+"August 23, 2017",1256
+"December 28, 2015",1257
+"December 21, 2016",1258
+"October 11, 2018",1259
+"April 24, 2019",1260
+"January 16, 2017",1261
+"July 31, 2018",1262
+"February 4, 2016",1263
+"April 18, 2018",1264
+"January 28, 2016",1265
+"September 25, 2019",1266
+"December 10, 2018",1267
+"December 12, 2014",1268
+"February 24, 2019",1269
+"February 9, 2019",1270
+"October 22, 2018",1271
+"December 16, 2017",1272
+"December 4, 2018",1273
+"July 12, 2017",1274
+"January 19, 2017",1275
+"April 2, 2017",1276
+"April 25, 2019",1277
+"November 12, 2018",1278
+"March 7, 2016",1279
+"September 6, 2017",1280
+"July 29, 2018",1281
+"August 19, 2017",1282
+"July 30, 2018",1283
+"November 3, 2018",1284
+"November 8, 2018",1285
+"August 13, 2017",1286
+"January 6, 2018",1287
+"July 20, 2017",1288
+"June 23, 2018",1289
+"June 8, 2017",1290
+"December 22, 2018",1291
+"September 16, 2019",1292
+"September 1, 2013",1293
+"March 19, 2018",1294
+"January 10, 2018",1295
+"April 8, 2017",1296
+"August 29, 2018",1297
+"July 22, 2019",1298
+"July 21, 2016",1299
+"November 7, 2018",1300
+"October 12, 2014",1301
+"April 1, 2016",1302
+"March 31, 2013",1303
+"May 19, 2018",1304
+"June 25, 2017",1305
+"July 19, 2018",1306
+"February 22, 2017",1307
+"February 23, 2017",1308
+"October 29, 2018",1309
+"October 31, 2015",1310
+"December 1, 2012",1311
+"October 6, 2017",1312
+"January 8, 2019",1313
+"March 12, 2018",1314
+"March 11, 2020",1315
+"December 26, 2018",1316
+"December 20, 2015",1317
+"February 7, 2019",1318
+"July 21, 2018",1319
+"May 28, 2019",1320
+"February 6, 2016",1321
+"July 25, 2016",1322
+"July 30, 2017",1323
+"November 12, 2017",1324
+"April 9, 2016",1325
+"February 17, 2020",1326
+"July 15, 2019",1327
+"April 20, 2016",1328
+"November 1, 2010",1329
+"September 20, 2018",1330
+"April 16, 2017",1331
+" November 1, 2019",1332
+"February 16, 2014",1333
+"July 17, 2018",1334
+"August 26, 2018",1335
+"July 20, 2019",1336
+"August 27, 2017",1337
+"February 13, 2019",1338
+"September 21, 2019",1339
+"February 16, 2017",1340
+"February 20, 2017",1341
+"September 2, 2015",1342
+"December 19, 2016",1343
+"July 29, 2019",1344
+"March 19, 2016",1345
+"September 29, 2015",1346
+"July 7, 2015",1347
+"July 6, 2017",1348
+"April 9, 2019",1349
+"October 17, 2018",1350
+"October 30, 2018",1351
+"June 12, 2018",1352
+"December 1, 2015",1353
+"December 17, 2014",1354
+"March 10, 2018",1355
+"September 9, 2019",1356
+"April 14, 2018",1357
+"January 3, 2019",1358
+"August 25, 2019",1359
+"November 27, 2018",1360
+"May 1, 2016",1361
+"December 18, 2014",1362
+"March 9, 2017",1363
+"July 13, 2019",1364
+"April 22, 2015",1365
+"February 19, 2019",1366
+"January 1, 2016",1367
+"April 6, 2019",1368
+"June 11, 2019",1369
+"May 26, 2019",1370
+"December 11, 2017",1371
+"March 24, 2018",1372
+"June 13, 2016",1373
+" May 18, 2017",1374
+"May 10, 2015",1375
+"October 14, 2013",1376
+"April 22, 2017",1377
+"July 10, 2017",1378
+"May 19, 2019",1379
+"July 6, 2019",1380
+"December 3, 2018",1381
+"February 14, 2016",1382
+"July 4, 2019",1383
+"January 16, 2019",1384
+"October 2, 2017",1385
+"September 22, 2015",1386
+"December 18, 2017",1387
+"July 22, 2020",1388
+"January 10, 2021",1389
+"June 1, 2016",1390
+"February 11, 2017",1391
+"October 14, 2015",1392
+"July 10, 2016",1393
+"May 24, 2018",1394
+"February 12, 2019",1395
+"May 10, 2017",1396
+"May 18, 2019",1397
+"October 10, 2015",1398
+"February 20, 2018",1399
+"March 23, 2020",1400
+"February 4, 2017",1401
+"May 8, 2016",1402
+"July 23, 2019",1403
+"April 26, 2017",1404
+"August 31, 2017",1405
+"September 19, 2018",1406
+"April 6, 2017",1407
+"September 20, 2016",1408
+"September 11, 2017",1409
+"January 5, 2021",1410
+"December 5, 2016",1411
+"April 18, 2020",1412
+"February 26, 2018",1413
+"September 26, 2018",1414
+"June 19, 2017",1415
+"July 8, 2016",1416
+"July 7, 2019",1417
+"June 2, 2018",1418
+"June 4, 2018",1419
+"January 13, 2020",1420
+"May 26, 2016",1421
+"October 26, 2019",1422
+"September 30, 2017",1423
+"December 15, 2015",1424
+"July 15, 2015",1425
+"June 15, 2014",1426
+"November 18, 2017",1427
+"October 21, 2018",1428
+"June 17, 2017",1429
+"April 9, 2018",1430
+"October 7, 2019",1431
+"March 8, 2017",1432
+"September 17, 2018",1433
+"November 10, 2018",1434
+"October 14, 2017",1435
+"June 5, 2018",1436
+"November 2, 2016",1437
+"May 17, 2015",1438
+"February 2, 2017",1439
+"September 12, 2019",1440
+"July 24, 2017",1441
+"February 11, 2019",1442
+"September 27, 2018",1443
+"March 23, 2017",1444
+"February 6, 2018",1445
+"January 22, 2018",1446
+"October 23, 2017",1447
+"September 25, 2017",1448
+"August 5, 2015",1449
+"December 6, 2018",1450
+"March 9, 2016",1451
+"January 11, 2020",1452
