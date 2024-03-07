@@ -7,6 +7,8 @@ CREATE TABLE IF NOT EXISTS movie(
     title VARCHAR(255) NOT NULL,
     description_film VARCHAR(4095) NOT NULL,
     duration INT NOT NULL,
+    release_date INT NOT NULL,
+    date_added VARCHAR(127)NOT NULL,
 
     PRIMARY KEY (show_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -16,6 +18,8 @@ CREATE TABLE IF NOT EXISTS show(
     title VARCHAR(255) NOT NULL,
     description_film VARCHAR(4095) NOT NULL,
     duration INT NOT NULL,
+    release_date INT NOT NULL,
+    date_added VARCHAR(127)NOT NULL,
 
     PRIMARY KEY (show_id),
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -97,4 +101,4 @@ CREATE TABLE IF NOT EXISTS genresof(
     FOREIGN KEY (genre_id) REFERENCES genre(genre_id)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-"Loading to database here after the creating il manque pour les dates"
+"Loading to database here after the creating "
