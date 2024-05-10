@@ -1,0 +1,139 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ntf: <http://ontology.netflix.org/show#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+<#PersonMapping>
+    a rr:TriplesMap ;
+    rr:logicalTable [
+        rr:sqlQuery "SELECT s.title as show_name, a.person_id, p.firstname from acted_in a join person p on p.person_id = a.person_id join show s on s.show_id = a.show_id;"
+    ] ;
+    rr:subjectMap [
+        rr:template "http://ontology.netflix.org/show#/{person_id}" ;
+        rr:class ntf:Person;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate ntf:name ;
+        rr:objectMap [ rr:column "show_name" ];
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate ntf:name ;
+        rr:objectMap [ rr:column "firstname" ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate ntf:participatedIn;
+        rr:objectMap [ 
+            rr:parentTriplesMap <#ShowMapping>;
+            rr:joinCondition [
+                rr:child "show_name" ;
+                rr:parent "name" 
+            ];   
+        ] 
+    ]; 
+.
+<#ShowMapping>
+    a rr:TriplesMap ;
+    rr:logicalTable [
+        rr:sqlQuery "select s.show_id, s.title as name, g.genre_name as genre_name_of,c.country_name as country_name_of, s.duration,s.release_date as release_year, s.date_added as addition_date, r.rating_name as rating from show s join rated rr on s.show_id = rr.show_id join rating r on rr.rating_id = r.rating_id join genresof gg on s.show_id = gg.show_id join genre g on gg.genre_id = g.genre_id join filmed_in f on s.show_id = f.show_id join country c on c.country_id = f.country_id ;"
+    ] ;
+    rr:subjectMap [
+        rr:template "http://ontology.netflix.org/show#/{show_id}" ;
+        rr:class ntf:Show
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate ntf:name;
+        rr:objectMap [ rr:column "name" ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate ntf:duration ;
+        rr:objectMap [ rr:column "duration" ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate ntf:releaseYear ;
+        rr:objectMap [ rr:column "release_year" ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate ntf:additiondate ;
+        rr:objectMap [ rr:column "addition_date" ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate ntf:hasgenre;
+        rr:objectMap [ 
+            rr:parentTriplesMap <#genreMapping>;
+            rr:joinCondition [
+                rr:child "genre_name_OF" ;
+                rr:parent "genre_name" 
+            ];      
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ntf:hasrating ;
+        rr:objectMap [ 
+            rr:parentTriplesMap <#ratingMapping>;
+            rr:joinCondition [
+                rr:child "rating" ;
+                rr:parent "rating_name" 
+            ];      
+        ] ;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ntf:producedIn ;
+        rr:objectMap [ 
+            rr:parentTriplesMap <#countryMapping>;
+            rr:joinCondition [
+                rr:child "country_name_of" ;
+                rr:parent "country_name" 
+            ] ;  
+        ] 
+    ] ;
+.
+
+<#ratingMapping>
+    a rr:TriplesMap ;
+    rr:logicalTable [
+        rr:sqlQuery "select rating_name, rating_id from rating;"
+    ] ;
+    rr:subjectMap [
+        rr:template "http://ontology.netflix.org/show#/{rating_id}" ;
+        rr:class ntf:rating
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate ntf:MPAFilmratingSystem ;
+        rr:objectMap [ rr:column "rating_name" ]
+    ] ;
+
+.
+
+<#genreMapping>
+    a rr:TriplesMap ;
+    rr:logicalTable [
+        rr:sqlQuery "select genre_name, genre_id from genre;"
+    ] ;
+    rr:subjectMap [
+        rr:template "http://ontology.netflix.org/show#/{genre_id}" ;
+        rr:class ntf:genre
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate ntf:name ;
+        rr:objectMap [ rr:column "genre_name" ]
+    ] ;
+.
+
+<#countryMapping>
+    a rr:TriplesMap ;
+    rr:logicalTable [
+        rr:sqlQuery "select country_id, country_name from country;"
+    ] ;
+    rr:subjectMap [
+        rr:template "http://ontology.netflix.org/show#/{country_id}" ;
+        rr:class ntf:country
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate ntf:countryCode ;
+        rr:objectMap [ rr:column "country_id" ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate ntf:name ;
+        rr:objectMap [ rr:column "country_name" ]
+    ] ;
+.
