@@ -2,7 +2,7 @@ import psycopg2
 from psycopg2 import sql
 import csv
 
-connect = psycopg2.connect(host="localhost",dbname = "postgres", user = "postgres", password = "ALIcia91", port = 5432)
+connect = psycopg2.connect(host="localhost",dbname = "postgres", user = "postgres", password = "210901", port = 5432)
 
 cur = connect.cursor()
 
@@ -31,8 +31,6 @@ cur.execute(""" CREATE TABLE IF NOT EXISTS show(
     show_id VARCHAR(127) NOT NULL,
     title VARCHAR(255) NOT NULL,
     description_film VARCHAR(4095) NOT NULL,
-    duration INT NOT NULL,
-    type INT NOT NULL,
     release_date INT NOT NULL,
     date_added VARCHAR(127)NOT NULL,
 
@@ -94,6 +92,23 @@ cur.execute(""" CREATE TABLE IF NOT EXISTS genresof(
 );
             """)
 
+cur.execute(""" CREATE TABLE IF NOT EXISTS movie(
+    show_id VARCHAR(127) NOT NULL,
+    duration INT NOT NULL,
+
+    PRIMARY KEY (show_id),
+    FOREIGN KEY (show_id) REFERENCES show(show_id)
+);
+            """)
+cur.execute(""" CREATE TABLE IF NOT EXISTS TV_SHOW(
+    show_id VARCHAR(127) NOT NULL,
+    duration INT NOT NULL,
+
+    PRIMARY KEY (show_id),
+    FOREIGN KEY (show_id) REFERENCES show(show_id)
+);
+            """)
+
 person = "person.csv"
 
 with open(person, "r", encoding="utf8") as f :
@@ -137,11 +152,9 @@ with open(show, "r", encoding="utf8") as f :
         id = row[0]
         title = row[1]
         description = row[2]
-        duration = row[3]
-        type = row[4]
-        release_date = row[5]
-        date_added = row[6]
-        cur.execute(""" INSERT INTO show (show_id,title,description_film,duration,type,release_date,date_added) VALUES (%s,%s,%s,%s,%s,%s,%s)""",(id,title,description,duration,type,release_date,date_added))
+        release_date = row[3]
+        date_added = row[4]
+        cur.execute(""" INSERT INTO show (show_id,title,description_film,release_date,date_added) VALUES (%s,%s,%s,%s,%s)""",(id,title,description,release_date,date_added))
 f.close()
 
 rated = "rated.csv"
@@ -208,6 +221,28 @@ with open(genresof, "r", encoding="utf8") as f :
         show_id = row[0]
         genre_id = row[1]
         cur.execute(""" INSERT INTO genresof (show_id,genre_id) VALUES (%s,%s)""",(show_id,genre_id))
+f.close()
+
+movie = "movie.csv"
+
+with open(movie, "r", encoding="utf8") as f :
+    reader = csv.reader(f)
+    next(reader)
+    for row in reader:
+        show_id = row[0]
+        duration = row[1]
+        cur.execute(""" INSERT INTO movie (show_id,duration) VALUES (%s,%s)""",(show_id,duration))
+f.close()
+
+tv_show = "series.csv"
+
+with open(tv_show, "r", encoding="utf8") as f :
+    reader = csv.reader(f)
+    next(reader)
+    for row in reader:
+        show_id = row[0]
+        duration = row[1]
+        cur.execute(""" INSERT INTO TV_SHOW (show_id,duration) VALUES (%s,%s)""",(show_id,duration))
 f.close()
 
 connect.commit()
