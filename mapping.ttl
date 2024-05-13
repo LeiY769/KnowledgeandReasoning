@@ -9,7 +9,7 @@
         rr:sqlQuery "SELECT s.title as show_name, a.person_id, p.firstname from acted_in a join person p on p.person_id = a.person_id join show s on s.show_id = a.show_id;"
     ] ;
     rr:subjectMap [
-        rr:template "http://data.show-catalog.org/show#{person_id}" ;
+        rr:template "http://data.show-catalog.org/show/{person_id}" ;
         rr:class ntf:Person;
     ] ;
     rr:predicateObjectMap [
@@ -38,7 +38,7 @@
         rr:sqlQuery "select s.show_id, s.title as name, g.genre_name as genre_name_of,c.country_name as country_name_of, tv.duration,s.release_date as release_year, s.date_added as addition_date, r.rating_name as rating from show s join rated rr on s.show_id = rr.show_id join rating r on rr.rating_id = r.rating_id join genresof gg on s.show_id = gg.show_id join genre g on gg.genre_id = g.genre_id join filmed_in f on s.show_id = f.show_id join country c on c.country_id = f.country_id join tv_show tv on tv.show_id = s.show_id ;"
     ] ;
     rr:subjectMap [
-        rr:template "http://data.show-catalog.org/show#{show_id}" ;
+        rr:template "http://data.show-catalog.org/show/{show_id}" ;
         rr:class ntf:Series
     ] ;
     rr:predicateObjectMap [
@@ -95,7 +95,7 @@
         rr:sqlQuery "select s.show_id, s.title as name, g.genre_name as genre_name_of,c.country_name as country_name_of, m.duration,s.release_date as release_year, s.date_added as addition_date, r.rating_name as rating from show s join rated rr on s.show_id = rr.show_id join rating r on rr.rating_id = r.rating_id join genresof gg on s.show_id = gg.show_id join genre g on gg.genre_id = g.genre_id join filmed_in f on s.show_id = f.show_id join country c on c.country_id = f.country_id join movie m on m.show_id = s.show_id;"
     ] ;
     rr:subjectMap [
-        rr:template "http://data.show-catalog.org/show#{show_id}" ;
+        rr:template "http://data.show-catalog.org/show/{show_id}" ;
         rr:class ntf:Movie
     ] ;
     rr:predicateObjectMap [
@@ -152,7 +152,7 @@
         rr:sqlQuery "select s.show_id, s.title as name, g.genre_name as genre_name_of,c.country_name as country_name_of,s.release_date as release_year, s.date_added as addition_date, r.rating_name as rating from show s join rated rr on s.show_id = rr.show_id join rating r on rr.rating_id = r.rating_id join genresof gg on s.show_id = gg.show_id join genre g on gg.genre_id = g.genre_id join filmed_in f on s.show_id = f.show_id join country c on c.country_id = f.country_id ;"
     ] ;
     rr:subjectMap [
-        rr:template "http://data.show-catalog.org/show#{show_id}" ;
+        rr:template "http://data.show-catalog.org/show/{show_id}" ;
         rr:class ntf:Show
     ] ;
     rr:predicateObjectMap [
@@ -205,7 +205,7 @@
         rr:sqlQuery "select rating_name, rating_id from rating;"
     ] ;
     rr:subjectMap [
-        rr:template "http://data.show-catalog.org/show#{rating_id}" ;
+        rr:template "http://data.show-catalog.org/show/{rating_id}" ;
         rr:class ntf:rating
     ] ;
     rr:predicateObjectMap [
@@ -221,7 +221,7 @@
         rr:sqlQuery "select genre_name, genre_id from genre;"
     ] ;
     rr:subjectMap [
-        rr:template "http://data.show-catalog.org/show#{genre_id}" ;
+        rr:template "http://data.show-catalog.org/show/{genre_id}" ;
         rr:class ntf:genre
     ] ;
     rr:predicateObjectMap [
@@ -236,7 +236,7 @@
         rr:sqlQuery "select country_id, country_name from country;"
     ] ;
     rr:subjectMap [
-        rr:template "http://data.show-catalog.org/show#{country_id}" ;
+        rr:template "http://data.show-catalog.org/show/{country_id}" ;
         rr:class ntf:country
     ] ;
     rr:predicateObjectMap [
