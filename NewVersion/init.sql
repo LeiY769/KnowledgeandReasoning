@@ -85,3 +85,4 @@ CREATE TABLE IF NOT EXISTS genresof(
     FOREIGN KEY (show_id) REFERENCES show(show_id),
     FOREIGN KEY (genre_id) REFERENCES genre(genre_id)
 );
+
