@@ -31,8 +31,8 @@ cur.execute(""" CREATE TABLE IF NOT EXISTS show(
     show_id VARCHAR(127) NOT NULL,
     title VARCHAR(255) NOT NULL,
     description_film VARCHAR(4095) NOT NULL,
-    type_show VARCHAR(255) NOT NULL,
     duration INT NOT NULL,
+    type_show VARCHAR(255) NOT NULL,
     release_date INT NOT NULL,
     date_added VARCHAR(127)NOT NULL,
 
@@ -138,11 +138,11 @@ with open(show, "r", encoding="utf8") as f :
         id = row[0]
         title = row[1]
         description = row[2]
-        type_show = row[3]
-        duration = row[4]
+        duration = row[3]
+        type_show = row[4]
         release_date = row[5]
         date_added = row[6]
-        cur.execute(""" INSERT INTO show (show_id,title,description_film,type_show,duration,release_date,date_added) VALUES (%s,%s,%s,%s,%s,%s,%s)""",(id,title,description,type_show,duration,release_date,date_added))
+        cur.execute(""" INSERT INTO show (show_id,title,description_film,duration,type_show,release_date,date_added) VALUES (%s,%s,%s,%s,%s,%s,%s)""",(id,title,description,duration,type_show,release_date,date_added))
 f.close()
 
 rated = "rated.csv"
