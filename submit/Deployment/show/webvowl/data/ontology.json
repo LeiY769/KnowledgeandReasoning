@@ -1,0 +1,827 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://ontology.show-catalog.org/show", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://ontology.show-catalog.org/show#"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "26",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://ontology.show-catalog.org/show#/Genre",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/Genre",
+      "en" : "Genre",
+      "undefined" : "Genre"
+    },
+    "comment" : {
+      "en" : "A film genre is a stylistic or thematic category for motion pictures based on similarities either in the narrative elements, aesthetic approach, or the emotional response to the film. (source: https://en.wikipedia.org/wiki/Film_genre)",
+      "undefined" : "A film genre is a stylistic or thematic category for motion pictures based on similarities either in the narrative elements, aesthetic approach, or the emotional response to the film. (source: https://en.wikipedia.org/wiki/Film_genre)"
+    },
+    "id" : "0"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/Rating",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/Rating",
+      "en" : "Rating",
+      "undefined" : "Rating"
+    },
+    "comment" : {
+      "en" : "A content rating rates the suitability of TV shows, movies, comic books, or video games to this primary targeted audience. (source: https://en.wikipedia.org/wiki/Content_rating)",
+      "undefined" : "A content rating rates the suitability of TV shows, movies, comic books, or video games to this primary targeted audience. (source: https://en.wikipedia.org/wiki/Content_rating)"
+    },
+    "id" : "8"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "26",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/Person",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/Person",
+      "en" : "Person",
+      "undefined" : "Person"
+    },
+    "subClasses" : [ "14", "10" ],
+    "comment" : {
+      "en" : "A person is a being who has certain capacities or attributes such as reason, morality, consciousness or self-consciousness, and being a part of a culturally established form of social relations such as kinship, ownership of property, or legal responsibility. (source: https://en.wikipedia.org/wiki/Person)",
+      "undefined" : "A person is a being who has certain capacities or attributes such as reason, morality, consciousness or self-consciousness, and being a part of a culturally established form of social relations such as kinship, ownership of property, or legal responsibility. (source: https://en.wikipedia.org/wiki/Person)"
+    },
+    "id" : "3"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/Series",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/Series",
+      "en" : "Series",
+      "undefined" : "Series"
+    },
+    "comment" : {
+      "en" : "A series is a show where the full storyline is divided into multiple film called episodes.",
+      "undefined" : "A series is a show where the full storyline is divided into multiple film called episodes."
+    },
+    "id" : "16",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/Director",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/Director",
+      "en" : "Director",
+      "undefined" : "Director"
+    },
+    "comment" : {
+      "en" : "A film director is a person who controls a film's artistic and dramatic aspects and visualizes the screenplay (or script) while guiding the film crew and actors in the fulfillment of that vision. (source: https://en.wikipedia.org/wiki/Film_director)",
+      "undefined" : "A film director is a person who controls a film's artistic and dramatic aspects and visualizes the screenplay (or script) while guiding the film crew and actors in the fulfillment of that vision. (source: https://en.wikipedia.org/wiki/Film_director)"
+    },
+    "id" : "14",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/Actor",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/Actor",
+      "en" : "Actor",
+      "undefined" : "Actor"
+    },
+    "comment" : {
+      "en" : "An actor or actress is a person who portrays a character in a production. (source: https://en.wikipedia.org/wiki/Actor)",
+      "undefined" : "An actor or actress is a person who portrays a character in a production. (source: https://en.wikipedia.org/wiki/Actor)"
+    },
+    "id" : "10",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/Show",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/Show",
+      "en" : "Show",
+      "undefined" : "Show"
+    },
+    "subClasses" : [ "18", "16" ],
+    "comment" : {
+      "en" : "A show is a visual or audio-visual production.",
+      "undefined" : "A show is a visual or audio-visual production."
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/Movie",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/Movie",
+      "en" : "Movie",
+      "undefined" : "Movie"
+    },
+    "comment" : {
+      "en" : "A movie is a show where the full storyline is presented in one continuous film.",
+      "undefined" : "A movie is a show where the full storyline is presented in one continuous film."
+    },
+    "id" : "18",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/Country",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "/Country",
+      "en" : "Country",
+      "undefined" : "Country"
+    },
+    "comment" : {
+      "en" : "A country is a distinct part of the world, such as a state, nation, or other political entity. When referring to a specific polity, the term \"country\" may refer to a sovereign state, states with limited recognition, constituent country, or a dependent territory. (source: https://en.wikipedia.org/wiki/Country)",
+      "undefined" : "A country is a distinct part of the world, such as a state, nation, or other political entity. When referring to a specific polity, the term \"country\" may refer to a sovereign state, states with limited recognition, constituent country, or a dependent territory. (source: https://en.wikipedia.org/wiki/Country)"
+    },
+    "id" : "30"
+  } ],
+  "property" : [ {
+    "id" : "1",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "43",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "45",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "47",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "49",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "50",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://ontology.show-catalog.org/show#/HasAsParticipant",
+    "inverse" : "4",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "/HasAsParticipant",
+      "en" : "has as participant",
+      "undefined" : "has as participant"
+    },
+    "domain" : "2",
+    "subproperty" : [ "5", "6" ],
+    "comment" : {
+      "en" : "Indicates a person who is involved in a show in any capacity, such as acting, directing, producing, etc.",
+      "undefined" : "Indicates a person who is involved in a show in any capacity, such as acting, directing, producing, etc."
+    },
+    "attributes" : [ "object", "asymmetric", "irreflexive" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/MPAFilmRating",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "/MPAFilmRating",
+      "en" : "MPA film rating system",
+      "undefined" : "MPA film rating system"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "The Motion Picture Association film rating system is used in the United States and its territories to rate a motion picture's suitability for certain audiences based on its content. The system and the ratings applied to individual motion pictures are the responsibility of the Motion Picture Association (MPA). (source: https://www.motionpictures.org/film-ratings/)",
+      "undefined" : "The Motion Picture Association film rating system is used in the United States and its territories to rate a motion picture's suitability for certain audiences based on its content. The system and the ratings applied to individual motion pictures are the responsibility of the Motion Picture Association (MPA). (source: https://www.motionpictures.org/film-ratings/)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/HasAsActor",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "/HasAsActor",
+      "en" : "has as actor",
+      "undefined" : "has as actor"
+    },
+    "superproperty" : [ "1" ],
+    "domain" : "2",
+    "comment" : {
+      "en" : "Specifies an actor who is associated with a particular show.",
+      "undefined" : "Specifies an actor who is associated with a particular show."
+    },
+    "attributes" : [ "object", "asymmetric", "irreflexive" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/Has_rating",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "/Has_rating",
+      "en" : "has rating",
+      "undefined" : "has rating"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Specifies the rating assigned to a show, indicating its quality, content, or audience suitability.",
+      "undefined" : "Specifies the rating assigned to a show, indicating its quality, content, or audience suitability."
+    },
+    "attributes" : [ "object", "asymmetric", "irreflexive" ],
+    "id" : "11"
+  }, {
+    "range" : "3",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "range" : "3",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "range" : "2",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "2",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/ratingLevel",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "/ratingLevel",
+      "en" : "rating level",
+      "undefined" : "rating level"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Represents the level or category of a rating, indicating classification of a show.",
+      "undefined" : "Represents the level or category of a rating, indicating classification of a show."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/additionDate",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "/additionDate",
+      "en" : "addition date",
+      "undefined" : "addition date"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Specifies the date when a show was added or uploaded to a platform or database.",
+      "undefined" : "Specifies the date when a show was added or uploaded to a platform or database."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/Knows",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "/Knows",
+      "en" : "knows",
+      "undefined" : "knows"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "Two persons know each other if they have participated in the same show.",
+      "undefined" : "Two persons know each other if they have participated in the same show."
+    },
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/name",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "/name",
+      "en" : "name",
+      "undefined" : "name"
+    },
+    "domain" : "26",
+    "comment" : {
+      "en" : "Represents the name of a thing, providing the full textual name or label associated with that specific thing.",
+      "undefined" : "Represents the name of a thing, providing the full textual name or label associated with that specific thing."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/countryCode",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "/countryCode",
+      "en" : "country code",
+      "undefined" : "country code"
+    },
+    "domain" : "30",
+    "comment" : {
+      "en" : "The international Standard for country codes and codes for their subdivisions (ISO 3166) defines internationally recognized codes of letters and/or numbers that can be used when refering to countries and their subdivisions. (source : https://www.iso.org/iso-3166-country-codes.htmls)",
+      "undefined" : "The international Standard for country codes and codes for their subdivisions (ISO 3166) defines internationally recognized codes of letters and/or numbers that can be used when refering to countries and their subdivisions. (source : https://www.iso.org/iso-3166-country-codes.htmls)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/TVParentalGuidelines",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "/TVParentalGuidelines",
+      "en" : "TV Parental Guidelines",
+      "undefined" : "TV Parental Guidelines"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "The TV Parental Guidelines are a television content rating system in the United States. (source: https://en.wikipedia.org/wiki/TV_Parental_Guidelines)",
+      "undefined" : "The TV Parental Guidelines are a television content rating system in the United States. (source: https://en.wikipedia.org/wiki/TV_Parental_Guidelines)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/releaseYear",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "/releaseYear",
+      "en" : "release year",
+      "undefined" : "release year"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Specifies the year when a show was released or made available to the public.",
+      "undefined" : "Specifies the year when a show was released or made available to the public."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/Has_genre",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "/Has_genre",
+      "en" : "has genre",
+      "undefined" : "has genre"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Specifies the genre or category of a show, indicating its thematic content, style, or audience appeal.",
+      "undefined" : "Specifies the genre or category of a show, indicating its thematic content, style, or audience appeal."
+    },
+    "attributes" : [ "object", "asymmetric", "irreflexive" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/name",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "/name",
+      "en" : "name",
+      "undefined" : "name"
+    },
+    "domain" : "0",
+    "comment" : {
+      "en" : "Represents the name of a thing, providing the full textual name or label associated with that specific thing.",
+      "undefined" : "Represents the name of a thing, providing the full textual name or label associated with that specific thing."
+    },
+    "attributes" : [ "someValues", "datatype" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/numberOfSeasons",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "/numberOfSeasons",
+      "en" : "number of seasons",
+      "undefined" : "number of seasons"
+    },
+    "domain" : "16",
+    "comment" : {
+      "en" : "Specifies the total number of seasons that a series comprises.",
+      "undefined" : "Specifies the total number of seasons that a series comprises."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "43"
+  }, {
+    "range" : "16",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/name",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "/name",
+      "en" : "name",
+      "undefined" : "name"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "Represents the name of a thing, providing the full textual name or label associated with that specific thing.",
+      "undefined" : "Represents the name of a thing, providing the full textual name or label associated with that specific thing."
+    },
+    "attributes" : [ "someValues", "datatype" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/ratingLevel",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "/ratingLevel",
+      "en" : "rating level",
+      "undefined" : "rating level"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Represents the level or category of a rating, indicating classification of a show.",
+      "undefined" : "Represents the level or category of a rating, indicating classification of a show."
+    },
+    "attributes" : [ "someValues", "datatype" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/name",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "/name",
+      "en" : "name",
+      "undefined" : "name"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Represents the name of a thing, providing the full textual name or label associated with that specific thing.",
+      "undefined" : "Represents the name of a thing, providing the full textual name or label associated with that specific thing."
+    },
+    "attributes" : [ "someValues", "datatype" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/name",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "/name",
+      "en" : "name",
+      "undefined" : "name"
+    },
+    "domain" : "30",
+    "comment" : {
+      "en" : "Represents the name of a thing, providing the full textual name or label associated with that specific thing.",
+      "undefined" : "Represents the name of a thing, providing the full textual name or label associated with that specific thing."
+    },
+    "attributes" : [ "someValues", "datatype" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/Participed_in",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "/Participed_in",
+      "en" : "participated in",
+      "undefined" : "participated in"
+    },
+    "domain" : "3",
+    "subproperty" : [ "52", "53" ],
+    "comment" : {
+      "en" : "Denotes a show in which a person has been involved, either as an actor, director, or in another role.",
+      "undefined" : "Denotes a show in which a person has been involved, either as an actor, director, or in another role."
+    },
+    "attributes" : [ "object", "asymmetric", "irreflexive" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/Acted_in",
+    "inverse" : "5",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "/Acted_in",
+      "en" : "acted in",
+      "undefined" : "acted in"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "Specifies a show in which an actor has performed a role",
+      "undefined" : "Specifies a show in which an actor has performed a role"
+    },
+    "attributes" : [ "object", "asymmetric", "irreflexive" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/Produced_in",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "/Produced_in",
+      "en" : "produced in",
+      "undefined" : "produced in"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Specifies the country in which a show was produced, indicating the location or origin of the production process.",
+      "undefined" : "Specifies the country in which a show was produced, indicating the location or origin of the production process."
+    },
+    "attributes" : [ "object", "asymmetric", "irreflexive" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/HasAsDirector",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "/HasAsDirector",
+      "en" : "has as director",
+      "undefined" : "has as director"
+    },
+    "superproperty" : [ "1" ],
+    "domain" : "2",
+    "comment" : {
+      "en" : "Indicates the director of a particular show.",
+      "undefined" : "Indicates the director of a particular show."
+    },
+    "attributes" : [ "object", "asymmetric", "irreflexive" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/Directed",
+    "inverse" : "6",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "/Directed",
+      "en" : "directed",
+      "undefined" : "directed"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "14",
+    "comment" : {
+      "en" : "Specifies a show that a director has directed.",
+      "undefined" : "Specifies a show that a director has directed."
+    },
+    "attributes" : [ "object", "asymmetric", "irreflexive" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://ontology.show-catalog.org/show#/duration",
+    "baseIri" : "http://ontology.show-catalog.org/show",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "/duration",
+      "en" : "duration",
+      "undefined" : "duration"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "Specifies the length of time in minutes for a movie's runtime or duration.",
+      "undefined" : "Specifies the length of time in minutes for a movie's runtime or duration."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "55"
+  } ]
+}

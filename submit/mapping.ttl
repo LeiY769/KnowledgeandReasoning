@@ -1,0 +1,282 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix show: <http://ontology.show-catalog.org/show#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<#PersonMapping>
+    a rr:TriplesMap ;
+    rr:logicalTable [ rr:tableName "person" ] ;
+    rr:subjectMap [
+        rr:template "http://data.show-catalog.org/person/{person_id}" ;
+        rr:class show:Person ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:name ;
+        rr:objectMap [ 
+            rr:template "{firstname} {lastname}" ;
+            rr:termType rr:Literal ;
+
+        ] ;
+    ] ;
+.
+
+<#ActorMapping>
+    a rr:TriplesMap ;
+    rr:logicalTable [ rr:tableName "acted_in" ] ;
+    rr:subjectMap [
+        rr:template "http://data.show-catalog.org/person/{person_id}" ;
+        rr:class show:Actor ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:Acted_in ;
+        rr:objectMap [ 
+            rr:template "http://data.show-catalog.org/show/{show_id}" ;
+        ] ;
+        rr:predicate show:Participated_in ;
+    ] ;
+.
+
+<#DirectorMapping>
+    a rr:TriplesMap ;
+    rr:logicalTable [ rr:tableName "directed_by" ] ;
+    rr:subjectMap [
+        rr:template "http://data.show-catalog.org/person/{person_id}" ;
+        rr:class show:Director ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:Directed ;
+        rr:objectMap [ 
+            rr:template "http://data.show-catalog.org/show/{show_id}" ;
+        ] ;
+        rr:predicate show:Participated_in ;
+    ] ;
+.
+
+<#KnowsMapping>
+    a rr:TriplesMap ;
+    rr:logicalTable [
+        rr:sqlQuery """
+            SELECT 
+                p1.person_id AS person1_id, 
+                p2.person_id AS person2_id
+            FROM 
+                (SELECT person_id, show_id FROM acted_in 
+                 UNION 
+                 SELECT person_id, show_id FROM directed_by) p1
+            JOIN 
+                (SELECT person_id, show_id FROM acted_in 
+                 UNION 
+                 SELECT person_id, show_id FROM directed_by) p2 
+            ON p1.show_id = p2.show_id 
+            WHERE 
+                p1.person_id != p2.person_id
+        """
+    ] ;
+    rr:subjectMap [
+        rr:template "http://data.show-catalog.org/person/{person1_id}" ;
+        rr:class show:Person ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:knows ;
+        rr:objectMap [
+            rr:template "http://data.show-catalog.org/person/{person2_id}" ;
+        ]
+    ] ;
+.
+
+<#ShowMapping>
+    a rr:TriplesMap ;
+    rr:logicalTable [
+        rr:sqlQuery """
+            SELECT 
+                s.show_id, 
+                s.title AS name, 
+                gg.genre_id, 
+                f.country_id, 
+                s.release_date AS release_year, 
+                TO_DATE(s.date_added, 'Month DD, YYYY') AS addition_date,
+                rr.rating_id
+            FROM 
+                show s
+            JOIN 
+                rated rr ON s.show_id = rr.show_id 
+            JOIN 
+                genresof gg ON s.show_id = gg.show_id 
+            JOIN 
+                filmed_in f ON s.show_id = f.show_id
+        """
+    ] ;
+    rr:subjectMap [
+        rr:template "http://data.show-catalog.org/show/{show_id}" ;
+        rr:class show:Show
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:name ;
+        rr:objectMap [ 
+            rr:column "name" ;
+            rr:language "en" ;
+        ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:releaseYear ;
+        rr:objectMap [ 
+            rr:column "release_year" ;
+            rr:datatype xsd:gYear ;
+        ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:additionDate ;
+        rr:objectMap [ 
+            rr:column "addition_date" ;
+            rr:datatype xsd:date ;
+        ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:hasGenre ;
+        rr:objectMap [ 
+            rr:template "http://data.show-catalog.org/genre/{genre_id}" 
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:hasRating ;
+        rr:objectMap [ 
+            rr:template "http://data.show-catalog.org/rating/{rating_id}" 
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:producedIn ;
+        rr:objectMap [ 
+            rr:template "http://data.show-catalog.org/country/{country_id}" 
+        ] ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:HasAsActor ;
+        rr:objectMap [ 
+            rr:parentTriplesMap <#ActorMapping> ;
+            rr:joinCondition [
+                rr:child "show_id" ;
+                rr:parent "show_id"
+            ]
+        ] ;
+        rr:predicate show:HasAsParticipant ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:HasAsDirector ;
+        rr:objectMap [ 
+            rr:parentTriplesMap <#DirectorMapping> ;
+            rr:joinCondition [
+                rr:child "show_id" ;
+                rr:parent "show_id"
+            ]
+        ] ;
+        rr:predicate show:HasAsParticipant ;
+    ] ;
+.
+
+<#SeriesMapping>
+    a rr:TriplesMap ;
+    rr:logicalTable [
+        rr:sqlQuery """
+            SELECT 
+                s.show_id, 
+                s.duration AS number_of_seasons
+            FROM 
+                show s
+            WHERE 
+                s.type = 'TV Show'
+        """
+    ] ;
+    rr:subjectMap [
+        rr:template "http://data.show-catalog.org/show/{show_id}" ;
+        rr:class show:Series
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:numberOfSeasons ;
+        rr:objectMap [ 
+            rr:column "number_of_seasons" ;
+            rr:datatype xsd:nonNegativeInteger ;
+        ]
+    ] ;
+.
+
+<#MovieMapping>
+    a rr:TriplesMap ;
+    rr:logicalTable [
+        rr:sqlQuery """
+            SELECT 
+                s.show_id, 
+                s.duration
+            FROM 
+                show s
+            WHERE 
+                s.type = 'Movie'
+        """
+    ] ;
+    rr:subjectMap [
+        rr:template "http://data.show-catalog.org/show/{show_id}" ;
+        rr:class show:Movie
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:duration ;
+        rr:objectMap [ 
+            rr:column "duration" ;
+            rr:datatype xsd:nonNegativeInteger ;
+        ]
+    ] ;
+.
+
+<#RatingMapping>
+    a rr:TriplesMap ;
+    rr:logicalTable [ rr:tableName "rating" ] ;
+    rr:subjectMap [
+        rr:template "http://data.show-catalog.org/rating/{rating_id}" ;
+        rr:class show:Rating ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:MPAFilmratingSystem ;
+        rr:objectMap [ 
+            rr:column "rating_name" ;
+            rr:language "en" ;
+        ]
+    ] ;
+.
+
+<#GenreMapping>
+    a rr:TriplesMap ;
+    rr:logicalTable [ rr:tableName "genre" ] ;
+    rr:subjectMap [
+        rr:template "http://data.show-catalog.org/genre/{genre_id}" ;
+        rr:class show:Genre ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:name ;
+        rr:objectMap [ 
+            rr:column "genre_name" ;
+            rr:language "en" ;
+        ]
+    ] ;
+.
+
+<#CountryMapping>
+    a rr:TriplesMap ;
+    rr:logicalTable [ rr:tableName "country" ] ;
+    rr:subjectMap [
+        rr:template "http://data.show-catalog.org/country/{country_id}" ;
+        rr:class show:Country ;
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:countryCode ;
+        rr:objectMap [ 
+            rr:column "country_id" ;
+            rr:datatype xsd:nonNegativeInteger ;
+        ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate show:name ;
+        rr:objectMap [ 
+            rr:column "country_name" ;
+            rr:language "en" ;
+        ]
+    ] ;
+.

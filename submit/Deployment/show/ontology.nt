@@ -1,0 +1,327 @@
+<http://ontology.show-catalog.org/show#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://ontology.show-catalog.org/show#/Acted_in
+<http://ontology.show-catalog.org/show#/Acted_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.show-catalog.org/show#/Acted_in> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ontology.show-catalog.org/show#/Participed_in> .
+<http://ontology.show-catalog.org/show#/Acted_in> <http://www.w3.org/2002/07/owl#inverseOf> <http://ontology.show-catalog.org/show#/HasAsActor> .
+<http://ontology.show-catalog.org/show#/Acted_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://ontology.show-catalog.org/show#/Acted_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://ontology.show-catalog.org/show#/Acted_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Actor> .
+<http://ontology.show-catalog.org/show#/Acted_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.show-catalog.org/show#/Show> .
+<http://ontology.show-catalog.org/show#/Acted_in> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies a show in which an actor has performed a role"@en .
+<http://ontology.show-catalog.org/show#/Acted_in> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies a show in which an actor has performed a role" .
+<http://ontology.show-catalog.org/show#/Acted_in> <http://www.w3.org/2000/01/rdf-schema#label> "acted in"@en .
+<http://ontology.show-catalog.org/show#/Acted_in> <http://www.w3.org/2000/01/rdf-schema#label> "acted in" .
+# 
+# http://ontology.show-catalog.org/show#/Directed
+<http://ontology.show-catalog.org/show#/Directed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.show-catalog.org/show#/Directed> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ontology.show-catalog.org/show#/Participed_in> .
+<http://ontology.show-catalog.org/show#/Directed> <http://www.w3.org/2002/07/owl#inverseOf> <http://ontology.show-catalog.org/show#/HasAsDirector> .
+<http://ontology.show-catalog.org/show#/Directed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://ontology.show-catalog.org/show#/Directed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://ontology.show-catalog.org/show#/Directed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Director> .
+<http://ontology.show-catalog.org/show#/Directed> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.show-catalog.org/show#/Show> .
+<http://ontology.show-catalog.org/show#/Directed> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies a show that a director has directed."@en .
+<http://ontology.show-catalog.org/show#/Directed> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies a show that a director has directed." .
+<http://ontology.show-catalog.org/show#/Directed> <http://www.w3.org/2000/01/rdf-schema#label> "directed"@en .
+<http://ontology.show-catalog.org/show#/Directed> <http://www.w3.org/2000/01/rdf-schema#label> "directed" .
+# 
+# http://ontology.show-catalog.org/show#/HasAsActor
+<http://ontology.show-catalog.org/show#/HasAsActor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.show-catalog.org/show#/HasAsActor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ontology.show-catalog.org/show#/HasAsParticipant> .
+<http://ontology.show-catalog.org/show#/HasAsActor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://ontology.show-catalog.org/show#/HasAsActor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://ontology.show-catalog.org/show#/HasAsActor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Show> .
+<http://ontology.show-catalog.org/show#/HasAsActor> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.show-catalog.org/show#/Actor> .
+<http://ontology.show-catalog.org/show#/HasAsActor> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies an actor who is associated with a particular show."@en .
+<http://ontology.show-catalog.org/show#/HasAsActor> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies an actor who is associated with a particular show." .
+<http://ontology.show-catalog.org/show#/HasAsActor> <http://www.w3.org/2000/01/rdf-schema#label> "has as actor"@en .
+<http://ontology.show-catalog.org/show#/HasAsActor> <http://www.w3.org/2000/01/rdf-schema#label> "has as actor" .
+# 
+# http://ontology.show-catalog.org/show#/HasAsDirector
+<http://ontology.show-catalog.org/show#/HasAsDirector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.show-catalog.org/show#/HasAsDirector> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ontology.show-catalog.org/show#/HasAsParticipant> .
+<http://ontology.show-catalog.org/show#/HasAsDirector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://ontology.show-catalog.org/show#/HasAsDirector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://ontology.show-catalog.org/show#/HasAsDirector> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Show> .
+<http://ontology.show-catalog.org/show#/HasAsDirector> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.show-catalog.org/show#/Director> .
+<http://ontology.show-catalog.org/show#/HasAsDirector> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the director of a particular show."@en .
+<http://ontology.show-catalog.org/show#/HasAsDirector> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the director of a particular show." .
+<http://ontology.show-catalog.org/show#/HasAsDirector> <http://www.w3.org/2000/01/rdf-schema#label> "has as director"@en .
+<http://ontology.show-catalog.org/show#/HasAsDirector> <http://www.w3.org/2000/01/rdf-schema#label> "has as director" .
+# 
+# http://ontology.show-catalog.org/show#/HasAsParticipant
+<http://ontology.show-catalog.org/show#/HasAsParticipant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.show-catalog.org/show#/HasAsParticipant> <http://www.w3.org/2002/07/owl#inverseOf> <http://ontology.show-catalog.org/show#/Participed_in> .
+<http://ontology.show-catalog.org/show#/HasAsParticipant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://ontology.show-catalog.org/show#/HasAsParticipant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://ontology.show-catalog.org/show#/HasAsParticipant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Show> .
+<http://ontology.show-catalog.org/show#/HasAsParticipant> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.show-catalog.org/show#/Person> .
+<http://ontology.show-catalog.org/show#/HasAsParticipant> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a person who is involved in a show in any capacity, such as acting, directing, producing, etc."@en .
+<http://ontology.show-catalog.org/show#/HasAsParticipant> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a person who is involved in a show in any capacity, such as acting, directing, producing, etc." .
+<http://ontology.show-catalog.org/show#/HasAsParticipant> <http://www.w3.org/2000/01/rdf-schema#label> "has as participant"@en .
+<http://ontology.show-catalog.org/show#/HasAsParticipant> <http://www.w3.org/2000/01/rdf-schema#label> "has as participant" .
+# 
+# http://ontology.show-catalog.org/show#/Has_genre
+<http://ontology.show-catalog.org/show#/Has_genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.show-catalog.org/show#/Has_genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://ontology.show-catalog.org/show#/Has_genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://ontology.show-catalog.org/show#/Has_genre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Show> .
+<http://ontology.show-catalog.org/show#/Has_genre> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.show-catalog.org/show#/Genre> .
+<http://ontology.show-catalog.org/show#/Has_genre> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the genre or category of a show, indicating its thematic content, style, or audience appeal."@en .
+<http://ontology.show-catalog.org/show#/Has_genre> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the genre or category of a show, indicating its thematic content, style, or audience appeal." .
+<http://ontology.show-catalog.org/show#/Has_genre> <http://www.w3.org/2000/01/rdf-schema#label> "has genre"@en .
+<http://ontology.show-catalog.org/show#/Has_genre> <http://www.w3.org/2000/01/rdf-schema#label> "has genre" .
+# 
+# http://ontology.show-catalog.org/show#/Has_rating
+<http://ontology.show-catalog.org/show#/Has_rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.show-catalog.org/show#/Has_rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://ontology.show-catalog.org/show#/Has_rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://ontology.show-catalog.org/show#/Has_rating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Show> .
+<http://ontology.show-catalog.org/show#/Has_rating> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.show-catalog.org/show#/Rating> .
+<http://ontology.show-catalog.org/show#/Has_rating> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the rating assigned to a show, indicating its quality, content, or audience suitability."@en .
+<http://ontology.show-catalog.org/show#/Has_rating> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the rating assigned to a show, indicating its quality, content, or audience suitability." .
+<http://ontology.show-catalog.org/show#/Has_rating> <http://www.w3.org/2000/01/rdf-schema#label> "has rating"@en .
+<http://ontology.show-catalog.org/show#/Has_rating> <http://www.w3.org/2000/01/rdf-schema#label> "has rating" .
+# 
+# http://ontology.show-catalog.org/show#/Knows
+<http://ontology.show-catalog.org/show#/Knows> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.show-catalog.org/show#/Knows> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Person> .
+<http://ontology.show-catalog.org/show#/Knows> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.show-catalog.org/show#/Person> .
+<http://ontology.show-catalog.org/show#/Knows> <http://www.w3.org/2000/01/rdf-schema#comment> "Two persons know each other if they have participated in the same show."@en .
+<http://ontology.show-catalog.org/show#/Knows> <http://www.w3.org/2000/01/rdf-schema#comment> "Two persons know each other if they have participated in the same show." .
+<http://ontology.show-catalog.org/show#/Knows> <http://www.w3.org/2000/01/rdf-schema#label> "knows"@en .
+<http://ontology.show-catalog.org/show#/Knows> <http://www.w3.org/2000/01/rdf-schema#label> "knows" .
+# 
+# http://ontology.show-catalog.org/show#/Participed_in
+<http://ontology.show-catalog.org/show#/Participed_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.show-catalog.org/show#/Participed_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://ontology.show-catalog.org/show#/Participed_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://ontology.show-catalog.org/show#/Participed_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Person> .
+<http://ontology.show-catalog.org/show#/Participed_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.show-catalog.org/show#/Show> .
+<http://ontology.show-catalog.org/show#/Participed_in> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes a show in which a person has been involved, either as an actor, director, or in another role."@en .
+<http://ontology.show-catalog.org/show#/Participed_in> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes a show in which a person has been involved, either as an actor, director, or in another role." .
+<http://ontology.show-catalog.org/show#/Participed_in> <http://www.w3.org/2000/01/rdf-schema#label> "participated in"@en .
+<http://ontology.show-catalog.org/show#/Participed_in> <http://www.w3.org/2000/01/rdf-schema#label> "participated in" .
+# 
+# http://ontology.show-catalog.org/show#/Produced_in
+<http://ontology.show-catalog.org/show#/Produced_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.show-catalog.org/show#/Produced_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://ontology.show-catalog.org/show#/Produced_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://ontology.show-catalog.org/show#/Produced_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Show> .
+<http://ontology.show-catalog.org/show#/Produced_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.show-catalog.org/show#/Country> .
+<http://ontology.show-catalog.org/show#/Produced_in> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the country in which a show was produced, indicating the location or origin of the production process."@en .
+<http://ontology.show-catalog.org/show#/Produced_in> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the country in which a show was produced, indicating the location or origin of the production process." .
+<http://ontology.show-catalog.org/show#/Produced_in> <http://www.w3.org/2000/01/rdf-schema#label> "produced in"@en .
+<http://ontology.show-catalog.org/show#/Produced_in> <http://www.w3.org/2000/01/rdf-schema#label> "produced in" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://ontology.show-catalog.org/show#/MPAFilmRating
+<http://ontology.show-catalog.org/show#/MPAFilmRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.show-catalog.org/show#/MPAFilmRating> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ontology.show-catalog.org/show#/ratingLevel> .
+<http://ontology.show-catalog.org/show#/MPAFilmRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Rating> .
+<http://ontology.show-catalog.org/show#/MPAFilmRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.show-catalog.org/show#/MPAFilmRating> <http://www.w3.org/2000/01/rdf-schema#comment> "The Motion Picture Association film rating system is used in the United States and its territories to rate a motion picture's suitability for certain audiences based on its content. The system and the ratings applied to individual motion pictures are the responsibility of the Motion Picture Association (MPA). (source: https://www.motionpictures.org/film-ratings/)"@en .
+<http://ontology.show-catalog.org/show#/MPAFilmRating> <http://www.w3.org/2000/01/rdf-schema#comment> "The Motion Picture Association film rating system is used in the United States and its territories to rate a motion picture's suitability for certain audiences based on its content. The system and the ratings applied to individual motion pictures are the responsibility of the Motion Picture Association (MPA). (source: https://www.motionpictures.org/film-ratings/)" .
+<http://ontology.show-catalog.org/show#/MPAFilmRating> <http://www.w3.org/2000/01/rdf-schema#label> "MPA film rating system"@en .
+<http://ontology.show-catalog.org/show#/MPAFilmRating> <http://www.w3.org/2000/01/rdf-schema#label> "MPA film rating system" .
+# 
+# http://ontology.show-catalog.org/show#/TVParentalGuidelines
+<http://ontology.show-catalog.org/show#/TVParentalGuidelines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.show-catalog.org/show#/TVParentalGuidelines> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ontology.show-catalog.org/show#/ratingLevel> .
+<http://ontology.show-catalog.org/show#/TVParentalGuidelines> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Rating> .
+<http://ontology.show-catalog.org/show#/TVParentalGuidelines> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.show-catalog.org/show#/TVParentalGuidelines> <http://www.w3.org/2000/01/rdf-schema#comment> "The TV Parental Guidelines are a television content rating system in the United States. (source: https://en.wikipedia.org/wiki/TV_Parental_Guidelines)"@en .
+<http://ontology.show-catalog.org/show#/TVParentalGuidelines> <http://www.w3.org/2000/01/rdf-schema#comment> "The TV Parental Guidelines are a television content rating system in the United States. (source: https://en.wikipedia.org/wiki/TV_Parental_Guidelines)" .
+<http://ontology.show-catalog.org/show#/TVParentalGuidelines> <http://www.w3.org/2000/01/rdf-schema#label> "TV Parental Guidelines"@en .
+<http://ontology.show-catalog.org/show#/TVParentalGuidelines> <http://www.w3.org/2000/01/rdf-schema#label> "TV Parental Guidelines" .
+# 
+# http://ontology.show-catalog.org/show#/additionDate
+<http://ontology.show-catalog.org/show#/additionDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.show-catalog.org/show#/additionDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Show> .
+<http://ontology.show-catalog.org/show#/additionDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://ontology.show-catalog.org/show#/additionDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the date when a show was added or uploaded to a platform or database."@en .
+<http://ontology.show-catalog.org/show#/additionDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the date when a show was added or uploaded to a platform or database." .
+<http://ontology.show-catalog.org/show#/additionDate> <http://www.w3.org/2000/01/rdf-schema#label> "addition date"@en .
+<http://ontology.show-catalog.org/show#/additionDate> <http://www.w3.org/2000/01/rdf-schema#label> "addition date" .
+# 
+# http://ontology.show-catalog.org/show#/countryCode
+<http://ontology.show-catalog.org/show#/countryCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.show-catalog.org/show#/countryCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Country> .
+<http://ontology.show-catalog.org/show#/countryCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.show-catalog.org/show#/countryCode> <http://www.w3.org/2000/01/rdf-schema#comment> "The international Standard for country codes and codes for their subdivisions (ISO 3166) defines internationally recognized codes of letters and/or numbers that can be used when refering to countries and their subdivisions. (source : https://www.iso.org/iso-3166-country-codes.htmls)"@en .
+<http://ontology.show-catalog.org/show#/countryCode> <http://www.w3.org/2000/01/rdf-schema#comment> "The international Standard for country codes and codes for their subdivisions (ISO 3166) defines internationally recognized codes of letters and/or numbers that can be used when refering to countries and their subdivisions. (source : https://www.iso.org/iso-3166-country-codes.htmls)" .
+<http://ontology.show-catalog.org/show#/countryCode> <http://www.w3.org/2000/01/rdf-schema#label> "country code"@en .
+<http://ontology.show-catalog.org/show#/countryCode> <http://www.w3.org/2000/01/rdf-schema#label> "country code" .
+# 
+# http://ontology.show-catalog.org/show#/duration
+<http://ontology.show-catalog.org/show#/duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.show-catalog.org/show#/duration> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Movie> .
+<http://ontology.show-catalog.org/show#/duration> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://ontology.show-catalog.org/show#/duration> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the length of time in minutes for a movie's runtime or duration."@en .
+<http://ontology.show-catalog.org/show#/duration> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the length of time in minutes for a movie's runtime or duration." .
+<http://ontology.show-catalog.org/show#/duration> <http://www.w3.org/2000/01/rdf-schema#label> "duration"@en .
+<http://ontology.show-catalog.org/show#/duration> <http://www.w3.org/2000/01/rdf-schema#label> "duration" .
+# 
+# http://ontology.show-catalog.org/show#/name
+<http://ontology.show-catalog.org/show#/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.show-catalog.org/show#/name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://ontology.show-catalog.org/show#/name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.show-catalog.org/show#/name> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the name of a thing, providing the full textual name or label associated with that specific thing."@en .
+<http://ontology.show-catalog.org/show#/name> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the name of a thing, providing the full textual name or label associated with that specific thing." .
+<http://ontology.show-catalog.org/show#/name> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en .
+<http://ontology.show-catalog.org/show#/name> <http://www.w3.org/2000/01/rdf-schema#label> "name" .
+# 
+# http://ontology.show-catalog.org/show#/numberOfSeasons
+<http://ontology.show-catalog.org/show#/numberOfSeasons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.show-catalog.org/show#/numberOfSeasons> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Series> .
+<http://ontology.show-catalog.org/show#/numberOfSeasons> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://ontology.show-catalog.org/show#/numberOfSeasons> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the total number of seasons that a series comprises."@en .
+<http://ontology.show-catalog.org/show#/numberOfSeasons> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the total number of seasons that a series comprises." .
+<http://ontology.show-catalog.org/show#/numberOfSeasons> <http://www.w3.org/2000/01/rdf-schema#label> "number of seasons"@en .
+<http://ontology.show-catalog.org/show#/numberOfSeasons> <http://www.w3.org/2000/01/rdf-schema#label> "number of seasons" .
+# 
+# http://ontology.show-catalog.org/show#/ratingLevel
+<http://ontology.show-catalog.org/show#/ratingLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.show-catalog.org/show#/ratingLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Rating> .
+<http://ontology.show-catalog.org/show#/ratingLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.show-catalog.org/show#/ratingLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the level or category of a rating, indicating classification of a show."@en .
+<http://ontology.show-catalog.org/show#/ratingLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the level or category of a rating, indicating classification of a show." .
+<http://ontology.show-catalog.org/show#/ratingLevel> <http://www.w3.org/2000/01/rdf-schema#label> "rating level"@en .
+<http://ontology.show-catalog.org/show#/ratingLevel> <http://www.w3.org/2000/01/rdf-schema#label> "rating level" .
+# 
+# http://ontology.show-catalog.org/show#/releaseYear
+<http://ontology.show-catalog.org/show#/releaseYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.show-catalog.org/show#/releaseYear> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.show-catalog.org/show#/Show> .
+<http://ontology.show-catalog.org/show#/releaseYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://ontology.show-catalog.org/show#/releaseYear> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the year when a show was released or made available to the public."@en .
+<http://ontology.show-catalog.org/show#/releaseYear> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the year when a show was released or made available to the public." .
+<http://ontology.show-catalog.org/show#/releaseYear> <http://www.w3.org/2000/01/rdf-schema#label> "release year"@en .
+<http://ontology.show-catalog.org/show#/releaseYear> <http://www.w3.org/2000/01/rdf-schema#label> "release year" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://ontology.show-catalog.org/show#/Actor
+<http://ontology.show-catalog.org/show#/Actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.show-catalog.org/show#/Actor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.show-catalog.org/show#/Person> .
+<http://ontology.show-catalog.org/show#/Actor> <http://www.w3.org/2000/01/rdf-schema#comment> "An actor or actress is a person who portrays a character in a production. (source: https://en.wikipedia.org/wiki/Actor)"@en .
+<http://ontology.show-catalog.org/show#/Actor> <http://www.w3.org/2000/01/rdf-schema#comment> "An actor or actress is a person who portrays a character in a production. (source: https://en.wikipedia.org/wiki/Actor)" .
+<http://ontology.show-catalog.org/show#/Actor> <http://www.w3.org/2000/01/rdf-schema#label> "Actor"@en .
+<http://ontology.show-catalog.org/show#/Actor> <http://www.w3.org/2000/01/rdf-schema#label> "Actor" .
+# 
+# http://ontology.show-catalog.org/show#/Country
+<http://ontology.show-catalog.org/show#/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.show-catalog.org/show#/Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://ontology.show-catalog.org/show#/name> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.show-catalog.org/show#/Country> <http://www.w3.org/2000/01/rdf-schema#comment> "A country is a distinct part of the world, such as a state, nation, or other political entity. When referring to a specific polity, the term \"country\" may refer to a sovereign state, states with limited recognition, constituent country, or a dependent territory. (source: https://en.wikipedia.org/wiki/Country)"@en .
+<http://ontology.show-catalog.org/show#/Country> <http://www.w3.org/2000/01/rdf-schema#comment> "A country is a distinct part of the world, such as a state, nation, or other political entity. When referring to a specific polity, the term \"country\" may refer to a sovereign state, states with limited recognition, constituent country, or a dependent territory. (source: https://en.wikipedia.org/wiki/Country)" .
+<http://ontology.show-catalog.org/show#/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+<http://ontology.show-catalog.org/show#/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country" .
+# 
+# http://ontology.show-catalog.org/show#/Director
+<http://ontology.show-catalog.org/show#/Director> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.show-catalog.org/show#/Director> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.show-catalog.org/show#/Person> .
+<http://ontology.show-catalog.org/show#/Director> <http://www.w3.org/2000/01/rdf-schema#comment> "A film director is a person who controls a film's artistic and dramatic aspects and visualizes the screenplay (or script) while guiding the film crew and actors in the fulfillment of that vision. (source: https://en.wikipedia.org/wiki/Film_director)"@en .
+<http://ontology.show-catalog.org/show#/Director> <http://www.w3.org/2000/01/rdf-schema#comment> "A film director is a person who controls a film's artistic and dramatic aspects and visualizes the screenplay (or script) while guiding the film crew and actors in the fulfillment of that vision. (source: https://en.wikipedia.org/wiki/Film_director)" .
+<http://ontology.show-catalog.org/show#/Director> <http://www.w3.org/2000/01/rdf-schema#label> "Director"@en .
+<http://ontology.show-catalog.org/show#/Director> <http://www.w3.org/2000/01/rdf-schema#label> "Director" .
+# 
+# http://ontology.show-catalog.org/show#/Genre
+<http://ontology.show-catalog.org/show#/Genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.show-catalog.org/show#/Genre> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://ontology.show-catalog.org/show#/name> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.show-catalog.org/show#/Genre> <http://www.w3.org/2000/01/rdf-schema#comment> "A film genre is a stylistic or thematic category for motion pictures based on similarities either in the narrative elements, aesthetic approach, or the emotional response to the film. (source: https://en.wikipedia.org/wiki/Film_genre)"@en .
+<http://ontology.show-catalog.org/show#/Genre> <http://www.w3.org/2000/01/rdf-schema#comment> "A film genre is a stylistic or thematic category for motion pictures based on similarities either in the narrative elements, aesthetic approach, or the emotional response to the film. (source: https://en.wikipedia.org/wiki/Film_genre)" .
+<http://ontology.show-catalog.org/show#/Genre> <http://www.w3.org/2000/01/rdf-schema#label> "Genre"@en .
+<http://ontology.show-catalog.org/show#/Genre> <http://www.w3.org/2000/01/rdf-schema#label> "Genre" .
+# 
+# http://ontology.show-catalog.org/show#/Movie
+<http://ontology.show-catalog.org/show#/Movie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.show-catalog.org/show#/Movie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.show-catalog.org/show#/Show> .
+<http://ontology.show-catalog.org/show#/Movie> <http://www.w3.org/2002/07/owl#disjointWith> <http://ontology.show-catalog.org/show#/Series> .
+<http://ontology.show-catalog.org/show#/Movie> <http://www.w3.org/2000/01/rdf-schema#comment> "A movie is a show where the full storyline is presented in one continuous film."@en .
+<http://ontology.show-catalog.org/show#/Movie> <http://www.w3.org/2000/01/rdf-schema#comment> "A movie is a show where the full storyline is presented in one continuous film." .
+<http://ontology.show-catalog.org/show#/Movie> <http://www.w3.org/2000/01/rdf-schema#label> "Movie"@en .
+<http://ontology.show-catalog.org/show#/Movie> <http://www.w3.org/2000/01/rdf-schema#label> "Movie" .
+# 
+# http://ontology.show-catalog.org/show#/Person
+<http://ontology.show-catalog.org/show#/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.show-catalog.org/show#/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://ontology.show-catalog.org/show#/name> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.show-catalog.org/show#/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "A person is a being who has certain capacities or attributes such as reason, morality, consciousness or self-consciousness, and being a part of a culturally established form of social relations such as kinship, ownership of property, or legal responsibility. (source: https://en.wikipedia.org/wiki/Person)"@en .
+<http://ontology.show-catalog.org/show#/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "A person is a being who has certain capacities or attributes such as reason, morality, consciousness or self-consciousness, and being a part of a culturally established form of social relations such as kinship, ownership of property, or legal responsibility. (source: https://en.wikipedia.org/wiki/Person)" .
+<http://ontology.show-catalog.org/show#/Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person"@en .
+<http://ontology.show-catalog.org/show#/Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person" .
+# 
+# http://ontology.show-catalog.org/show#/Rating
+<http://ontology.show-catalog.org/show#/Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.show-catalog.org/show#/Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://ontology.show-catalog.org/show#/ratingLevel> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.show-catalog.org/show#/Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "A content rating rates the suitability of TV shows, movies, comic books, or video games to this primary targeted audience. (source: https://en.wikipedia.org/wiki/Content_rating)"@en .
+<http://ontology.show-catalog.org/show#/Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "A content rating rates the suitability of TV shows, movies, comic books, or video games to this primary targeted audience. (source: https://en.wikipedia.org/wiki/Content_rating)" .
+<http://ontology.show-catalog.org/show#/Rating> <http://www.w3.org/2000/01/rdf-schema#label> "Rating"@en .
+<http://ontology.show-catalog.org/show#/Rating> <http://www.w3.org/2000/01/rdf-schema#label> "Rating" .
+# 
+# http://ontology.show-catalog.org/show#/Series
+<http://ontology.show-catalog.org/show#/Series> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.show-catalog.org/show#/Series> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.show-catalog.org/show#/Show> .
+<http://ontology.show-catalog.org/show#/Series> <http://www.w3.org/2000/01/rdf-schema#comment> "A series is a show where the full storyline is divided into multiple film called episodes."@en .
+<http://ontology.show-catalog.org/show#/Series> <http://www.w3.org/2000/01/rdf-schema#comment> "A series is a show where the full storyline is divided into multiple film called episodes." .
+<http://ontology.show-catalog.org/show#/Series> <http://www.w3.org/2000/01/rdf-schema#label> "Series"@en .
+<http://ontology.show-catalog.org/show#/Series> <http://www.w3.org/2000/01/rdf-schema#label> "Series" .
+# 
+# http://ontology.show-catalog.org/show#/Show
+<http://ontology.show-catalog.org/show#/Show> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.show-catalog.org/show#/Show> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2002/07/owl#Thing> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://ontology.show-catalog.org/show#/HasAsDirector> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.show-catalog.org/show#/Show> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2002/07/owl#Thing> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://ontology.show-catalog.org/show#/Has_genre> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.show-catalog.org/show#/Show> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2002/07/owl#Thing> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://ontology.show-catalog.org/show#/Produced_in> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.show-catalog.org/show#/Show> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://ontology.show-catalog.org/show#/name> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.show-catalog.org/show#/Show> <http://www.w3.org/2000/01/rdf-schema#comment> "A show is a visual or audio-visual production."@en .
+<http://ontology.show-catalog.org/show#/Show> <http://www.w3.org/2000/01/rdf-schema#comment> "A show is a visual or audio-visual production." .
+<http://ontology.show-catalog.org/show#/Show> <http://www.w3.org/2000/01/rdf-schema#label> "Show"@en .
+<http://ontology.show-catalog.org/show#/Show> <http://www.w3.org/2000/01/rdf-schema#label> "Show" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

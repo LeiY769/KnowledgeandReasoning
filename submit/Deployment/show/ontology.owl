@@ -1,0 +1,506 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontology.show-catalog.org/show#"
+     xml:base="http://ontology.show-catalog.org/show"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://ontology.show-catalog.org/show#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/Acted_in -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.show-catalog.org/show#/Acted_in">
+        <rdfs:subPropertyOf rdf:resource="http://ontology.show-catalog.org/show#/Participed_in"/>
+        <owl:inverseOf rdf:resource="http://ontology.show-catalog.org/show#/HasAsActor"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Actor"/>
+        <rdfs:range rdf:resource="http://ontology.show-catalog.org/show#/Show"/>
+        <rdfs:comment xml:lang="en">Specifies a show in which an actor has performed a role</rdfs:comment>
+        <rdfs:comment>Specifies a show in which an actor has performed a role</rdfs:comment>
+        <rdfs:label xml:lang="en">acted in</rdfs:label>
+        <rdfs:label>acted in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/Directed -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.show-catalog.org/show#/Directed">
+        <rdfs:subPropertyOf rdf:resource="http://ontology.show-catalog.org/show#/Participed_in"/>
+        <owl:inverseOf rdf:resource="http://ontology.show-catalog.org/show#/HasAsDirector"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Director"/>
+        <rdfs:range rdf:resource="http://ontology.show-catalog.org/show#/Show"/>
+        <rdfs:comment xml:lang="en">Specifies a show that a director has directed.</rdfs:comment>
+        <rdfs:comment>Specifies a show that a director has directed.</rdfs:comment>
+        <rdfs:label xml:lang="en">directed</rdfs:label>
+        <rdfs:label>directed</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/HasAsActor -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.show-catalog.org/show#/HasAsActor">
+        <rdfs:subPropertyOf rdf:resource="http://ontology.show-catalog.org/show#/HasAsParticipant"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Show"/>
+        <rdfs:range rdf:resource="http://ontology.show-catalog.org/show#/Actor"/>
+        <rdfs:comment xml:lang="en">Specifies an actor who is associated with a particular show.</rdfs:comment>
+        <rdfs:comment>Specifies an actor who is associated with a particular show.</rdfs:comment>
+        <rdfs:label xml:lang="en">has as actor</rdfs:label>
+        <rdfs:label>has as actor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/HasAsDirector -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.show-catalog.org/show#/HasAsDirector">
+        <rdfs:subPropertyOf rdf:resource="http://ontology.show-catalog.org/show#/HasAsParticipant"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Show"/>
+        <rdfs:range rdf:resource="http://ontology.show-catalog.org/show#/Director"/>
+        <rdfs:comment xml:lang="en">Indicates the director of a particular show.</rdfs:comment>
+        <rdfs:comment>Indicates the director of a particular show.</rdfs:comment>
+        <rdfs:label xml:lang="en">has as director</rdfs:label>
+        <rdfs:label>has as director</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/HasAsParticipant -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.show-catalog.org/show#/HasAsParticipant">
+        <owl:inverseOf rdf:resource="http://ontology.show-catalog.org/show#/Participed_in"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Show"/>
+        <rdfs:range rdf:resource="http://ontology.show-catalog.org/show#/Person"/>
+        <rdfs:comment xml:lang="en">Indicates a person who is involved in a show in any capacity, such as acting, directing, producing, etc.</rdfs:comment>
+        <rdfs:comment>Indicates a person who is involved in a show in any capacity, such as acting, directing, producing, etc.</rdfs:comment>
+        <rdfs:label xml:lang="en">has as participant</rdfs:label>
+        <rdfs:label>has as participant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/Has_genre -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.show-catalog.org/show#/Has_genre">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Show"/>
+        <rdfs:range rdf:resource="http://ontology.show-catalog.org/show#/Genre"/>
+        <rdfs:comment xml:lang="en">Specifies the genre or category of a show, indicating its thematic content, style, or audience appeal.</rdfs:comment>
+        <rdfs:comment>Specifies the genre or category of a show, indicating its thematic content, style, or audience appeal.</rdfs:comment>
+        <rdfs:label xml:lang="en">has genre</rdfs:label>
+        <rdfs:label>has genre</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/Has_rating -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.show-catalog.org/show#/Has_rating">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Show"/>
+        <rdfs:range rdf:resource="http://ontology.show-catalog.org/show#/Rating"/>
+        <rdfs:comment xml:lang="en">Specifies the rating assigned to a show, indicating its quality, content, or audience suitability.</rdfs:comment>
+        <rdfs:comment>Specifies the rating assigned to a show, indicating its quality, content, or audience suitability.</rdfs:comment>
+        <rdfs:label xml:lang="en">has rating</rdfs:label>
+        <rdfs:label>has rating</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/Knows -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.show-catalog.org/show#/Knows">
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Person"/>
+        <rdfs:range rdf:resource="http://ontology.show-catalog.org/show#/Person"/>
+        <rdfs:comment xml:lang="en">Two persons know each other if they have participated in the same show.</rdfs:comment>
+        <rdfs:comment>Two persons know each other if they have participated in the same show.</rdfs:comment>
+        <rdfs:label xml:lang="en">knows</rdfs:label>
+        <rdfs:label>knows</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/Participed_in -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.show-catalog.org/show#/Participed_in">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Person"/>
+        <rdfs:range rdf:resource="http://ontology.show-catalog.org/show#/Show"/>
+        <rdfs:comment xml:lang="en">Denotes a show in which a person has been involved, either as an actor, director, or in another role.</rdfs:comment>
+        <rdfs:comment>Denotes a show in which a person has been involved, either as an actor, director, or in another role.</rdfs:comment>
+        <rdfs:label xml:lang="en">participated in</rdfs:label>
+        <rdfs:label>participated in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/Produced_in -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.show-catalog.org/show#/Produced_in">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Show"/>
+        <rdfs:range rdf:resource="http://ontology.show-catalog.org/show#/Country"/>
+        <rdfs:comment xml:lang="en">Specifies the country in which a show was produced, indicating the location or origin of the production process.</rdfs:comment>
+        <rdfs:comment>Specifies the country in which a show was produced, indicating the location or origin of the production process.</rdfs:comment>
+        <rdfs:label xml:lang="en">produced in</rdfs:label>
+        <rdfs:label>produced in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/MPAFilmRating -->
+
+
+    <owl:DatatypeProperty rdf:about="http://ontology.show-catalog.org/show#/MPAFilmRating">
+        <rdfs:subPropertyOf rdf:resource="http://ontology.show-catalog.org/show#/ratingLevel"/>
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The Motion Picture Association film rating system is used in the United States and its territories to rate a motion picture&apos;s suitability for certain audiences based on its content. The system and the ratings applied to individual motion pictures are the responsibility of the Motion Picture Association (MPA). (source: https://www.motionpictures.org/film-ratings/)</rdfs:comment>
+        <rdfs:comment>The Motion Picture Association film rating system is used in the United States and its territories to rate a motion picture&apos;s suitability for certain audiences based on its content. The system and the ratings applied to individual motion pictures are the responsibility of the Motion Picture Association (MPA). (source: https://www.motionpictures.org/film-ratings/)</rdfs:comment>
+        <rdfs:label xml:lang="en">MPA film rating system</rdfs:label>
+        <rdfs:label>MPA film rating system</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/TVParentalGuidelines -->
+
+
+    <owl:DatatypeProperty rdf:about="http://ontology.show-catalog.org/show#/TVParentalGuidelines">
+        <rdfs:subPropertyOf rdf:resource="http://ontology.show-catalog.org/show#/ratingLevel"/>
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The TV Parental Guidelines are a television content rating system in the United States. (source: https://en.wikipedia.org/wiki/TV_Parental_Guidelines)</rdfs:comment>
+        <rdfs:comment>The TV Parental Guidelines are a television content rating system in the United States. (source: https://en.wikipedia.org/wiki/TV_Parental_Guidelines)</rdfs:comment>
+        <rdfs:label xml:lang="en">TV Parental Guidelines</rdfs:label>
+        <rdfs:label>TV Parental Guidelines</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/additionDate -->
+
+
+    <owl:DatatypeProperty rdf:about="http://ontology.show-catalog.org/show#/additionDate">
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Show"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="en">Specifies the date when a show was added or uploaded to a platform or database.</rdfs:comment>
+        <rdfs:comment>Specifies the date when a show was added or uploaded to a platform or database.</rdfs:comment>
+        <rdfs:label xml:lang="en">addition date</rdfs:label>
+        <rdfs:label>addition date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/countryCode -->
+
+
+    <owl:DatatypeProperty rdf:about="http://ontology.show-catalog.org/show#/countryCode">
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The international Standard for country codes and codes for their subdivisions (ISO 3166) defines internationally recognized codes of letters and/or numbers that can be used when refering to countries and their subdivisions. (source : https://www.iso.org/iso-3166-country-codes.htmls)</rdfs:comment>
+        <rdfs:comment>The international Standard for country codes and codes for their subdivisions (ISO 3166) defines internationally recognized codes of letters and/or numbers that can be used when refering to countries and their subdivisions. (source : https://www.iso.org/iso-3166-country-codes.htmls)</rdfs:comment>
+        <rdfs:label xml:lang="en">country code</rdfs:label>
+        <rdfs:label>country code</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/duration -->
+
+
+    <owl:DatatypeProperty rdf:about="http://ontology.show-catalog.org/show#/duration">
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:comment xml:lang="en">Specifies the length of time in minutes for a movie&apos;s runtime or duration.</rdfs:comment>
+        <rdfs:comment>Specifies the length of time in minutes for a movie&apos;s runtime or duration.</rdfs:comment>
+        <rdfs:label xml:lang="en">duration</rdfs:label>
+        <rdfs:label>duration</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://ontology.show-catalog.org/show#/name">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Represents the name of a thing, providing the full textual name or label associated with that specific thing.</rdfs:comment>
+        <rdfs:comment>Represents the name of a thing, providing the full textual name or label associated with that specific thing.</rdfs:comment>
+        <rdfs:label xml:lang="en">name</rdfs:label>
+        <rdfs:label>name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/numberOfSeasons -->
+
+
+    <owl:DatatypeProperty rdf:about="http://ontology.show-catalog.org/show#/numberOfSeasons">
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Series"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:comment xml:lang="en">Specifies the total number of seasons that a series comprises.</rdfs:comment>
+        <rdfs:comment>Specifies the total number of seasons that a series comprises.</rdfs:comment>
+        <rdfs:label xml:lang="en">number of seasons</rdfs:label>
+        <rdfs:label>number of seasons</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/ratingLevel -->
+
+
+    <owl:DatatypeProperty rdf:about="http://ontology.show-catalog.org/show#/ratingLevel">
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Represents the level or category of a rating, indicating classification of a show.</rdfs:comment>
+        <rdfs:comment>Represents the level or category of a rating, indicating classification of a show.</rdfs:comment>
+        <rdfs:label xml:lang="en">rating level</rdfs:label>
+        <rdfs:label>rating level</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/releaseYear -->
+
+
+    <owl:DatatypeProperty rdf:about="http://ontology.show-catalog.org/show#/releaseYear">
+        <rdfs:domain rdf:resource="http://ontology.show-catalog.org/show#/Show"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:comment xml:lang="en">Specifies the year when a show was released or made available to the public.</rdfs:comment>
+        <rdfs:comment>Specifies the year when a show was released or made available to the public.</rdfs:comment>
+        <rdfs:label xml:lang="en">release year</rdfs:label>
+        <rdfs:label>release year</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/Actor -->
+
+
+    <owl:Class rdf:about="http://ontology.show-catalog.org/show#/Actor">
+        <rdfs:subClassOf rdf:resource="http://ontology.show-catalog.org/show#/Person"/>
+        <rdfs:comment xml:lang="en">An actor or actress is a person who portrays a character in a production. (source: https://en.wikipedia.org/wiki/Actor)</rdfs:comment>
+        <rdfs:comment>An actor or actress is a person who portrays a character in a production. (source: https://en.wikipedia.org/wiki/Actor)</rdfs:comment>
+        <rdfs:label xml:lang="en">Actor</rdfs:label>
+        <rdfs:label>Actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/Country -->
+
+
+    <owl:Class rdf:about="http://ontology.show-catalog.org/show#/Country">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontology.show-catalog.org/show#/name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A country is a distinct part of the world, such as a state, nation, or other political entity. When referring to a specific polity, the term &quot;country&quot; may refer to a sovereign state, states with limited recognition, constituent country, or a dependent territory. (source: https://en.wikipedia.org/wiki/Country)</rdfs:comment>
+        <rdfs:comment>A country is a distinct part of the world, such as a state, nation, or other political entity. When referring to a specific polity, the term &quot;country&quot; may refer to a sovereign state, states with limited recognition, constituent country, or a dependent territory. (source: https://en.wikipedia.org/wiki/Country)</rdfs:comment>
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+        <rdfs:label>Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/Director -->
+
+
+    <owl:Class rdf:about="http://ontology.show-catalog.org/show#/Director">
+        <rdfs:subClassOf rdf:resource="http://ontology.show-catalog.org/show#/Person"/>
+        <rdfs:comment xml:lang="en">A film director is a person who controls a film&apos;s artistic and dramatic aspects and visualizes the screenplay (or script) while guiding the film crew and actors in the fulfillment of that vision. (source: https://en.wikipedia.org/wiki/Film_director)</rdfs:comment>
+        <rdfs:comment>A film director is a person who controls a film&apos;s artistic and dramatic aspects and visualizes the screenplay (or script) while guiding the film crew and actors in the fulfillment of that vision. (source: https://en.wikipedia.org/wiki/Film_director)</rdfs:comment>
+        <rdfs:label xml:lang="en">Director</rdfs:label>
+        <rdfs:label>Director</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/Genre -->
+
+
+    <owl:Class rdf:about="http://ontology.show-catalog.org/show#/Genre">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontology.show-catalog.org/show#/name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A film genre is a stylistic or thematic category for motion pictures based on similarities either in the narrative elements, aesthetic approach, or the emotional response to the film. (source: https://en.wikipedia.org/wiki/Film_genre)</rdfs:comment>
+        <rdfs:comment>A film genre is a stylistic or thematic category for motion pictures based on similarities either in the narrative elements, aesthetic approach, or the emotional response to the film. (source: https://en.wikipedia.org/wiki/Film_genre)</rdfs:comment>
+        <rdfs:label xml:lang="en">Genre</rdfs:label>
+        <rdfs:label>Genre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/Movie -->
+
+
+    <owl:Class rdf:about="http://ontology.show-catalog.org/show#/Movie">
+        <rdfs:subClassOf rdf:resource="http://ontology.show-catalog.org/show#/Show"/>
+        <owl:disjointWith rdf:resource="http://ontology.show-catalog.org/show#/Series"/>
+        <rdfs:comment xml:lang="en">A movie is a show where the full storyline is presented in one continuous film.</rdfs:comment>
+        <rdfs:comment>A movie is a show where the full storyline is presented in one continuous film.</rdfs:comment>
+        <rdfs:label xml:lang="en">Movie</rdfs:label>
+        <rdfs:label>Movie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/Person -->
+
+
+    <owl:Class rdf:about="http://ontology.show-catalog.org/show#/Person">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontology.show-catalog.org/show#/name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A person is a being who has certain capacities or attributes such as reason, morality, consciousness or self-consciousness, and being a part of a culturally established form of social relations such as kinship, ownership of property, or legal responsibility. (source: https://en.wikipedia.org/wiki/Person)</rdfs:comment>
+        <rdfs:comment>A person is a being who has certain capacities or attributes such as reason, morality, consciousness or self-consciousness, and being a part of a culturally established form of social relations such as kinship, ownership of property, or legal responsibility. (source: https://en.wikipedia.org/wiki/Person)</rdfs:comment>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+        <rdfs:label>Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/Rating -->
+
+
+    <owl:Class rdf:about="http://ontology.show-catalog.org/show#/Rating">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontology.show-catalog.org/show#/ratingLevel"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A content rating rates the suitability of TV shows, movies, comic books, or video games to this primary targeted audience. (source: https://en.wikipedia.org/wiki/Content_rating)</rdfs:comment>
+        <rdfs:comment>A content rating rates the suitability of TV shows, movies, comic books, or video games to this primary targeted audience. (source: https://en.wikipedia.org/wiki/Content_rating)</rdfs:comment>
+        <rdfs:label xml:lang="en">Rating</rdfs:label>
+        <rdfs:label>Rating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/Series -->
+
+
+    <owl:Class rdf:about="http://ontology.show-catalog.org/show#/Series">
+        <rdfs:subClassOf rdf:resource="http://ontology.show-catalog.org/show#/Show"/>
+        <rdfs:comment xml:lang="en">A series is a show where the full storyline is divided into multiple film called episodes.</rdfs:comment>
+        <rdfs:comment>A series is a show where the full storyline is divided into multiple film called episodes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Series</rdfs:label>
+        <rdfs:label>Series</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.show-catalog.org/show#/Show -->
+
+
+    <owl:Class rdf:about="http://ontology.show-catalog.org/show#/Show">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontology.show-catalog.org/show#/HasAsDirector"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontology.show-catalog.org/show#/Has_genre"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontology.show-catalog.org/show#/Produced_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontology.show-catalog.org/show#/name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A show is a visual or audio-visual production.</rdfs:comment>
+        <rdfs:comment>A show is a visual or audio-visual production.</rdfs:comment>
+        <rdfs:label xml:lang="en">Show</rdfs:label>
+        <rdfs:label>Show</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
